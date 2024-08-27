@@ -117,42 +117,19 @@ export default function Localization() {
                         }
                       />
                     </ListItemButton>
-                    <ListItemButton selected={i18n === 'fr'} onClick={() => handleListItemClick('fr')}>
+                    <ListItemButton selected={i18n === 'ar'} onClick={() => handleListItemClick('ar')}>
                       <ListItemText
                         primary={
                           <Grid container>
-                            <Typography color="text.primary">français</Typography>
+                            <Typography color="text.primary">Arabic</Typography>
                             <Typography variant="caption" color="text.secondary" sx={{ ml: '8px' }}>
-                              (French)
+                              (AR)
                             </Typography>
                           </Grid>
                         }
                       />
                     </ListItemButton>
-                    <ListItemButton selected={i18n === 'ro'} onClick={() => handleListItemClick('ro')}>
-                      <ListItemText
-                        primary={
-                          <Grid container>
-                            <Typography color="text.primary">Română</Typography>
-                            <Typography variant="caption" color="text.secondary" sx={{ ml: '8px' }}>
-                              (Romanian)
-                            </Typography>
-                          </Grid>
-                        }
-                      />
-                    </ListItemButton>
-                    <ListItemButton selected={i18n === 'zh'} onClick={() => handleListItemClick('zh')}>
-                      <ListItemText
-                        primary={
-                          <Grid container>
-                            <Typography color="text.primary">中国人</Typography>
-                            <Typography variant="caption" color="text.secondary" sx={{ ml: '8px' }}>
-                              (Chinese)
-                            </Typography>
-                          </Grid>
-                        }
-                      />
-                    </ListItemButton>
+
                   </List>
                 </MainCard>
               </ClickAwayListener>

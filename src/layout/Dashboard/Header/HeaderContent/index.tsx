@@ -18,6 +18,7 @@ import FullScreen from './FullScreen';
 import { MenuOrientation } from 'config';
 import useConfig from 'hooks/useConfig';
 import DrawerHeader from 'layout/Dashboard/Drawer/DrawerHeader';
+import Language from 'components/language/Language';
 
 // ==============================|| HEADER - CONTENT ||============================== //
 
@@ -35,8 +36,10 @@ export default function HeaderContent() {
     <>
       {menuOrientation === MenuOrientation.HORIZONTAL && !downLG && <DrawerHeader open={true} />}
       {!downLG && <Search />}
+      
       {!downLG && megaMenu}
-      {!downLG && localization}
+      {/* {!downLG && localization} */}
+      {!downLG && <Language/>}
       {downLG && <Box sx={{ width: '100%', ml: 1 }} />}
 
       <Notification />

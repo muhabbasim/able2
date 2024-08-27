@@ -1,4 +1,3 @@
-import { createContext, ReactNode } from 'react';
 
 // project-imports
 import config, { MenuOrientation, ThemeDirection, ThemeMode } from 'config';
@@ -24,40 +23,17 @@ const initialState: CustomizationProps = {
 
 // ==============================|| CONFIG CONTEXT & PROVIDER ||============================== //
 
-const ConfigContext = createContext(initialState);
 
-type ConfigProviderProps = {
-  children: ReactNode;
-};
 
-function ConfigProvider({ children }: ConfigProviderProps) {
+export function ConfigContextUpdate() {
   const [config, setConfig] = useLocalStorage('kgp-storage', initialState);
 
-  const onChangeContainer = () => {
-    setConfig({
-      ...config,
-      container: !config.container
-    });
-  };
-
   const onChangeLocalization = (lang: I18n) => {
-    setConfig({
-      ...config,
-      i18n: lang
-    });
-  };
 
-  const onChangeMode = (mode: ThemeMode) => {
     setConfig({
       ...config,
-      mode
-    });
-  };
-
-  const onChangePresetColor = (theme: PresetColor) => {
-    setConfig({
-      ...config,
-      presetColor: theme
+      i18n: lang,
+      themeDirection: lang === 'en' ? ThemeDirection.LTR : ThemeDirection.RTL
     });
   };
 
@@ -72,13 +48,6 @@ function ConfigProvider({ children }: ConfigProviderProps) {
     setConfig({
       ...config,
       miniDrawer
-    });
-  };
-
-  const onChangeContrast = () => {
-    setConfig({
-      ...config,
-      themeContrast: !config.themeContrast
     });
   };
 
@@ -102,26 +71,15 @@ function ConfigProvider({ children }: ConfigProviderProps) {
       fontFamily
     });
   };
+ 
 
-  return (
-    <ConfigContext.Provider
-      value={{
-        ...config,
-        onChangeContainer,
-        onChangeLocalization,
-        onChangeMode,
-        onChangePresetColor,
-        onChangeDirection,
-        onChangeMiniDrawer,
-        onChangeMenuOrientation,
-        onChangeMenuCaption,
-        onChangeFontFamily,
-        onChangeContrast
-      }}
-    >
-      {children}
-    </ConfigContext.Provider>
-  );
+  return { 
+    onChangeLocalization,
+    onChangeDirection,
+    onChangeFontFamily,
+    onChangeMenuOrientation,
+    onChangeMenuCaption,
+    onChangeMiniDrawer,
+  }
 }
 
-export { ConfigProvider, ConfigContext };

@@ -10,12 +10,8 @@ import { I18n } from 'types/config';
 // load locales files
 const loadLocaleData = (locale: I18n) => {
   switch (locale) {
-    case 'fr':
-      return import('utils/locales/fr.json');
-    case 'ro':
-      return import('utils/locales/ro.json');
-    case 'zh':
-      return import('utils/locales/zh.json');
+    case 'ar':
+      return import('utils/locales/ar.json');
     case 'en':
     default:
       return import('utils/locales/en.json');
@@ -30,8 +26,12 @@ interface Props {
 
 export default function Locales({ children }: Props) {
   const { i18n } = useConfig();
-
   const [messages, setMessages] = useState<Record<string, string> | Record<string, MessageFormatElement[]> | undefined>();
+
+  // const localStorageLang = localStorage.getItem('kgp-storage')
+  // const storedItems = localStorageLang ? JSON.parse(localStorageLang) : null;
+  // const currentLang = storedItems?.i18n
+
 
   useEffect(() => {
     loadLocaleData(i18n).then((d: { default: Record<string, string> | Record<string, MessageFormatElement[]> | undefined }) => {
