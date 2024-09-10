@@ -14,7 +14,7 @@ import IconButton from 'components/@extended/IconButton';
 import { Facebook, Google, Notification } from 'iconsax-react';
 import coming1 from 'assets/images/maintenance/img-soon-1-1.png';
 import coming2 from 'assets/images/maintenance/img-soon-1-2.png';
-import AuthBackground from 'assets/images/auth/AuthBackground';
+import AuthBackground from '../../../../public/assets/images/auth/AuthBackground';
 
 // ==============================|| COMING SOON ||============================== //
 

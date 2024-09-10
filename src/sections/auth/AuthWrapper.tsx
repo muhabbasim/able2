@@ -8,7 +8,7 @@ import Grid from '@mui/material/Grid';
 import AuthCard from './AuthCard';
 
 // assets
-import AuthBackground from 'assets/images/auth/AuthBackground';
+import AuthBackground from '../../../public/assets/images/auth/AuthBackground';
 
 interface Props {
   children: ReactElement;

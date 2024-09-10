@@ -9,11 +9,11 @@ import ComponentsRoutes from './ComponentsRoutes';
 // import { SimpleLayoutType } from 'config';
 // import SimpleLayout from 'layout/Simple';
 import Loadable from 'components/Loadable';
-import LandingpageLayout from 'layout/landingpage/LandingpageLayout';
+import HomeLayout from 'layout/Home/HomeLayout';
 
 // render - landing page
 // const PagesLanding = Loadable(lazy(() => import('pages/landing')));
-const Landingkgp = Loadable(lazy(() => import('kgp-landingpage/pages/HomePage1')));
+const HomePage = Loadable(lazy(() => import('landingpage/pages/home-page/HomePage')));
 
 
 // ==============================|| ROUTES RENDER ||============================== //
@@ -22,11 +22,11 @@ const router = createBrowserRouter(
   [
     {
       path: '/',
-      element: <LandingpageLayout/>,
+      element: <HomeLayout/>,
       children: [
         {
           index: true,
-          element: <Landingkgp />
+          element: <HomePage />
         }
       ]
     },

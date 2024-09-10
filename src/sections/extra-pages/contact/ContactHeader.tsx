@@ -5,7 +5,7 @@ import Container from '@mui/material/Container';
 import Typography from '@mui/material/Typography';
 
 // assets
-import AuthBackground from 'assets/images/auth/AuthBackground';
+import AuthBackground from '../../../../public/assets/images/auth/AuthBackground';
 
 // ==============================|| CONTACT US - HEADER ||============================== //
 

@@ -5,11 +5,9 @@ import ErrorBoundary from './ErrorBoundary';
 import Loadable from 'components/Loadable';
 import DashboardLayout from 'layout/Dashboard';
 import PagesLayout from 'layout/Pages';
-import SimpleLayout from 'layout/Simple';
 
-import { SimpleLayoutType } from 'config';
 import { loader as productsLoader, productLoader } from 'api/products';
-import LandingpageLayout from 'layout/landingpage/LandingpageLayout';
+import HomeLayout from 'layout/Home/HomeLayout';
 
 // render - dashboard
 const DashboardDefault = Loadable(lazy(() => import('pages/dashboard/default')));
@@ -106,36 +104,21 @@ const MuiTableCollapse = Loadable(lazy(() => import('pages/tables/mui-table/coll
 // pages routing
 const AuthLogin = Loadable(lazy(() => import('pages/auth/auth1/login')));
 const AuthRegister = Loadable(lazy(() => import('pages/auth/auth1/register')));
-const AuthForgotPassword = Loadable(lazy(() => import('pages/auth/auth1/forgot-password')));
-const AuthResetPassword = Loadable(lazy(() => import('pages/auth/auth1/reset-password')));
-const AuthCheckMail = Loadable(lazy(() => import('pages/auth/auth1/check-mail')));
-const AuthCodeVerification = Loadable(lazy(() => import('pages/auth/auth1/code-verification')));
-
-const AuthLogin2 = Loadable(lazy(() => import('pages/auth/auth2/login2')));
-const AuthRegister2 = Loadable(lazy(() => import('pages/auth/auth2/register2')));
-const AuthForgotPassword2 = Loadable(lazy(() => import('pages/auth/auth2/forgot-password2')));
-const AuthResetPassword2 = Loadable(lazy(() => import('pages/auth/auth2/reset-password2')));
-const AuthCheckMail2 = Loadable(lazy(() => import('pages/auth/auth2/check-mail2')));
-const AuthCodeVerification2 = Loadable(lazy(() => import('pages/auth/auth2/code-verification2')));
-
-const AuthLogin3 = Loadable(lazy(() => import('pages/auth/auth3/login3')));
-
 const MaintenanceError = Loadable(lazy(() => import('pages/maintenance/error/404')));
-const MaintenanceError500 = Loadable(lazy(() => import('pages/maintenance/error/500')));
-const MaintenanceUnderConstruction = Loadable(lazy(() => import('pages/maintenance/under-construction/under-construction')));
-const MaintenanceUnderConstruction2 = Loadable(lazy(() => import('pages/maintenance/under-construction/under-construction2')));
 const MaintenanceComingSoon = Loadable(lazy(() => import('pages/maintenance/coming-soon/coming-soon')));
-const MaintenanceComingSoon2 = Loadable(lazy(() => import('pages/maintenance/coming-soon/coming-soon2')));
 
 // render - sample page
 const SamplePage = Loadable(lazy(() => import('pages/extra-pages/sample-page')));
-const ContactUS = Loadable(lazy(() => import('pages/contact-us')));
 const PricingPage = Loadable(lazy(() => import('pages/extra-pages/price/price1')));
 const PricingPage2 = Loadable(lazy(() => import('pages/extra-pages/price/price2')));
 
 // landing page sections
-// const Landing = Loadable(lazy(() => import('pages/landing')));
-const Landingkgp = Loadable(lazy(() => import('kgp-landingpage/pages/HomePage1')));
+const Contact = Loadable(lazy(() => import('landingpage/pages/contact/Contact')));
+const Price = Loadable(lazy(() => import('landingpage/pages/price/Price')));
+const Blog = Loadable(lazy(() => import('landingpage/pages/blog/Blog')));
+const BlogDetails = Loadable(lazy(() => import('landingpage/pages/blog/BlogDetails')));
+const Features = Loadable(lazy(() => import('landingpage/pages/features/FeaturePage')));
+import Advantage  from 'landingpage/pages/Advantage'
 
 
 // ==============================|| MAIN ROUTES ||============================== //
@@ -320,9 +303,14 @@ const MainRoutes = {
     },
     {
       path: '/', 
-      element: <SimpleLayout layout={SimpleLayoutType.SIMPLE} />,
+      element: <HomeLayout />,
       children: [
-        { path: 'contact-us', element: <ContactUS /> }
+        { path: '/contact', exact: true, element: <Contact /> },
+        { path: '/pricing', exact: true, element: <Price /> },
+        { path: '/blog', exact: true, element: <Blog /> },
+        { path: '/blog/:blogId', exact: true, element: <BlogDetails /> },
+        { path: '/feature/:featureId', exact: true, element: <Features /> },
+        { path: '/advantage/:id', exact: true, element: <Advantage /> },
       ]
     },
     {
@@ -330,12 +318,7 @@ const MainRoutes = {
       element: <PagesLayout />,
       children: [
         { path: '404', element: <MaintenanceError /> },
-        { path: '500', element: <MaintenanceError500 /> },
-        { path: 'under-construction', element: <MaintenanceUnderConstruction /> },
-        { path: 'under-construction2', element: <MaintenanceUnderConstruction2 /> },
         { path: 'coming-soon', element: <MaintenanceComingSoon /> },
-        { path: 'coming-soon2', element: <MaintenanceComingSoon2 />
-       }
       ]
     },
     {
@@ -344,27 +327,9 @@ const MainRoutes = {
       children: [
         { path: 'login', element: <AuthLogin /> },
         { path: 'register', element: <AuthRegister /> },
-        { path: 'forgot-password', element: <AuthForgotPassword /> },
-        { path: 'reset-password', element: <AuthResetPassword /> },
-        { path: 'check-mail', element: <AuthCheckMail /> },
-        { path: 'code-verification', element: <AuthCodeVerification /> },
-        { path: 'login2', element: <AuthLogin2 /> },
-        { path: 'register2', element: <AuthRegister2 /> },
-        { path: 'forgot-password2', element: <AuthForgotPassword2 /> },
-        { path: 'reset-password2', element: <AuthResetPassword2 /> },
-        { path: 'check-mail2', element: <AuthCheckMail2 /> },
-        { path: 'code-verification2', element: <AuthCodeVerification2 /> },
-        { path: 'login3', element: <AuthLogin3 />}
       ]
     },
-    {
-      path: '/', 
-      element: <LandingpageLayout />,
-      children: [
-        // { path: 'landing', element: <Landing /> },
-        { path: '/', element: <Landingkgp /> }
-      ]
-    },
+
     { path: '*', element: <MaintenanceError /> } ]
 };
 
