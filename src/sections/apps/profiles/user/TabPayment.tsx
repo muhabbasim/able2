@@ -31,9 +31,9 @@ import { openSnackbar } from 'api/snackbar';
 
 // assets
 import { Add, Eye, EyeSlash, Trash } from 'iconsax-react';
-import masterCard from 'assets/images/icons/master-card.png';
-import paypal from 'assets/images/icons/paypal.png';
-import visaCard from 'assets/images/icons/visa-card.png';
+import masterCard from '/src/assets/images/icons/master-card.png';
+import paypal from '/src/assets/images/icons/paypal.png';
+import visaCard from '/src/assets/images/icons/visa-card.png';
 
 // types
 import { SnackbarProps } from 'types/snackbar';

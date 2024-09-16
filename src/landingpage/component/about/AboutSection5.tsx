@@ -27,7 +27,7 @@ const AboutSection5:React.FC<Props> = ({inner}) => {
 
 
             <div className="tl-5-about-img">
-                <img src="/assets/landing-images/tl-5/about.jpg" alt="Students"/>
+                <img src="/src/assets/landing-images/tl-5/about.jpg" alt="Students"/>
 
                 <AdmissionForm style=''/>
             </div>

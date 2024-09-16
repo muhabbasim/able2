@@ -18,7 +18,7 @@ import IconButton from 'components/@extended/IconButton';
 
 // assets
 import { Facebook, Google, Notification } from 'iconsax-react';
-import coming from 'assets/images/maintenance/img-soon-2.svg';
+import coming from '/src/assets/images/maintenance/img-soon-2.svg';
 
 // ==============================|| COMING SOON ||============================== //
 

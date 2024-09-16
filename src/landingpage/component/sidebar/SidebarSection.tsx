@@ -40,7 +40,7 @@ const SidebarSection = () => {
             <div className="kidba-menu-sidebar-bottom">
               <div className="logo mb-40">
                 <Link to="/">
-                  <img src="/assets/landing-images/logos/logo.png" alt="logo" />
+                  <img src="/src/assets/landing-images/logos/logo.png" alt="logo" />
                 </Link>
               </div>
               <Tab.Content>

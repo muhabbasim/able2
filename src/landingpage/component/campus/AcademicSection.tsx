@@ -9,7 +9,7 @@ const AcademicSection = () => {
             <div className="tl-5-single-academic">
               <div className="tl-5-single-academic-img">
                 <img
-                  src="/assets/landing-images/tl-5/academic-1.jpg"
+                  src="/src/assets/landing-images/tl-5/academic-1.jpg"
                   alt="Academic Image"
                 />
 
@@ -29,7 +29,7 @@ const AcademicSection = () => {
             <div className="tl-5-single-academic tl-5-single-academic-2">
               <div className="tl-5-single-academic-img">
                 <img
-                  src="/assets/landing-images/tl-5/academic-2.jpg"
+                  src="/src/assets/landing-images/tl-5/academic-2.jpg"
                   alt="Academic Image"
                 />
 
@@ -49,7 +49,7 @@ const AcademicSection = () => {
             <div className="tl-5-single-academic tl-5-single-academic-3">
               <div className="tl-5-single-academic-img">
                 <img
-                  src="/assets/landing-images/tl-5/academic-3.jpg"
+                  src="/src/assets/landing-images/tl-5/academic-3.jpg"
                   alt="Academic Image"
                 />
 
@@ -67,7 +67,7 @@ const AcademicSection = () => {
             <div className="tl-5-single-academic tl-5-single-academic-4">
               <div className="tl-5-single-academic-img">
                 <img
-                  src="/assets/landing-images/tl-5/academic-4.jpg"
+                  src="/src/assets/landing-images/tl-5/academic-4.jpg"
                   alt="Academic Image"
                 />
 

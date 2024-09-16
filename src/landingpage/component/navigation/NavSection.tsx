@@ -1,11 +1,18 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 interface NavProps {
   ulPosition: string;
   liStyle: string;
 }
 
 const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
+
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: 'smooth', // You can remove 'smooth' if you don't want smooth scrolling
+    });
+  }
   
   return (
     <ul className={ulPosition}>
@@ -15,9 +22,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
         </a>
         <ul className="tl-submenu">
           <li className="tl-submenu-li">
-            <NavLink className="tl-navlink" to="/contact">
+            <Link className="tl-navlink" onClick={handleScrollToTop} to="/users/directors">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape1.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape1.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -25,12 +32,12 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
                 </span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
               </div>
-            </NavLink>
+            </Link>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/users/teachers">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape1.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape1.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -41,9 +48,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
             </NavLink>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/users/parents">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape1.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape1.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -62,9 +69,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
         </a>
         <ul className="tl-submenu">
           <li className="tl-submenu-li">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/feature/center_management">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape5.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape5.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -75,9 +82,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
             </NavLink>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/feature/family_engagement">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape6.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape6.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -88,13 +95,26 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
             </NavLink>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/feature/engaging_lessons">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape1.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape1.png" alt="Logo" />
               </div>
               <div>
                 <span>
-                  Professional development
+                  Plan engaging lessons
+                </span>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+              </div>
+            </NavLink>
+          </li>
+          <li className="">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/feature/billing">
+              <div className="tl-nav-details">
+                <img src="/src/assets/landing-images/shape/shape1.png" alt="Logo" />
+              </div>
+              <div>
+                <span>
+                  Biling & payments
                 </span>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
               </div>
@@ -104,7 +124,7 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
       </li>
       
       <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
-        <NavLink to="/pricing">Pricing</NavLink>
+        <NavLink onClick={handleScrollToTop} to="/pricing">Pricing</NavLink>
       </li>
 
       <li className={`tl-nav-item ${liStyle} tl-dropdown`}>
@@ -113,9 +133,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
         </a>
         <ul className="tl-submenu">
           <li className="tl-submenu-li">
-            <NavLink className="tl-navlink" to="/blog">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/blog">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape5.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape5.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -126,9 +146,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
             </NavLink>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/contact">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape4.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape4.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -148,9 +168,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
 
         <ul className="tl-submenu">
           <li className="tl-submenu-li">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/contact">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape3.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape3.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -161,9 +181,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
             </NavLink>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/contact">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape1.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape1.png" alt="Logo" />
               </div>
               <div>
                 <span>
@@ -174,9 +194,9 @@ const NavSection: React.FC<NavProps> = ({ ulPosition, liStyle }) => {
             </NavLink>
           </li>
           <li className="">
-            <NavLink className="tl-navlink" to="/contact">
+            <NavLink className="tl-navlink" onClick={handleScrollToTop} to="/contact">
               <div className="tl-nav-details">
-                <img src="/assets/landing-images/shape/shape2.png" alt="Logo" />
+                <img src="/src/assets/landing-images/shape/shape2.png" alt="Logo" />
               </div>
               <div>
                 <span>

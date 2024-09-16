@@ -2,8 +2,8 @@
 import { PaymentOptionsProps } from 'types/e-commerce';
 
 // assets
-import paypal from 'assets/images/e-commerce/paypal.png';
-import card from 'assets/images/e-commerce/card.png';
+import paypal from '/src/assets/images/e-commerce/paypal.png';
+import card from '/src/assets/images/e-commerce/card.png';
 
 // ==============================|| CHECKOUT - PAYMENT OPTIONS ||============================== //
 

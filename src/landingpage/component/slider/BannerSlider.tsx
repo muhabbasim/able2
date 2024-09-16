@@ -27,7 +27,7 @@ const BannerSlider = () => {
           <div className="tl-6-banner-post">
             <div className="tl-6-banner-post-img">
               <img
-                src="/assets/landing-images/tl-6/banner-img-1.jpg"
+                src="/src/assets/landing-images/tl-6/banner-img-1.jpg"
                 alt="Banner Image"
               />
             </div>
@@ -54,7 +54,7 @@ const BannerSlider = () => {
           <div className="tl-6-banner-post">
             <div className="tl-6-banner-post-img">
               <img
-                src="/assets/landing-images/tl-6/banner-img-2.jpg"
+                src="/src/assets/landing-images/tl-6/banner-img-2.jpg"
                 alt="Banner Image"
               />
             </div>
@@ -81,7 +81,7 @@ const BannerSlider = () => {
           <div className="tl-6-banner-post">
             <div className="tl-6-banner-post-img">
               <img
-                src="/assets/landing-images/tl-6/banner-img-3.jpg"
+                src="/src/assets/landing-images/tl-6/banner-img-3.jpg"
                 alt="Banner Image"
               />
             </div>
@@ -108,7 +108,7 @@ const BannerSlider = () => {
           <div className="tl-6-banner-post">
             <div className="tl-6-banner-post-img">
               <img
-                src="/assets/landing-images/tl-6/banner-img-2.jpg"
+                src="/src/assets/landing-images/tl-6/banner-img-2.jpg"
                 alt="Banner Image"
               />
             </div>
@@ -135,7 +135,7 @@ const BannerSlider = () => {
           <div className="tl-6-banner-post">
             <div className="tl-6-banner-post-img">
               <img
-                src="/assets/landing-images/tl-6/banner-img-2.jpg"
+                src="/src/assets/landing-images/tl-6/banner-img-2.jpg"
                 alt="Banner Image"
               />
             </div>

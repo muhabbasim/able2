@@ -6,11 +6,11 @@ const AboutSection4 = () => {
           <div className="col-lg-6 order-lg-1 order-2">
             <div className="tl-3-about-img tl-4-about-img">
               <img
-                src="/assets/landing-images/tl-4/about-img-1.jpg"
+                src="/src/assets/landing-images/tl-4/about-img-1.jpg"
                 alt="School Picture"
               />
               <img
-                src="/assets/landing-images/tl-4/about-img-2.jpg"
+                src="/src/assets/landing-images/tl-4/about-img-2.jpg"
                 alt="School Picture"
               />
             </div>
@@ -63,7 +63,7 @@ const AboutSection4 = () => {
 
                 <div className="tl-4-about-support">
                   <img
-                    src="/assets/landing-images/tl-4/support.png"
+                    src="/src/assets/landing-images/tl-4/support.png"
                     alt="support icon"
                   />
                   <div>

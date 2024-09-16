@@ -2,7 +2,7 @@ const SocialSection2 = () => {
   return (
     <section
       className="tl-4-socials tl-4-socials bg-defaults"
-      data-background="assets/images/tl-4/social-bg.jpg"
+      data-background="/src/assets/images/tl-4/social-bg.jpg"
     >
       <div className="row g-0">
         <div className="col-xl-3 col-md-6 col-12">

@@ -19,10 +19,10 @@ import MoreIcon from 'components/@extended/MoreIcon';
 
 // assets
 
-import Avatar1 from 'assets/images/users/avatar-1.png';
-import Avatar2 from 'assets/images/users/avatar-2.png';
-import Avatar3 from 'assets/images/users/avatar-3.png';
-import Avatar4 from 'assets/images/users/avatar-4.png';
+import Avatar1 from '/src/assets/images/users/avatar-1.png';
+import Avatar2 from '/src/assets/images/users/avatar-2.png';
+import Avatar3 from '/src/assets/images/users/avatar-3.png';
+import Avatar4 from '/src/assets/images/users/avatar-4.png';
 
 // ===========================|| DATA WIDGET - TEAM MEMBERS ||=========================== //
 

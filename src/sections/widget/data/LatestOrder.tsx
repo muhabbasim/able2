@@ -19,10 +19,10 @@ import IconButton from 'components/@extended/IconButton';
 // assets
 import { Edit, Trash } from 'iconsax-react';
 
-import Phone1 from 'assets/images/widget/PHONE1.jpg';
-import Phone2 from 'assets/images/widget/PHONE2.jpg';
-import Phone3 from 'assets/images/widget/PHONE3.jpg';
-import Phone4 from 'assets/images/widget/PHONE4.jpg';
+import Phone1 from '/src/assets/images/widget/PHONE1.jpg';
+import Phone2 from '/src/assets/images/widget/PHONE2.jpg';
+import Phone3 from '/src/assets/images/widget/PHONE3.jpg';
+import Phone4 from '/src/assets/images/widget/PHONE4.jpg';
 
 // table data
 function createData(

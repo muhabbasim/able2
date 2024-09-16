@@ -16,8 +16,8 @@ import { MenuOrientation } from 'config';
 import { handlerDrawerOpen } from 'api/menu';
 
 // assets
-import defaultLayout from 'assets/images/customization/vertical.svg';
-import horizontalLayout from 'assets/images/customization/horizontal.svg';
+import defaultLayout from '/src/assets/images/customization/vertical.svg';
+import horizontalLayout from '/src/assets/images/customization/horizontal.svg';
 
 // ==============================|| CUSTOMIZATION - CONTAINER ||============================== //
 

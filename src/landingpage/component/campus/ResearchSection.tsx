@@ -1,22 +1,22 @@
 const ResearchSection = () => {
   const classData = [
     {
-      imgSrc: "assets/images/tl-4/innov-3.jpg",
-      iconSrc: "assets/images/tl-4/innov-icon-1.png",
+      imgSrc: "/src/assets/images/tl-4/innov-3.jpg",
+      iconSrc: "/src/assets/images/tl-4/innov-icon-1.png",
       className: "Health & Medicine",
       classDescr:
         "There are many variations of passages of Lorem Ipsum available.",
     },
     {
-      imgSrc: "assets/images/tl-4/innov-2.jpg",
-      iconSrc: "assets/images/tl-4/innov-icon-2.png",
+      imgSrc: "/src/assets/images/tl-4/innov-2.jpg",
+      iconSrc: "/src/assets/images/tl-4/innov-icon-2.png",
       className: "Science & Technology",
       classDescr:
         "There are many variations of passages of Lorem Ipsum available.",
     },
     {
-      imgSrc: "assets/images/tl-4/innov-1.jpg",
-      iconSrc: "assets/images/tl-4/innov-icon-3.png",
+      imgSrc: "/src/assets/images/tl-4/innov-1.jpg",
+      iconSrc: "/src/assets/images/tl-4/innov-icon-3.png",
       className: "Culture & Creativity",
       classDescr:
         "There are many variations of passages of Lorem Ipsum available.",

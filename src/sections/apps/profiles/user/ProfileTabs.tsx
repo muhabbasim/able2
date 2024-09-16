@@ -21,7 +21,7 @@ import MoreIcon from 'components/@extended/MoreIcon';
 import IconButton from 'components/@extended/IconButton';
 
 import { ThemeMode, facebookColor, linkedInColor } from 'config';
-import defaultImages from 'assets/images/users/default.png';
+import defaultImages from '/src/assets/images/users/default.png';
 
 // assets
 import { Apple, Camera, Facebook, Google } from 'iconsax-react';

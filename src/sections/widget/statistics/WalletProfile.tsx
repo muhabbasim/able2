@@ -19,7 +19,7 @@ import MoreIcon from 'components/@extended/MoreIcon';
 
 // assets
 import { ArrowDown2, ArrowUp2 } from 'iconsax-react';
-import avatar from 'assets/images/users/avatar-6.png';
+import avatar from '/src/assets/images/users/avatar-6.png';
 
 // ===========================|| STATISTICS - WALLET PROFILE ||=========================== //
 

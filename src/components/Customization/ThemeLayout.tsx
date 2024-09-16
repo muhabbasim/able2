@@ -18,9 +18,9 @@ import useConfig from 'hooks/useConfig';
 import { handlerDrawerOpen, useGetMenuMaster } from 'api/menu';
 
 // assets
-import defaultLayout from 'assets/images/customization/ltr.svg';
-import rtlLayout from 'assets/images/customization/rtl.svg';
-import miniMenu from 'assets/images/customization/mini-menu.svg';
+import defaultLayout from '/src/assets/images/customization/ltr.svg';
+import rtlLayout from '/src/assets/images/customization/rtl.svg';
+import miniMenu from '/src/assets/images/customization/mini-menu.svg';
 
 // ==============================|| CUSTOMIZATION - LAYOUT ||============================== //
 

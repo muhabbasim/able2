@@ -8,7 +8,7 @@ const AdmissionSection:React.FC<Props> = ({style}) => {
     <section className={`tl-4-admission ${style}`}>
         <div className="container">
             <div className="tl-5-about-img tl-4-admission-img">
-                <img src="/assets/landing-images/tl-4/admission-bg.jpg" alt="Students"/>
+                <img src="/src/assets/landing-images/tl-4/admission-bg.jpg" alt="Students"/>
 
                 <AdmissionForm style='tl-4-admission-form'/>
             </div>

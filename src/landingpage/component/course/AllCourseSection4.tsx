@@ -22,7 +22,7 @@ const AllCourseSection4 = () => {
                     Instrument
                   </a>
                   <span className="tl-9-class-duration">
-                    <img src="/assets/landing-images/tl-9/calender.png" alt="Icon" />
+                    <img src="/src/assets/landing-images/tl-9/calender.png" alt="Icon" />
                     {item.duration} month
                   </span>
                 </div>

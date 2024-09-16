@@ -11,8 +11,8 @@ import IconButton from 'components/@extended/IconButton';
 import MoreIcon from 'components/@extended/MoreIcon';
 
 // assets
-import avatar4 from 'assets/images/users/avatar-4.png';
-import avatar5 from 'assets/images/users/avatar-5.png';
+import avatar4 from '/src/assets/images/users/avatar-4.png';
+import avatar5 from '/src/assets/images/users/avatar-5.png';
 
 // ==============================|| LIST - USER ||============================== //
 
@@ -27,7 +27,7 @@ export default function UserList() {
     }
   >
     <ListItemAvatar>
-      <AntAvatar alt="Avatar" src={'/assets/images/users/avatar-4.png'} />
+      <AntAvatar alt="Avatar" src={'/src/assets/images/users/avatar-4.png'} />
     </ListItemAvatar>
     <ListItemText primary="Jone Doe" secondary="Developer" />
   </ListItem>
@@ -39,7 +39,7 @@ export default function UserList() {
     }
   >
     <ListItemAvatar>
-      <AntAvatar alt="Avatar" src={'/assets/images/users/avatar-5.png'} />
+      <AntAvatar alt="Avatar" src={'/src/assets/images/users/avatar-5.png'} />
     </ListItemAvatar>
     <ListItemText primary="Aidal Danny" secondary="Project Leader" />
   </ListItem>

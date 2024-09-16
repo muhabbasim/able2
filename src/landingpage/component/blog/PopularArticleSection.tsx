@@ -44,7 +44,7 @@ const PopularArticleSection = () => {
         <div className="tl-6-sidebar">
           <div className="tl-6-sidebar-area tl-6-sidebar-area tl-6-sidebar-ad">
             <a href="#">
-              <img src="/assets/landing-images/tl-6/ad-banner.jpg" alt="Ad banner" />
+              <img src="/src/assets/landing-images/tl-6/ad-banner.jpg" alt="Ad banner" />
             </a>
           </div>
 

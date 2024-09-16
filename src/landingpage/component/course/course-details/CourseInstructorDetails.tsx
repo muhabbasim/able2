@@ -4,7 +4,7 @@ const CourseInstructorDetails = () => {
       <div className="tl-course-details-instructor-heading">
         <img
           className="tl-course-details-instructor-img"
-          src="/assets/landing-images/tl-2/teacher-1.jpg"
+          src="/src/assets/landing-images/tl-2/teacher-1.jpg"
           alt="instructor Image"
         />
 

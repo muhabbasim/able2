@@ -20,7 +20,7 @@ const CtaSection5 = () => {
               </div>
 
               <div className="tl-12-cta-banner-img">
-                <img src="/assets/landing-images/tl-12/cta-1.png" alt="Person" />
+                <img src="/src/assets/landing-images/tl-12/cta-1.png" alt="Person" />
               </div>
             </div>
           </div>
@@ -40,7 +40,7 @@ const CtaSection5 = () => {
               </div>
 
               <div className="tl-12-cta-banner-img">
-                <img src="/assets/landing-images/tl-12/cta-2.png" alt="Person" />
+                <img src="/src/assets/landing-images/tl-12/cta-2.png" alt="Person" />
               </div>
             </div>
           </div>

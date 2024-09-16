@@ -6,12 +6,12 @@ const AboutSection7 = () => {
           <div className="col-xl-6 col-lg-5">
             <div className="tl-8-about-img">
               <img
-                src="/assets/landing-images/tl-8/about-img.jpg"
+                src="/src/assets/landing-images/tl-8/about-img.jpg"
                 alt="Driving Image"
                 className="tl-8-about-main-img"
               />
               <img
-                src="/assets/landing-images/tl-8/sticker.png"
+                src="/src/assets/landing-images/tl-8/sticker.png"
                 alt="sticker"
                 className="tl-8-about-sticker"
               />

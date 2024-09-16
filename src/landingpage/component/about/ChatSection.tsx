@@ -7,7 +7,7 @@ const ChatSection = () => {
       <div className="container">
         <div className="tl-1-about-shape">
           <img
-            src="/assets/landing-images/shape/shape5.png"
+            src="/src/assets/landing-images/shape/shape5.png"
             alt="Banner Image"
           />
         </div>
@@ -16,7 +16,7 @@ const ChatSection = () => {
           <div className="col-lg-6">
             <div className="tl-1-dashboard-img">
               <img
-                src="/assets/landing-images/chat5.png"
+                src="/src/assets/landing-images/chat5.png"
                 alt="Banner Image"
               />
             </div>

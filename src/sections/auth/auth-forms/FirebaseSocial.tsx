@@ -8,9 +8,9 @@ import Stack from '@mui/material/Stack';
 import useAuth from 'hooks/useAuth';
 
 // assets
-import Google from 'assets/images/icons/google.svg';
-import Twitter from 'assets/images/icons/twitter.svg';
-import Facebook from 'assets/images/icons/facebook.svg';
+import Google from '/src/assets/images/icons/google.svg';
+import Twitter from '/src/assets/images/icons/twitter.svg';
+import Facebook from '/src/assets/images/icons/facebook.svg';
 
 // ==============================|| FIREBASE - SOCIAL BUTTON ||============================== //
 

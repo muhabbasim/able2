@@ -16,9 +16,9 @@ import MainCard from 'components/MainCard';
 
 // assets
 import { ExportSquare } from 'iconsax-react';
-import featureFigma from 'assets/images/landing/feature-figma.png';
-import featureComponents from 'assets/images/landing/feature-components.png';
-import featureDocumentation from 'assets/images/landing/feature-documentation.png';
+import featureFigma from '/src/assets/images/landing/feature-figma.png';
+import featureComponents from '/src/assets/images/landing/feature-components.png';
+import featureDocumentation from '/src/assets/images/landing/feature-documentation.png';
 
 const Technologies = [
   {

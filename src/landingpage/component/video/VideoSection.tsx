@@ -12,28 +12,28 @@ type VideoData = {
 const videoData: VideoData[] = [
   {
     id: 1,
-    imgSrc: "assets/images/tl-6/video-1.jpg",
+    imgSrc: "/src/assets/images/tl-6/video-1.jpg",
     category: "Education",
     title: "The Mindful Scholar Nurturing Knowledge.",
     videoUrl: "https://www.youtube.com/watch?v=OWsvEOeZ0DE",
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-6/video-2.jpg",
+    imgSrc: "/src/assets/images/tl-6/video-2.jpg",
     category: "Education",
     title: "Exploring Educational Insights.",
     videoUrl: "https://www.youtube.com/watch?v=WAaBDrI1eBo",
   },
   {
     id: 3,
-    imgSrc: "assets/images/tl-6/video-3.jpg",
+    imgSrc: "/src/assets/images/tl-6/video-3.jpg",
     category: "Education",
     title: "Innovative Learning Solutions.",
     videoUrl: "https://www.youtube.com/watch?v=w-KK0_O0ONw",
   },
   {
     id: 4,
-    imgSrc: "assets/images/tl-6/video-4.jpg",
+    imgSrc: "/src/assets/images/tl-6/video-4.jpg",
     category: "Education",
     title: "Revolutionizing Education Technology.",
     videoUrl: "https://www.youtube.com/watch?v=nyDnQQSUfL0",

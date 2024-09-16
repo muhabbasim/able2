@@ -6,11 +6,11 @@ const TestimonialSlider5 = () => {
           <h2 className="tl-section-title">
             Trusted by over 40,000+ Students Have To Say
             <span className="tl-10-users-img">
-              <img src="/assets/landing-images/tl-10/04.png" alt="user" />
-              <img src="/assets/landing-images/tl-10/03.png" alt="user" />
-              <img src="/assets/landing-images/tl-10/02.png" alt="user" />
+              <img src="/src/assets/landing-images/tl-10/04.png" alt="user" />
+              <img src="/src/assets/landing-images/tl-10/03.png" alt="user" />
+              <img src="/src/assets/landing-images/tl-10/02.png" alt="user" />
               <span className="last-img">
-                <img src="/assets/landing-images/tl-10/01.png" alt="user" />
+                <img src="/src/assets/landing-images/tl-10/01.png" alt="user" />
                 <span className="last-img-txt">2k+</span>
               </span>
             </span>
@@ -27,7 +27,7 @@ const TestimonialSlider5 = () => {
 
             <div className="tl-10-single-testimony-reviewer">
               <img
-                src="/assets/landing-images/tl-10/02.png"
+                src="/src/assets/landing-images/tl-10/02.png"
                 alt="Person"
                 className="tl-10-single-testimony-reviewer-img"
               />
@@ -51,7 +51,7 @@ const TestimonialSlider5 = () => {
 
             <div className="tl-10-single-testimony-reviewer">
               <img
-                src="/assets/landing-images/tl-10/03.png"
+                src="/src/assets/landing-images/tl-10/03.png"
                 alt="Person"
                 className="tl-10-single-testimony-reviewer-img"
               />
@@ -75,7 +75,7 @@ const TestimonialSlider5 = () => {
 
             <div className="tl-10-single-testimony-reviewer">
               <img
-                src="/assets/landing-images/tl-10/04.png"
+                src="/src/assets/landing-images/tl-10/04.png"
                 alt="Person"
                 className="tl-10-single-testimony-reviewer-img"
               />

@@ -9,7 +9,7 @@ const CampusSection:React.FC<CampusProps> = ({style,textBg}) => {
         <div className="row g-0">
             <div className="col-xxl-4 col-lg-3">
                 <div className="tl-5-campus-img">
-                    <img src="/assets/landing-images/tl-5/campus-1.jpg" alt="Students"/>
+                    <img src="/src/assets/landing-images/tl-5/campus-1.jpg" alt="Students"/>
                 </div>
             </div>
             <div className="col-xxl-4 col-lg-6">
@@ -20,7 +20,7 @@ const CampusSection:React.FC<CampusProps> = ({style,textBg}) => {
             </div>
             <div className="col-xxl-4 col-lg-3">
                 <div className="tl-5-campus-img">
-                    <img src="/assets/landing-images/tl-5/campus-2.jpg" alt="Students"/>
+                    <img src="/src/assets/landing-images/tl-5/campus-2.jpg" alt="Students"/>
                 </div>
             </div>
         </div>

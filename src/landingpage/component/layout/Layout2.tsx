@@ -7,9 +7,9 @@ interface LayoutProps {
 const Layout2:React.FC<LayoutProps> = ({children}) => {
   return (
     <>
-      <HeaderSection3 style='tl-7-header-inner' logo="/assets/images/logos/logo.png"/>
+      <HeaderSection3 style='tl-7-header-inner' logo="/src/assets/images/logos/logo.png"/>
       {children}
-      <FooterSection3 style='' logo="/assets/images/logos/logo.png"/>
+      <FooterSection3 style='' logo="/src/assets/images/logos/logo.png"/>
     </>
   )
 }

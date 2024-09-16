@@ -10,11 +10,11 @@ import Avatar from 'components/@extended/Avatar';
 import MoreIcon from 'components/@extended/MoreIcon';
 
 // assets
-import Avatar1 from 'assets/images/users/avatar-5.png';
-import Avatar2 from 'assets/images/users/avatar-6.png';
-import Avatar3 from 'assets/images/users/avatar-7.png';
-import Avatar4 from 'assets/images/users/avatar-8.png';
-import Avatar5 from 'assets/images/users/avatar-9.png';
+import Avatar1 from '/src/assets/images/users/avatar-5.png';
+import Avatar2 from '/src/assets/images/users/avatar-6.png';
+import Avatar3 from '/src/assets/images/users/avatar-7.png';
+import Avatar4 from '/src/assets/images/users/avatar-8.png';
+import Avatar5 from '/src/assets/images/users/avatar-9.png';
 
 // ==============================|| INVOICE - DASHBOARD USER ||============================== //
 

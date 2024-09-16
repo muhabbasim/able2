@@ -15,8 +15,8 @@ import ProfileRadialChart from './ProfileRadialChart';
 import { ThemeMode } from 'config';
 
 // assets
-import BackLeft from '../../../../../public/assets/images/profile/UserProfileBackLeft';
-import BackRight from '../../../../../public/assets/images/profile/UserProfileBackRight';
+import BackLeft from '../../../../src/assets/images/profile/UserProfileBackLeft';
+import BackRight from '../../../../src/assets/images/profile/UserProfileBackRight';
 
 interface Props {
   focusInput: () => void;

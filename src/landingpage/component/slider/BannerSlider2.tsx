@@ -3,15 +3,15 @@ import { Swiper, SwiperSlide } from "swiper/react";
 const bannerImages = [
   {
     id: 1,
-    imgSrc: "assets/images/tl-14/banner-bg-1.jpg",
+    imgSrc: "/src/assets/images/tl-14/banner-bg-1.jpg",
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-14/banner-bg-2.jpg",
+    imgSrc: "/src/assets/images/tl-14/banner-bg-2.jpg",
   },
   {
     id: 3,
-    imgSrc: "assets/images/tl-14/banner-bg-3.jpg",
+    imgSrc: "/src/assets/images/tl-14/banner-bg-3.jpg",
   },
 ];
 const BannerSlider2 = () => {

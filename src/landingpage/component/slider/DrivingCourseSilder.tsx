@@ -52,7 +52,7 @@ const DrivingCourseSilder = () => {
                 <div className="tl-8-course-parts">
                   <div className="tl-8-course-part">
                     <img
-                      src="/assets/landing-images/tl-8/service-1.png"
+                      src="/src/assets/landing-images/tl-8/service-1.png"
                       alt="course part icon"
                     />
 
@@ -64,7 +64,7 @@ const DrivingCourseSilder = () => {
 
                   <div className="tl-8-course-part">
                     <img
-                      src="/assets/landing-images/tl-8/service-2.png"
+                      src="/src/assets/landing-images/tl-8/service-2.png"
                       alt="course part icon"
                     />
 

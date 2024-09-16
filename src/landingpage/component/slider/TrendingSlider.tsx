@@ -3,37 +3,37 @@ import { Swiper, SwiperSlide } from "swiper/react";
 
 const slideData = [
   {
-    imgSrc: "assets/images/tl-6/news-1.jpg",
+    imgSrc: "/src/assets/images/tl-6/news-1.jpg",
     category: "Education",
     title: "The Education Emporium Resources and Ideas.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-6/news-2.jpg",
+    imgSrc: "/src/assets/images/tl-6/news-2.jpg",
     category: "Education",
     title: "The Mindful Scholar Nurturing Knowledge.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-6/news-3.jpg",
+    imgSrc: "/src/assets/images/tl-6/news-3.jpg",
     category: "Education",
     title: "The Education Emporium Resources and Ideas.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-6/news-4.jpg",
+    imgSrc: "/src/assets/images/tl-6/news-4.jpg",
     category: "Education",
     title: "The EdTech Frontier Exploring Technology.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-6/news-5.jpg",
+    imgSrc: "/src/assets/images/tl-6/news-5.jpg",
     category: "Education",
     title: "The Learning Odyssey: Journey to Knowledge.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-6/news-6.jpg",
+    imgSrc: "/src/assets/images/tl-6/news-6.jpg",
     category: "Education",
     title: "Exploring the World of Educational Innovation.",
     link: "#",

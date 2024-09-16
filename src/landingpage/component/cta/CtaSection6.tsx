@@ -5,7 +5,7 @@ const CtaSection6 = () => {
         <div className="row tl-14-cta-row align-items-center">
           <div className="col-xxl-7 col-lg-6">
             <div className="tl-14-cta-img d-flex justify-content-end">
-              <img src="/assets/landing-images/tl-14/cta-img.jpg" alt="image" />
+              <img src="/src/assets/landing-images/tl-14/cta-img.jpg" alt="image" />
             </div>
           </div>
 
@@ -29,9 +29,9 @@ const CtaSection6 = () => {
               </div>
 
               <div className="tl-14-cta-vectors">
-                <img src="/assets/landing-images/tl-14/vector-1.png" alt="Vector" />
-                <img src="/assets/landing-images/tl-14/vector-2.png" alt="Vector" />
-                <img src="/assets/landing-images/tl-14/vector-3.png" alt="Vector" />
+                <img src="/src/assets/landing-images/tl-14/vector-1.png" alt="Vector" />
+                <img src="/src/assets/landing-images/tl-14/vector-2.png" alt="Vector" />
+                <img src="/src/assets/landing-images/tl-14/vector-3.png" alt="Vector" />
               </div>
             </div>
           </div>

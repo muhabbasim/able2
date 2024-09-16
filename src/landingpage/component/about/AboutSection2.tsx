@@ -5,9 +5,9 @@ const AboutSection2 = () => {
         <div className="row gy-5 align-items-center tl-2-about-row">
           <div className="col-lg-6">
             <div className="tl-2-about-img">
-              <img src="/assets/landing-images/tl-2/about-img.png" alt="Image" />
+              <img src="/src/assets/landing-images/tl-2/about-img.png" alt="Image" />
               <img
-                src="/assets/landing-images/tl-2/arrow.png"
+                src="/src/assets/landing-images/tl-2/arrow.png"
                 alt="arrow"
                 className="tl-2-about-arrow"
               />

@@ -27,7 +27,7 @@ const DashboardSection = () => {
           <div className="col-lg-6">
             <div className="tl-1-dashboard-img">
               <img
-                  src="/assets/landing-images/dashboard-img.png"
+                  src="/src/assets/landing-images/dashboard-img.png"
                 alt="Banner Image"
               />
             </div>

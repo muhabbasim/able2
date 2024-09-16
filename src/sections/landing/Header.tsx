@@ -17,14 +17,14 @@ import { motion } from 'framer-motion';
 
 // assets
 import AnimateButton from 'components/@extended/AnimateButton';
-import techBootstrap from 'assets/images/landing/tech-bootstrap.svg';
-import techReact from 'assets/images/landing/tech-react.svg';
-import techAngular from 'assets/images/landing/tech-angular.svg';
-import techCodeigniter from 'assets/images/landing/tech-codeigniter.svg';
-import techNet from 'assets/images/landing/tech-net.svg';
-import techFigma from 'assets/images/landing/tech-figma.svg';
-import techVue from 'assets/images/landing/tech-vuetify.svg';
-import techNextJS from 'assets/images/landing/tech-nextjs.svg';
+import techBootstrap from '/src/assets/images/landing/tech-bootstrap.svg';
+import techReact from '/src/assets/images/landing/tech-react.svg';
+import techAngular from '/src/assets/images/landing/tech-angular.svg';
+import techCodeigniter from '/src/assets/images/landing/tech-codeigniter.svg';
+import techNet from '/src/assets/images/landing/tech-net.svg';
+import techFigma from '/src/assets/images/landing/tech-figma.svg';
+import techVue from '/src/assets/images/landing/tech-vuetify.svg';
+import techNextJS from '/src/assets/images/landing/tech-nextjs.svg';
 
 // ==============================|| LANDING - HeaderPage ||============================== //
 

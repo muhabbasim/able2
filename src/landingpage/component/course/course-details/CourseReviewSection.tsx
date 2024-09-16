@@ -18,7 +18,7 @@ const CourseReviewSection = () => {
 
         <div className="tl-2-testimony-reviewer">
           <img
-            src="/assets/landing-images/tl-2/reviewer-2.jpg"
+            src="/src/assets/landing-images/tl-2/reviewer-2.jpg"
             alt="Person"
             className="tl-2-testimony-reviewer-img"
           />
@@ -48,7 +48,7 @@ const CourseReviewSection = () => {
 
         <div className="tl-2-testimony-reviewer">
           <img
-            src="/assets/landing-images/tl-2/reviewer-1.jpg"
+            src="/src/assets/landing-images/tl-2/reviewer-1.jpg"
             alt="Person"
             className="tl-2-testimony-reviewer-img"
           />

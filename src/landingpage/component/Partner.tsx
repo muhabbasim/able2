@@ -6,7 +6,7 @@ const Partner = () => {
       <div className="container ">
         {/* <img
           className="tl-9-service-shape"
-          src="/assets/landing-images/bg/white-bg3.png"
+          src="/src/assets/landing-images/bg/white-bg3.png"
           alt="Icon"
         /> */}
         <div className="tl-9-section-heading">
@@ -32,7 +32,7 @@ const Partner = () => {
             <div className="tl-9-service">
               <img
                 className="tl-9-service-icon"
-                src="/assets/landing-images/tl-9/service-1.png"
+                src="/src/assets/landing-images/tl-9/service-1.png"
                 alt="Icon"
               />
               <h4 className="tl-9-service-title">
@@ -51,7 +51,7 @@ const Partner = () => {
             <div className="tl-9-service">
               <img
                 className="tl-9-service-icon"
-                src="/assets/landing-images/tl-9/service-4.png"
+                src="/src/assets/landing-images/tl-9/service-4.png"
                 alt="Icon"
               />
               <h4 className="tl-9-service-title">
@@ -70,7 +70,7 @@ const Partner = () => {
             <div className="tl-9-service">
               <img
                 className="tl-9-service-icon"
-                src="/assets/landing-images/tl-9/service-2.png"
+                src="/src/assets/landing-images/tl-9/service-2.png"
                 alt="Icon"
               />
               <h4 className="tl-9-service-title">
@@ -89,7 +89,7 @@ const Partner = () => {
             <div className="tl-9-service">
               <img
                 className="tl-9-service-icon"
-                src="/assets/landing-images/tl-9/service-3.png"
+                src="/src/assets/landing-images/tl-9/service-3.png"
                 alt="Icon"
               />
               <h4 className="tl-9-service-title">

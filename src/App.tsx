@@ -23,12 +23,10 @@ export default function App() {
         <Locales>
           <ScrollTop>
             <AuthProvider>
-              <>
-                <Notistack>
-                  <RouterProvider router={router} />
-                  <Snackbar />
-                </Notistack>
-              </>
+              <Notistack>
+                <RouterProvider router={router} />
+                <Snackbar />
+              </Notistack>
             </AuthProvider>
           </ScrollTop>
         </Locales>

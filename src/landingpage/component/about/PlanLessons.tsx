@@ -6,7 +6,7 @@ const PlanLessons = () => {
       <div className="container">
         <div className="tl-1-lesson-shape">
           <img
-            src="/assets/landing-images/shape/shape4.png"
+            src="/src/assets/landing-images/shape/shape4.png"
             alt="Banner Image"
           />
         </div>
@@ -32,7 +32,7 @@ const PlanLessons = () => {
           <div className="col-lg-6">
             <div className="tl-1-dashboard-img">
               <img
-                src="/assets/landing-images/plan_lesson.png"
+                src="/src/assets/landing-images/plan_lesson.png"
                 alt="Banner Image"
               />
             </div>

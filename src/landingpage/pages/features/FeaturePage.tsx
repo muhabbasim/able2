@@ -1,12 +1,12 @@
 import { useParams } from "react-router";
-import centerMgtImg1 from "/assets/landing-images/dashboard3.png"
-import centerMgtImg2 from "/assets/landing-images/dashboard4.png"
-import centerMgtImg3 from "/assets/landing-images/dashboard6.png"
+import centerMgtImg1 from "/src/assets/landing-images/dashboard3.png"
+import centerMgtImg2 from "/src/assets/landing-images/dashboard4.png"
+import centerMgtImg3 from "/src/assets/landing-images/dashboard6.png"
 import Partner from "landingpage/component/Partner";
 import OtherFeatures from "landingpage/component/OtherFeatures";
 import CurrentFeatures from "landingpage/component/CurrentFeatures";
 
-const kgpFeatures = [
+export const kgpFeatures = [
   {
     id: 'center_management',
     title: "Center management",
@@ -26,7 +26,14 @@ const kgpFeatures = [
     title: "Plan engaging lessons",
     subtitle: "Receive research-based lesson plans and activities monthly, delivered to your door and in the app. State-aligned and powered by FunShine Express",
     color: '#f56363',
-    img: "https://img.freepik.com/free-photo/planner-calendar-schedule-date-concept_53876-133895.jpg?t=st=1725897770~exp=1725901370~hmac=4c1c8203ff51bc4e1ff8907ce3106d3cdddd7049e1fb2b0a65d61b769ae802e8&w=826",
+    img: "https://img.freepik.com/free-photo/time-action-change-concept_53876-123722.jpg?t=st=1725981099~exp=1725984699~hmac=0cf8d6cd7b9c332926bbe44599541109c9aca9312c48246b4b43095f02f40bfb&w=2000", 
+  },
+  {
+    id: 'billing',
+    title: "Billing & payments simplified",
+    subtitle: "Manage your center finances, including subsidies, invoicing, and more, all in one place with KGP.",
+    color: '#36a4a6', 
+    img: "https://img.freepik.com/free-photo/person-paying-with-its-smartphone-wallet-app_23-2149167243.jpg?t=st=1726066035~exp=1726069635~hmac=15e7bf532d575faacc4747bc91ed0efe3a97eed23742b20b1b68ebc7f7c58391&w=2000", 
   },
 ]
 
@@ -183,7 +190,7 @@ const featureData = [
     title: "Plan engaging lessons",
     subtitle: "Receive research-based lesson plans and activities monthly, delivered to your door and in the app. State-aligned and powered by FunShine Express",
     color: '#f56363',
-    img: "",
+    img: "https://img.freepik.com/free-photo/time-action-change-concept_53876-123722.jpg?t=st=1725981099~exp=1725984699~hmac=0cf8d6cd7b9c332926bbe44599541109c9aca9312c48246b4b43095f02f40bfb&w=2000", 
     features: [
       {
         id: 1,
@@ -199,7 +206,7 @@ const featureData = [
             text: "Engaging, theme-based content that’s updated every month"
           },
           {
-            text: "Available from within the Lillio app or in print form with monthly materials kits "
+            text: "Available from within the KGP app or in print form with monthly materials kits "
           },
         ]
       },
@@ -242,6 +249,73 @@ const featureData = [
       },
     ]
   },
+  {
+    id: 'billing',
+    title: "Billing & payments simplified",
+    subtitle: "Manage your center finances, including subsidies, invoicing, and more, all in one place with KGP.",
+    color: '#36a4a6',
+    img: "https://img.freepik.com/free-photo/person-paying-with-its-smartphone-wallet-app_23-2149167243.jpg?t=st=1726066035~exp=1726069635~hmac=15e7bf532d575faacc4747bc91ed0efe3a97eed23742b20b1b68ebc7f7c58391&w=2000", 
+    features: [
+      {
+        id: 1,
+        header: "Invoicing",
+        title: "Save time on invoicing",
+        desc: "Maurus herderite egret orca ac incident. Viramas at deque eu ipsum consenter commode egret t dam celestas beget mi",
+        img: centerMgtImg1,
+        features: [
+          {
+            text: "Create customized tuition plans"
+          },
+          {
+            text: "Automate invoice creation"
+          },
+          {
+            text: "Track invoice history"
+          },
+        ]
+      },
+      {
+        id: 13,
+        header: "Payments Tracking",
+        title: "Track payments with ease",
+        desc: "Maurus herderite egret orca ac incident. Viramas at deque eu ipsum consenter commode egret t dam celestas beget mi",
+        img: centerMgtImg2,
+        features: [
+          {
+            text: "Get paid on time, every time"
+          },
+          {
+            text: "Track what is paid, due and overdue"
+          },
+          {
+            text: "Avoid sensitive billing conversations"
+          },
+          {
+            text: "Turn on auto-pay"
+          },
+        ]
+      },
+      {
+        id: 14,
+        header: "Subsidies Management",
+        title: "Account for every dollar",
+        desc: "Maurus herderite egret orca ac incident. Viramas at deque eu ipsum consenter commode egret t dam celestas beget mi",
+        img: centerMgtImg3,
+        // img: "https://fps.cdnpk.net/templates/media/subhome/bannerdesigner.webp?w=662",
+        features: [
+          {
+            text: "Track subsidy agreements and expiration"
+          },
+          {
+            text: "Record incoming bulk subsidy payments"
+          },
+          {
+            text: "Bill differences or provide refunds"
+          },
+        ]
+      },
+    ]
+  },
 ]
 
 
@@ -258,6 +332,8 @@ export default function FeaturePage() {
     color = "#f4b825";
   } else if (currentFeature?.id === 'engaging_lessons') {
     color = "#f56363";
+  } else if (currentFeature?.id === 'billing') {
+    color = "#36a4a6";
   }
 
   return (
@@ -299,7 +375,7 @@ export default function FeaturePage() {
         </div>
       </div>
 
-      <CurrentFeatures data={currentFeature} color={color} />
+      <CurrentFeatures data={currentFeature} color={color} cta={true}/>
       <OtherFeatures data={otherFeatures}/>
       <Partner/>
     </>

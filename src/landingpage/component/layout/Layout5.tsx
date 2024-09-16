@@ -8,9 +8,9 @@ interface LayoutProps {
 const Layout5:React.FC<LayoutProps> = ({children}) => {
   return (
     <div className='tl-3-inner tl-inner-courses-body'>
-      <HeaderSection5 style='position-relative' logo="/assets/images/logos/logo.png"/>
+      <HeaderSection5 style='position-relative' logo="/src/assets/images/logos/logo.png"/>
       {children}
-      <FooterSection3 style='tl-8-footer' logo="/assets/images/logos/logo.png"/>
+      <FooterSection3 style='tl-8-footer' logo="/src/assets/images/logos/logo.png"/>
     </div>
   )
 }

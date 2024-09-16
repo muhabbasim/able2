@@ -12,8 +12,8 @@ import MainCard from 'components/MainCard';
 import useConfig from 'hooks/useConfig';
 
 // assets
-import defaultLayout from 'assets/images/customization/fluid.svg';
-import containerLayout from 'assets/images/customization/container.svg';
+import defaultLayout from '/src/assets/images/customization/fluid.svg';
+import containerLayout from '/src/assets/images/customization/container.svg';
 
 // ==============================|| CUSTOMIZATION - CONTAINER ||============================== //
 

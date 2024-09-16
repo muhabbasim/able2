@@ -25,7 +25,7 @@ const FooterSection5: React.FC<FooterProps> = ({
             <div className="col-lg-3 col-sm-6 col-12">
               <div className="tl-footer-widget tl-4-footer-widget">
                 <Link to="/" className=" tl-footer-widget-title">
-                  <img src="/assets/images/kgb-logo4.png" alt="logo" />
+                  <img src="/src/assets/images/kgb-logo4.png" alt="logo" />
 
                 </Link>
 

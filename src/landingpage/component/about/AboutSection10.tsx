@@ -7,11 +7,11 @@ const AboutSection10 = () => {
         <div className="row gx-0 gy-4 gy-md-5 align-items-center justify-content-between">
           <div className="col-xxl-7 col-lg-6">
             <div className="tl-13-about-img">
-              <img src="/assets/landing-images/tl-13/about-img.jpg" alt="Image" />
+              <img src="/src/assets/landing-images/tl-13/about-img.jpg" alt="Image" />
 
               <div className="tl-13-about-stat">
                 <img
-                  src="/assets/landing-images/tl-13/stat-icon.png"
+                  src="/src/assets/landing-images/tl-13/stat-icon.png"
                   alt="Image"
                   className="tl-13-about-stat-icon"
                 />

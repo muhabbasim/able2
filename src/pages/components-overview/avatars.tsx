@@ -20,21 +20,21 @@ import ComponentSkeleton from 'sections/components-overview/ComponentSkeleton';
 // assets
 import { Add, Coin, InfoCircle, Profile, Setting2, Sms, TickCircle, Trash, Warning2 } from 'iconsax-react';
 
-import avatar1 from 'assets/images/users/avatar-1.png';
-import avatar2 from 'assets/images/users/avatar-2.png';
-import avatar3 from 'assets/images/users/avatar-3.png';
-import avatar4 from 'assets/images/users/avatar-4.png';
-import avatar5 from 'assets/images/users/avatar-5.png';
-import avatar6 from 'assets/images/users/avatar-6.png';
-import avatar7 from 'assets/images/users/avatar-7.png';
-import avatar8 from 'assets/images/users/avatar-8.png';
-import avatar9 from 'assets/images/users/avatar-9.png';
-import avatar10 from 'assets/images/users/avatar-10.png';
+import avatar1 from '/src/assets/images/users/avatar-1.png';
+import avatar2 from '/src/assets/images/users/avatar-2.png';
+import avatar3 from '/src/assets/images/users/avatar-3.png';
+import avatar4 from '/src/assets/images/users/avatar-4.png';
+import avatar5 from '/src/assets/images/users/avatar-5.png';
+import avatar6 from '/src/assets/images/users/avatar-6.png';
+import avatar7 from '/src/assets/images/users/avatar-7.png';
+import avatar8 from '/src/assets/images/users/avatar-8.png';
+import avatar9 from '/src/assets/images/users/avatar-9.png';
+import avatar10 from '/src/assets/images/users/avatar-10.png';
 
-import vector1 from 'assets/images/users/vector-1.png';
-import vector2 from 'assets/images/users/vector-2.png';
-import vector3 from 'assets/images/users/vector-3.png';
-import vector4 from 'assets/images/users/vector-4.png';
+import vector1 from '/src/assets/images/users/vector-1.png';
+import vector2 from '/src/assets/images/users/vector-2.png';
+import vector3 from '/src/assets/images/users/vector-3.png';
+import vector4 from '/src/assets/images/users/vector-4.png';
 
 // ==============================|| COMPONENTS - AVATAR ||============================== //
 
@@ -44,15 +44,15 @@ export default function ComponentAvatar() {
 
   const basicAvatarCodeString = `<Avatar alt="Basic"><Profile variant="Bold" /></Avatar>`;
 
-  const imageAvatarCodeString = `<Avatar alt="Avatar 1" src={('/assets/images/users/avatar-1.png')} />
-<Avatar alt="Avatar 2" src={('/assets/images/users/avatar-2.png')} />
-<Avatar alt="Avatar 3" src={('/assets/images/users/avatar-3.png')} />
-<Avatar alt="Avatar 4" src={('/assets/images/users/avatar-4.png')} />`;
+  const imageAvatarCodeString = `<Avatar alt="Avatar 1" src={('/src/assets/images/users/avatar-1.png')} />
+<Avatar alt="Avatar 2" src={('/src/assets/images/users/avatar-2.png')} />
+<Avatar alt="Avatar 3" src={('/src/assets/images/users/avatar-3.png')} />
+<Avatar alt="Avatar 4" src={('/src/assets/images/users/avatar-4.png')} />`;
 
-  const vectorAvatarCodeString = `<Avatar><img alt="Natacha" src={('/assets/images/users/vector-1.png')} height={40} /></Avatar>
-<Avatar><img alt="Natacha" src={('/assets/images/users/vector-2.png')} height={40} /></Avatar>
-<Avatar><img alt="Natacha" src={('/assets/images/users/vector-3.png')} height={40} /></Avatar>
-<Avatar><img alt="Natacha" src={('/assets/images/users/vector-4.png')} height={40} /></Avatar>`;
+  const vectorAvatarCodeString = `<Avatar><img alt="Natacha" src={('/src/assets/images/users/vector-1.png')} height={40} /></Avatar>
+<Avatar><img alt="Natacha" src={('/src/assets/images/users/vector-2.png')} height={40} /></Avatar>
+<Avatar><img alt="Natacha" src={('/src/assets/images/users/vector-3.png')} height={40} /></Avatar>
+<Avatar><img alt="Natacha" src={('/src/assets/images/users/vector-4.png')} height={40} /></Avatar>`;
 
   const letterAvatarCodeString = `<Avatar alt="Natacha" size="sm">U</Avatar>
 <Avatar color="error" alt="Natacha" size="sm">UI</Avatar>
@@ -78,12 +78,12 @@ export default function ComponentAvatar() {
 <Avatar alt="Natacha" size="sm"><Add /></Avatar>`;
 
   const groupAvatarCodeString = `<AvatarGroup max={4}>
-  <Avatar alt="Trevor Henderson" src={('/assets/images/users/avatar-5.png')} />
-  <Avatar alt="Jone Doe" src={('/assets/images/users/avatar-6.png')} />
-  <Avatar alt="Lein Ket" src={('/assets/images/users/avatar-7.png')} />
-  <Avatar alt="Stebin Ben" src={('/assets/images/users/avatar-8.png')} />
-  <Avatar alt="Wungh Tend" src={('/assets/images/users/avatar-9.png')} />
-  <Avatar alt="Trevor Das" src={('/assets/images/users/avatar-10.png')} />
+  <Avatar alt="Trevor Henderson" src={('/src/assets/images/users/avatar-5.png')} />
+  <Avatar alt="Jone Doe" src={('/src/assets/images/users/avatar-6.png')} />
+  <Avatar alt="Lein Ket" src={('/src/assets/images/users/avatar-7.png')} />
+  <Avatar alt="Stebin Ben" src={('/src/assets/images/users/avatar-8.png')} />
+  <Avatar alt="Wungh Tend" src={('/src/assets/images/users/avatar-9.png')} />
+  <Avatar alt="Trevor Das" src={('/src/assets/images/users/avatar-10.png')} />
 </AvatarGroup>
 <Box sx={{ width: 186 }}>
   <Tooltip
@@ -91,12 +91,12 @@ export default function ComponentAvatar() {
     placement="top-end"
     title={
       <AvatarGroup max={10}>
-        <Avatar alt="Trevor Henderson" src={('/assets/images/users/avatar-5.png')} />
-        <Avatar alt="Jone Doe" src={('/assets/images/users/avatar-6.png')} />
-        <Avatar alt="Lein Ket" src={('/assets/images/users/avatar-7.png')} />
-        <Avatar alt="Stebin Ben" src={('/assets/images/users/avatar-8.png')} />
-        <Avatar alt="Wungh Tend" src={('/assets/images/users/avatar-9.png')} />
-        <Avatar alt="Trevor Das" src={('/assets/images/users/avatar-10.png')} />
+        <Avatar alt="Trevor Henderson" src={('/src/assets/images/users/avatar-5.png')} />
+        <Avatar alt="Jone Doe" src={('/src/assets/images/users/avatar-6.png')} />
+        <Avatar alt="Lein Ket" src={('/src/assets/images/users/avatar-7.png')} />
+        <Avatar alt="Stebin Ben" src={('/src/assets/images/users/avatar-8.png')} />
+        <Avatar alt="Wungh Tend" src={('/src/assets/images/users/avatar-9.png')} />
+        <Avatar alt="Trevor Das" src={('/src/assets/images/users/avatar-10.png')} />
       </AvatarGroup>
     }
   >
@@ -113,16 +113,16 @@ export default function ComponentAvatar() {
         }
       }}
     >
-      <Avatar alt="Remy Sharp" src={('/assets/images/users/avatar-1.png')} />
-      <Avatar alt="Travis Howard" src={('/assets/images/users/avatar-2.png')} />
-      <Avatar alt="Cindy Baker" src={('/assets/images/users/avatar-3.png')} />
-      <Avatar alt="Agnes Walker" src={('/assets/images/users/avatar-4.png')} />
-      <Avatar alt="Trevor Henderson" src={('/assets/images/users/avatar-5.png')} />
-      <Avatar alt="Jone Doe" src={('/assets/images/users/avatar-6.png')} />
-      <Avatar alt="Lein Ket" src={('/assets/images/users/avatar-7.png')} />
-      <Avatar alt="Stebin Ben" src={('/assets/images/users/avatar-8.png')} />
-      <Avatar alt="Wungh Tend" src={('/assets/images/users/avatar-9.png')} />
-      <Avatar alt="Trevor Das" src={('/assets/images/users/avatar-10.png')} />
+      <Avatar alt="Remy Sharp" src={('/src/assets/images/users/avatar-1.png')} />
+      <Avatar alt="Travis Howard" src={('/src/assets/images/users/avatar-2.png')} />
+      <Avatar alt="Cindy Baker" src={('/src/assets/images/users/avatar-3.png')} />
+      <Avatar alt="Agnes Walker" src={('/src/assets/images/users/avatar-4.png')} />
+      <Avatar alt="Trevor Henderson" src={('/src/assets/images/users/avatar-5.png')} />
+      <Avatar alt="Jone Doe" src={('/src/assets/images/users/avatar-6.png')} />
+      <Avatar alt="Lein Ket" src={('/src/assets/images/users/avatar-7.png')} />
+      <Avatar alt="Stebin Ben" src={('/src/assets/images/users/avatar-8.png')} />
+      <Avatar alt="Wungh Tend" src={('/src/assets/images/users/avatar-9.png')} />
+      <Avatar alt="Trevor Das" src={('/src/assets/images/users/avatar-10.png')} />
     </AvatarGroup>
   </Tooltip>
 </Box>
@@ -132,11 +132,11 @@ export default function ComponentAvatar() {
     placement="top-end"
     title={
       <AvatarGroup max={10}>
-        <Avatar alt="Jone Doe" src={('/assets/images/users/avatar-6.png')} />
-        <Avatar alt="Lein Ket" src={('/assets/images/users/avatar-7.png')} />
-        <Avatar alt="Stebin Ben" src={('/assets/images/users/avatar-8.png')} />
-        <Avatar alt="Wungh Tend" src={('/assets/images/users/avatar-9.png')} />
-        <Avatar alt="Trevor Das" src={('/assets/images/users/avatar-10.png')} />
+        <Avatar alt="Jone Doe" src={('/src/assets/images/users/avatar-6.png')} />
+        <Avatar alt="Lein Ket" src={('/src/assets/images/users/avatar-7.png')} />
+        <Avatar alt="Stebin Ben" src={('/src/assets/images/users/avatar-8.png')} />
+        <Avatar alt="Wungh Tend" src={('/src/assets/images/users/avatar-9.png')} />
+        <Avatar alt="Trevor Das" src={('/src/assets/images/users/avatar-10.png')} />
       </AvatarGroup>
     }
   >
@@ -151,22 +151,22 @@ export default function ComponentAvatar() {
         }
       }}
     >
-      <Avatar alt="Remy Sharp" src={('/assets/images/users/avatar-1.png')} />
-      <Avatar alt="Travis Howard" src={('/assets/images/users/avatar-2.png')} />
-      <Avatar alt="Cindy Baker" src={('/assets/images/users/avatar-3.png')} />
-      <Avatar alt="Agnes Walker" src={('/assets/images/users/avatar-4.png')} />
-      <Avatar alt="Trevor Henderson" src={('/assets/images/users/avatar-5.png')} />
-      <Avatar alt="Jone Doe" src={('/assets/images/users/avatar-6.png')} />
-      <Avatar alt="Lein Ket" src={('/assets/images/users/avatar-7.png')} />
-      <Avatar alt="Stebin Ben" src={('/assets/images/users/avatar-8.png')} />
-      <Avatar alt="Wungh Tend" src={('/assets/images/users/avatar-9.png')} />
-      <Avatar alt="Trevor Das" src={('/assets/images/users/avatar-10.png')} />
+      <Avatar alt="Remy Sharp" src={('/src/assets/images/users/avatar-1.png')} />
+      <Avatar alt="Travis Howard" src={('/src/assets/images/users/avatar-2.png')} />
+      <Avatar alt="Cindy Baker" src={('/src/assets/images/users/avatar-3.png')} />
+      <Avatar alt="Agnes Walker" src={('/src/assets/images/users/avatar-4.png')} />
+      <Avatar alt="Trevor Henderson" src={('/src/assets/images/users/avatar-5.png')} />
+      <Avatar alt="Jone Doe" src={('/src/assets/images/users/avatar-6.png')} />
+      <Avatar alt="Lein Ket" src={('/src/assets/images/users/avatar-7.png')} />
+      <Avatar alt="Stebin Ben" src={('/src/assets/images/users/avatar-8.png')} />
+      <Avatar alt="Wungh Tend" src={('/src/assets/images/users/avatar-9.png')} />
+      <Avatar alt="Trevor Das" src={('/src/assets/images/users/avatar-10.png')} />
     </AvatarGroup>
   </Tooltip>
 </Box>`;
 
   const badgeAvatarCodeString = `<Badge badgeContent={4} color="error" overlap="circular">
-  <Avatar alt="Natacha" type="filled" src={('/assets/images/users/avatar-6.png')} />
+  <Avatar alt="Natacha" type="filled" src={('/src/assets/images/users/avatar-6.png')} />
 </Badge>
 <Badge color="error" overlap="circular" variant="dot">
   <Avatar alt="Natacha" color="secondary" type="filled">
@@ -174,7 +174,7 @@ export default function ComponentAvatar() {
   </Avatar>
 </Badge>
 <Badge color="error" overlap="circular" variant="dot">
-  <Avatar alt="Natacha" type="filled" src={('/assets/images/users/avatar-2.png')} />
+  <Avatar alt="Natacha" type="filled" src={('/src/assets/images/users/avatar-2.png')} />
 </Badge>
 <Badge color="error" overlap="circular" variant="dot">
   <Avatar alt="Natacha" type="outlined">
@@ -183,25 +183,25 @@ export default function ComponentAvatar() {
 </Badge>
 <Badge color="error" overlap="circular" variant="dot">
   <Avatar>
-    <img alt="Natacha" src={('/assets/images/users/vector-2.png')} width={40} />
+    <img alt="Natacha" src={('/src/assets/images/users/vector-2.png')} width={40} />
   </Avatar>
 </Badge>
 <Badge color="success" variant="dot">
-  <Avatar alt="Natacha" variant="rounded" type="filled" src={('/assets/images/users/avatar-1.png')} />
+  <Avatar alt="Natacha" variant="rounded" type="filled" src={('/src/assets/images/users/avatar-1.png')} />
 </Badge>
 <Badge
   overlap="circular"
   anchorOrigin={{ vertical: 'bottom', horizontal: 'right' }}
-  badgeContent={<Avatar size="badge" alt="Remy Sharp" src={('/assets/images/users/avatar-6.png')} />}
+  badgeContent={<Avatar size="badge" alt="Remy Sharp" src={('/src/assets/images/users/avatar-6.png')} />}
 >
-  <Avatar alt="Travis Howard" src={('/assets/images/users/avatar-1.png')} />
+  <Avatar alt="Travis Howard" src={('/src/assets/images/users/avatar-1.png')} />
 </Badge>`;
 
-  const sizesAvatarCodeString = `<Avatar size="xs" alt="Avatar 1" src={('/assets/images/users/avatar-1.png')} />
-<Avatar size="xl" alt="Avatar 5" src={('/assets/images/users/avatar-5.png')} />
-<Avatar size="lg" alt="Avatar 4" src={('/assets/images/users/avatar-4.png')} />
-<Avatar size="md" alt="Avatar 3" src={('/assets/images/users/avatar-3.png')} />
-<Avatar size="sm" alt="Avatar 2" src={('/assets/images/users/avatar-2.png')} />`;
+  const sizesAvatarCodeString = `<Avatar size="xs" alt="Avatar 1" src={('/src/assets/images/users/avatar-1.png')} />
+<Avatar size="xl" alt="Avatar 5" src={('/src/assets/images/users/avatar-5.png')} />
+<Avatar size="lg" alt="Avatar 4" src={('/src/assets/images/users/avatar-4.png')} />
+<Avatar size="md" alt="Avatar 3" src={('/src/assets/images/users/avatar-3.png')} />
+<Avatar size="sm" alt="Avatar 2" src={('/src/assets/images/users/avatar-2.png')} />`;
 
   const colorsAvatarCodeString = `<Avatar alt="Basic" type="filled"><Profile variant="Bold" /></Avatar>
 <Avatar alt="Basic" type="filled" color="error"><Trash variant="Bold" /></Avatar>

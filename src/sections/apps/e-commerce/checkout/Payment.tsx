@@ -39,10 +39,10 @@ import { ImagePath, getImageUrl } from 'utils/getImageUrl';
 // assets
 import { ArrowLeft2, TickCircle, Trash } from 'iconsax-react';
 
-import cvv from 'assets/images/e-commerce/cvv.png';
-import lock from 'assets/images/e-commerce/lock.png';
-import master from 'assets/images/e-commerce/master-card.png';
-import paypalcard from 'assets/images/e-commerce/paypal.png';
+import cvv from '/src/assets/images/e-commerce/cvv.png';
+import lock from '/src/assets/images/e-commerce/lock.png';
+import master from '/src/assets/images/e-commerce/master-card.png';
+import paypalcard from '/src/assets/images/e-commerce/paypal.png';
 
 // types
 import { SnackbarProps } from 'types/snackbar';

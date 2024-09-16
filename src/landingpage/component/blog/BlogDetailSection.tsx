@@ -112,7 +112,7 @@ const BlogDetailSection: React.FC<BlogProps> = ({ blogData }) => {
                 <div className="tl-course-details-instructor-heading">
                   <img
                     className="tl-course-details-instructor-img"
-                    src="/assets/landing-images/tl-2/teacher-1.jpg"
+                    src="/src/assets/landing-images/tl-2/teacher-1.jpg"
                     alt="teacher image"
                   />
 
@@ -238,7 +238,7 @@ const BlogDetailSection: React.FC<BlogProps> = ({ blogData }) => {
                 <div className="tl-comment-commenter">
                   <div className="tl-comment-commenter-img">
                     <img
-                      src="/assets/landing-images/tl-4/user-1.jpg"
+                      src="/src/assets/landing-images/tl-4/user-1.jpg"
                       alt="commenter image"
                     />
                   </div>
@@ -323,7 +323,7 @@ const BlogDetailSection: React.FC<BlogProps> = ({ blogData }) => {
                 <div className="tl-course-details-instructor-heading">
                   <img
                     className="tl-course-details-instructor-img"
-                    src="/assets/landing-images/tl-2/teacher-1.jpg"
+                    src="/src/assets/landing-images/tl-2/teacher-1.jpg"
                     alt="teacher image"
                   />
 

@@ -14,9 +14,9 @@ import AuthWrapper2 from 'sections/auth/AuthWrapper2';
 import FirebaseRegister from 'sections/auth/auth-forms/AuthRegister';
 
 // assets
-import imgFacebook from 'assets/images/auth/facebook.svg';
-import imgTwitter from 'assets/images/auth/twitter.svg';
-import imgGoogle from 'assets/images/auth/google.svg';
+import imgFacebook from '/src/assets/images/auth/facebook.svg';
+import imgTwitter from '/src/assets/images/auth/twitter.svg';
+import imgGoogle from '/src/assets/images/auth/google.svg';
 
 // ================================|| REGISTER ||================================ //
 

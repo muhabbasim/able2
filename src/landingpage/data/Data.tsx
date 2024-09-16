@@ -1,27 +1,27 @@
 const memberList = [
   {
     id: 0,
-    imgSrc: "assets/images/tl-1/member-1.png",
+    imgSrc: "/src/assets/images/tl-1/member-1.png",
   },
   {
     id: 1,
-    imgSrc: "assets/images/tl-1/member-2.png",
+    imgSrc: "/src/assets/images/tl-1/member-2.png",
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-1/member-3.png",
+    imgSrc: "/src/assets/images/tl-1/member-3.png",
   },
   {
     id: 3,
-    imgSrc: "assets/images/tl-1/member-4.png",
+    imgSrc: "/src/assets/images/tl-1/member-4.png",
   },
   {
     id: 4,
-    imgSrc: "assets/images/tl-1/member-5.png",
+    imgSrc: "/src/assets/images/tl-1/member-5.png",
   },
   {
     id: 5,
-    imgSrc: "assets/images/tl-1/member-3.png",
+    imgSrc: "/src/assets/images/tl-1/member-3.png",
   },
 ];
 
@@ -29,7 +29,7 @@ const courseList = [
   {
     id: 0,
     youtubeUrl: "https://www.youtube.com/embed/YkWyIRdiZeQ?si=nhCdoG7otrv_hN0m",
-    imgSrc: "assets/images/kb-16/about-img.jpg",
+    imgSrc: "/src/assets/images/kb-16/about-img.jpg",
     price: "$53.00",
     author: "Brian Cumin",
     title: "Teaching Math and Science Inquiry-Based Approaches",
@@ -44,7 +44,7 @@ const courseList = [
   {
     id: 1,
     youtubeUrl: "https://www.youtube.com/embed/B7wHpNUUT4Y?si=_ebdiGHKxpVrL1Tu",
-    imgSrc: "assets/images/kb-13/event-2.jpg",
+    imgSrc: "/src/assets/images/kb-13/event-2.jpg",
     price: "$45.00",
     author: "Alice Johnson",
     title: "Introduction to Programming with JavaScript",
@@ -60,7 +60,7 @@ const courseList = [
   {
     id: 2,
     youtubeUrl: "https://www.youtube.com/embed/MkcfB7S4fq0?si=nOy9AfcIzQLmCpzH",
-    imgSrc: "assets/images/kb-13/event-3.jpg",
+    imgSrc: "/src/assets/images/kb-13/event-3.jpg",
     price: "$69.00",
     author: "Emma Smith",
     title: "Web Development Fundamentals Intro",
@@ -76,7 +76,7 @@ const courseList = [
   {
     id: 3,
     youtubeUrl: "https://www.youtube.com/embed/I7NrVwm3apg?si=P0mE6cQ2tCLfmzK2",
-    imgSrc: "assets/images/kb-13/event-1.jpg",
+    imgSrc: "/src/assets/images/kb-13/event-1.jpg",
     price: "$59.00",
     author: "John Davis",
     title: "Data Science and Machine Learning Basics",
@@ -92,7 +92,7 @@ const courseList = [
   {
     id: 4,
     youtubeUrl: "https://www.youtube.com/embed/o_HsdG6vdWQ?si=nN3XTXrstYUYW9ts",
-    imgSrc: "/assets/landing-images/blog/blog-1.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-1.png",
     price: "$40.00",
     author: "Sarah Brown",
     title: "Advanced Art and Creativity Workshop",
@@ -107,7 +107,7 @@ const courseList = [
   {
     id: 5,
     youtubeUrl: "https://www.youtube.com/embed/LxO-6rlihSg?si=dYrtS_H3CYCnpg4L",
-    imgSrc: "/assets/landing-images/blog/blog-2.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-2.png",
     price: "$75.00",
     author: "Michael Clark",
     title: "Advanced Outdoor Photography Masterclass",
@@ -122,7 +122,7 @@ const courseList = [
   {
     id: 6,
     youtubeUrl: "https://www.youtube.com/embed/nUydkUedo4s?si=Do30-mSUyH1-BZw7",
-    imgSrc: "/assets/landing-images/blog/blog-3.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-3.png",
     price: "$55.00",
     author: "Sophia Anderson",
     title: "Cooking and Culinary Arts Course",
@@ -137,7 +137,7 @@ const courseList = [
   {
     id: 7,
     youtubeUrl: "https://www.youtube.com/embed/fIJ86j0HIxM?si=0JZC457-nBM2r1OE",
-    imgSrc: "/assets/landing-images/blog/blog-4.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-4.png",
     price: "$68.00",
     author: "David White",
     title: "Financial Planning and Investment Strategies",
@@ -152,7 +152,7 @@ const courseList = [
   {
     id: 8,
     youtubeUrl: "https://www.youtube.com/embed/AJXiiwyxwE0?si=DVjNfqPHZrAg6AXK" ,
-    imgSrc: "/assets/landing-images/blog/blog-5.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-5.png",
     price: "$49.00",
     author: "Olivia Green",
     title: "Language and Culture Exchange Program",
@@ -167,7 +167,7 @@ const courseList = [
   {
     id: 9,
     youtubeUrl: "https://www.youtube.com/embed/sMqtwbKc8EA?si=vBtZZO0lHY4h_CV-" ,
-    imgSrc: "/assets/landing-images/blog/blog-6.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-6.png",
     price: "$42.00",
     author: "Daniel Lee",
     title: "Environmental Sustainability Workshop",
@@ -182,7 +182,7 @@ const courseList = [
   {
     id: 10,
     youtubeUrl: "https://www.youtube.com/embed/rwSNvPLG2CQ?si=6CNeTPlpj2LGaHRV",
-    imgSrc: "/assets/landing-images/blog/blog-7.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-7.png",
     price: "$62.00",
     author: "Grace Miller",
     title: "Yoga and Mindfulness Retreat",
@@ -197,7 +197,7 @@ const courseList = [
   {
     id: 11,
     youtubeUrl: "https://www.youtube.com/embed/0rHUDWjR5gg?si=D6g0WS26DQWEpBWB" ,
-    imgSrc: "/assets/landing-images/blog/blog-8.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-8.png",
     price: "$55.00",
     author: "Sophie Turner",
     title: "Introduction to Astronomy",
@@ -212,7 +212,7 @@ const courseList = [
   {
     id: 12,
     youtubeUrl: "https://www.youtube.com/embed/aozlwC3XwfY?si=wlxJKKraYK8c_8OX",
-    imgSrc: "/assets/landing-images/blog/blog-9.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-9.png",
     price: "$70.00",
     author: "Robert Harris",
     title: "Entrepreneurship and Business Development",
@@ -227,7 +227,7 @@ const courseList = [
   {
     id: 13,
     youtubeUrl: "https://www.youtube.com/embed/WONZVnlam6U?si=M6qq_TJpBFe16TUr",
-    imgSrc: "/assets/landing-images/blog/blog-10.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-10.png",
     price: "$58.00",
     author: "Lucy Parker",
     title: "Graphic Design Essentials",
@@ -242,7 +242,7 @@ const courseList = [
   {
     id: 14,
     youtubeUrl: "https://www.youtube.com/embed/A1wBXNu0zs4?si=7oxEyUbEaOl_ZDFt",
-    imgSrc: "/assets/landing-images/blog/blog-11.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-11.png",
     price: "$48.00",
     author: "Michael Adams",
     title: "Music Production and Composition Workshop",
@@ -257,7 +257,7 @@ const courseList = [
   {
     id: 15,
     youtubeUrl: "https://www.youtube.com/embed/6Ia0arVEhqs?si=f7GD1Rl-pYivxAOz",
-    imgSrc: "/assets/landing-images/blog-2/blog-1.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-1.png",
     price: "$35.00",
     author: "Lisa Johnson",
     title: "Fun with Colors and Shapes",
@@ -272,7 +272,7 @@ const courseList = [
   {
     id: 16,
     youtubeUrl: "https://www.youtube.com/embed/0KsdJhWLPDw?si=HiHrhv9ZDOvKciyf",
-    imgSrc: "/assets/landing-images/blog-2/blog-2.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-2.png",
     price: "$40.00",
     author: "David Smith",
     title: "Storytime Adventures",
@@ -287,7 +287,7 @@ const courseList = [
   {
     id: 17,
     youtubeUrl: "https://www.youtube.com/embed/3oLculV1Od8?si=E_zZXlUt_vAbgfjs",
-    imgSrc: "/assets/landing-images/blog-2/blog-3.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-3.png",
     price: "$45.00",
     author: "Emily White",
     title: "Outdoor Nature Exploration",
@@ -302,7 +302,7 @@ const courseList = [
   {
     id: 18,
     youtubeUrl: "https://www.youtube.com/embed/sT-fdlxELxs?si=WnrSYd0RcCALbyt7",
-    imgSrc: "/assets/landing-images/blog-2/blog-4.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-4.png",
     price: "$38.00",
     author: "Sarah Turner",
     title: "Creative Arts and Crafts",
@@ -317,7 +317,7 @@ const courseList = [
   {
     id: 19,
     youtubeUrl: "https://www.youtube.com/embed/Mv80WebB2e4?si=1UtPvIbU87m_Dxu3",
-    imgSrc: "/assets/landing-images/blog-2/blog-5.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-5.png",
     price: "$30.00",
     author: "Daniel Green",
     title: "Music and Rhythm Playtime",
@@ -332,7 +332,7 @@ const courseList = [
   {
     id: 20,
     youtubeUrl: "https://www.youtube.com/embed/Uv9DNdCvG00?si=K_KqCYgtPoJSYFA6",
-    imgSrc: "/assets/landing-images/blog-2/blog-6.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-6.png",
     price: "$33.00",
     author: "Sophia Davis",
     title: "Little Scientists Explorers",
@@ -347,7 +347,7 @@ const courseList = [
   {
     id: 21,
     youtubeUrl: "https://www.youtube.com/embed/OZLNb_fbGks?si=jjeuJ1u12O9-xq58",
-    imgSrc: "/assets/landing-images/blog-2/blog-7.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-7.png",
     price: "$36.00",
     author: "Olivia Brown",
     title: "Outdoor Art and Nature Crafts",
@@ -362,7 +362,7 @@ const courseList = [
   {
     id: 22,
     youtubeUrl: "https://www.youtube.com/embed/Q_MejK4STuM?si=Rxm9nHqU8G4YKkrG" ,
-    imgSrc: "/assets/landing-images/blog-2/blog-8.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-8.png",
     price: "$42.00",
     author: "Michael Harris",
     title: "Fantasy Storytelling Adventures",
@@ -377,7 +377,7 @@ const courseList = [
   {
     id: 23,
     youtubeUrl: "https://www.youtube.com/embed/mCD8IOt9ln8?si=U6AT9RIuR7FjxIwr",
-    imgSrc: "/assets/landing-images/blog-2/blog-9.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-9.png",
     price: "$39.00",
     author: "Emma Turner",
     title: "Playful Math and Numbers",
@@ -392,7 +392,7 @@ const courseList = [
   {
     id: 24,
     youtubeUrl: "https://www.youtube.com/embed/T7VJvQFkO6Y?si=QOcXOd8L5DWHdIsj",
-    imgSrc: "/assets/landing-images/blog-2/blog-10.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-10.png",
     price: "$37.00",
     author: "John Anderson",
     title: "Creative Storybook Illustration",
@@ -407,7 +407,7 @@ const courseList = [
   {
     id: 25,
     youtubeUrl: "https://www.youtube.com/embed/xplQI2X9RPU?si=B-OIrTigIyQLqAlq",
-    imgSrc: "/assets/landing-images/blog-2/blog-11.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-11.png",
     price: "$34.00",
     author: "Sophie Adams",
     title: "Outdoor Science Explorers",
@@ -422,7 +422,7 @@ const courseList = [
   {
     id: 26,
     youtubeUrl: "https://www.youtube.com/embed/FyXyF9_La6w?si=ywbNis-FsJubofOU" ,
-    imgSrc: "/assets/landing-images/blog-2/blog-12.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-12.png",
     price: "$32.00",
     author: "Lucy Parker",
     title: "Dance and Movement Exploration",
@@ -437,7 +437,7 @@ const courseList = [
   {
     id: 27,
     youtubeUrl: "https://www.youtube.com/embed/ECmGcs_VXrg?si=vyN3BeNbSvIuufcV",
-    imgSrc: "/assets/landing-images/blog-2/blog-13.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-13.png",
     price: "$31.00",
     author: "Michael Turner",
     title: "Gardening and Planting Fun",
@@ -452,7 +452,7 @@ const courseList = [
   {
     id: 28,
     youtubeUrl: "https://www.youtube.com/embed/AhP5Tg_BLIk?si=ooXLT3Y9igiMeVYY",
-    imgSrc: "/assets/landing-images/blog-2/blog-14.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-14.png",
     price: "$33.00",
     author: "Olivia Harris",
     title: "Exploring Animals and Nature",
@@ -467,7 +467,7 @@ const courseList = [
   {
     id: 29,
     youtubeUrl: "https://www.youtube.com/embed/WFygb_vU6e0?si=uoMkWKeKnzlIhu90" ,
-    imgSrc: "/assets/landing-images/blog-2/blog-15.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-15.png",
     price: "$35.00",
     author: "Daniel Clark",
     title: "Fun with Science Experiments",
@@ -482,7 +482,7 @@ const courseList = [
   {
     id: 30,
     youtubeUrl: "https://www.youtube.com/embed/Q-o3ZL15d8s?si=i118y8c6emKElWI3" ,
-    imgSrc: "/assets/landing-images/blog-2/blog-16.png",
+    imgSrc: "/src/assets/landing-images/blog-2/blog-16.png",
     price: "$36.00",
     author: "Sophia Turner",
     title: "Crafting and Creative Play",
@@ -497,7 +497,7 @@ const courseList = [
   {
     id: 31,
     youtubeUrl: "https://www.youtube.com/embed/3dx04Vz3jiI?si=n1JkjIZfyys3Bxc5",
-    imgSrc: "assets/images/tl-8/course-1.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-1.jpg",
     price: "$250.00",
     author: "John Smith",
     title: "Beginner's Driving Course",
@@ -512,7 +512,7 @@ const courseList = [
   {
     id: 32,
     youtubeUrl: "https://www.youtube.com/embed/5-kEvHnwdoA?si=30mMnoJ332IrrI4e",
-    imgSrc: "assets/images/tl-8/course-2.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-2.jpg",
     price: "$300.00",
     author: "Emily Johnson",
     title: "Defensive Driving Techniques",
@@ -527,7 +527,7 @@ const courseList = [
   {
     id: 33,
     youtubeUrl: "https://www.youtube.com/embed/nZmBW23Djjg?si=s6fmMX73wpfm5IeJ",
-    imgSrc: "assets/images/tl-8/course-3.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-3.jpg",
     price: "$280.00",
     author: "Daniel Turner",
     title: "Parallel Parking Mastery",
@@ -542,7 +542,7 @@ const courseList = [
   {
     id: 34,
     youtubeUrl: "https://www.youtube.com/embed/hBER4EIT8L0?si=KmTTejKhri-Hjk8Y" ,
-    imgSrc: "assets/images/tl-8/course-4.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-4.jpg",
     price: "$320.00",
     author: "Sophia Harris",
     title: "Advanced Highway Driving",
@@ -557,7 +557,7 @@ const courseList = [
   {
     id: 35,
     youtubeUrl: "https://www.youtube.com/embed/Gt3LsrjcWAY?si=ZhAHTf13xvcE9760",
-    imgSrc: "assets/images/tl-8/course-5.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-5.jpg",
     price: "$270.00",
     author: "Oliver Davis",
     title: "City Traffic Navigation",
@@ -572,7 +572,7 @@ const courseList = [
   {
     id: 36,
     youtubeUrl: "https://www.youtube.com/embed/GSqdmNyctn0?si=_q4p3pL2MdRiJzxm" ,
-    imgSrc: "assets/images/tl-8/course-6.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-6.jpg",
     price: "$290.00",
     author: "Lily Turner",
     title: "Nighttime Driving Skills",
@@ -587,7 +587,7 @@ const courseList = [
   {
     id: 37,
     youtubeUrl: "https://www.youtube.com/embed/vyFXgGjJ0as?si=iiRfDb6XlgXOplTH",
-    imgSrc: "assets/images/tl-8/course-7.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-7.jpg",
     price: "$330.00",
     author: "Lucas Green",
     title: "Off-Road Driving Adventure",
@@ -602,7 +602,7 @@ const courseList = [
   {
     id: 38,
     youtubeUrl: "https://www.youtube.com/embed/1Vm_ASm2zfs?si=6y-mSA0lPex5JMJM" ,
-    imgSrc: "assets/images/tl-8/course-8.jpg",
+    imgSrc: "/src/assets/images/tl-8/course-8.jpg",
     price: "$310.00",
     author: "Natalie Adams",
     title: "Electric Vehicle (EV) Driving",
@@ -617,7 +617,7 @@ const courseList = [
   {
     id: 39,
     youtubeUrl: "https://www.youtube.com/embed/6Q2IP5K29gY?si=rTUem1xQGey5wVmc" ,
-    imgSrc: "assets/images/tl-9/class-1.jpg",
+    imgSrc: "/src/assets/images/tl-9/class-1.jpg",
     price: "$450",
     author: "Sophia Turner",
     title: "Violin Lessons.",
@@ -633,7 +633,7 @@ const courseList = [
   {
     id: 40,
     youtubeUrl: "https://www.youtube.com/embed/BBz-Jyr23M4?si=uknYb9rUpowAwqOe",
-    imgSrc: "assets/images/tl-9/class-2.jpg",
+    imgSrc: "/src/assets/images/tl-9/class-2.jpg",
     price: "$400",
     author: "David Harris",
     title: "Guitar Basics",
@@ -649,7 +649,7 @@ const courseList = [
   {
     id: 41,
     youtubeUrl: "https://www.youtube.com/embed/4SXQ_wlbWog?si=k3i3v5y-3WZLMyZS",
-    imgSrc: "assets/images/tl-9/class-3.jpg",
+    imgSrc: "/src/assets/images/tl-9/class-3.jpg",
     price: "$380",
     author: "Olivia Smith",
     title: "Piano for Beginners",
@@ -665,7 +665,7 @@ const courseList = [
   {
     id: 42,
     youtubeUrl: "https://www.youtube.com/embed/K8HnZ8DHXN4?si=msY0Fz0RyeOFmPoH",
-    imgSrc: "/assets/landing-images/blog-4/blog-4.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-4.png",
     price: "$320",
     author: "John Turner",
     title: "Drumming Essentials",
@@ -681,7 +681,7 @@ const courseList = [
   {
     id: 43,
     youtubeUrl: "https://www.youtube.com/embed/Rg8LfBRRR0o?si=NJmNtYbT4Cwi9ZRs",
-    imgSrc: "/assets/landing-images/blog-4/blog-5.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-5.png",
     price: "$420",
     author: "Emily White",
     title: "Flute Masterclass",
@@ -697,7 +697,7 @@ const courseList = [
   {
     id: 44,
     youtubeUrl: "https://www.youtube.com/embed/G_IOGR87fbE?si=S32yzDiXCraypqSX" ,
-    imgSrc: "/assets/landing-images/blog-4/blog-6.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-6.png",
     price: "$360",
     author: "Lucas Turner",
     title: "Trumpet Lessons",
@@ -713,7 +713,7 @@ const courseList = [
   {
     id: 45,
     youtubeUrl: "https://www.youtube.com/embed/AFfuYZudBIU?si=EjH_xcFsWy8zL4DP",
-    imgSrc: "/assets/landing-images/blog-4/blog-7.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-7.png",
     price: "$400",
     author: "Sophia Smith",
     title: "Electric Guitar Rockstar",
@@ -729,7 +729,7 @@ const courseList = [
   {
     id: 46,
     youtubeUrl: "https://www.youtube.com/embed/-E5ovOA9VM8?si=8XqoOZRiO5fPqUWf",
-    imgSrc: "/assets/landing-images/blog-4/blog-8.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-8.png",
     price: "$380",
     author: "Oliver Davis",
     title: "Saxophone Melodies",
@@ -745,7 +745,7 @@ const courseList = [
   {
     id: 47,
     youtubeUrl: "https://www.youtube.com/embed/Gfggr-IJeh4?si=W8XM3NxushOz3fny",
-    imgSrc: "/assets/landing-images/blog-4/blog-9.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-9.png",
     price: "$360",
     author: "Natalie Harris",
     title: "Keyboard Magic",
@@ -761,7 +761,7 @@ const courseList = [
   {
     id: 48,
     youtubeUrl: "https://www.youtube.com/embed/gTnz040x5CA?si=8aGnDuB-LnRnB0Cf",
-    imgSrc: "/assets/landing-images/blog-4/blog-10.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-10.png",
     price: "$380",
     author: "Daniel Turner",
     title: "Violin Mastery",
@@ -777,7 +777,7 @@ const courseList = [
   {
     id: 49,
     youtubeUrl: "https://www.youtube.com/embed/8Xd6XeWqEtI?si=2s3ocor5jt2PUMHB",
-    imgSrc: "/assets/landing-images/blog-4/blog-11.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-11.png",
     price: "$420",
     author: "Emma Turner",
     title: "Harmonica Harmonies",
@@ -793,7 +793,7 @@ const courseList = [
   {
     id: 50,
     youtubeUrl: "https://www.youtube.com/embed/Iiaw93EbFBQ?si=eS5-7W3JXxWmBU6f" ,
-    imgSrc: "/assets/landing-images/blog-4/blog-12.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-12.png",
     price: "$350",
     author: "Liam Harris",
     title: "Ukulele Strumming",
@@ -809,7 +809,7 @@ const courseList = [
   {
     id: 51,
     youtubeUrl: "https://www.youtube.com/embed/9FmnQcHnacg?si=w-Ras670v58IB1na",
-    imgSrc: "/assets/landing-images/blog-4/blog-13.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-13.png",
     price: "$420",
     author: "Sophie Turner",
     title: "Accordion Virtuoso",
@@ -825,7 +825,7 @@ const courseList = [
   {
     id: 52,
     youtubeUrl: "https://www.youtube.com/embed/ywSMRccMDvE?si=woYCRn1uHD8NZfbB" ,
-    imgSrc: "/assets/landing-images/blog-4/blog-14.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-14.png",
     price: "$360",
     author: "Mia Harris",
     title: "Xylophone Magic",
@@ -841,7 +841,7 @@ const courseList = [
   {
     id: 53,
     youtubeUrl: "https://www.youtube.com/embed/G5DBX9vrP5U?si=uCg7mY6ffOMfIzho",
-    imgSrc: "/assets/landing-images/blog-4/blog-1.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-1.png",
     price: "$380",
     author: "Ethan Turner",
     title: "Harp Harmony",
@@ -857,7 +857,7 @@ const courseList = [
   {
     id: 54,
     youtubeUrl: "https://www.youtube.com/embed/qzJ1o165jpc?si=gMwFYp4hy_CU65U6",
-    imgSrc: "/assets/landing-images/blog-4/blog-2.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-2.png",
     price: "$350",
     author: "Luna Smith",
     title: "Mandolin Melodies",
@@ -876,7 +876,7 @@ const courseList = [
 const testimonialList = [
   {
     id: 0,
-    imgSrc: "assets/images/tl-4/testimony-1.jpg",
+    imgSrc: "/src/assets/images/tl-4/testimony-1.jpg",
     review:
       "Morbi consectetur elementum purus mattis cursus purus vel metus iaculis sagittis. Vestibulum molestie bibendum turpis luctus sem lacinia quis. Quisque amet velit sit amet dui hendrerit ultricies a id ipsum Mauris sit amet lacinia est, vitae tristique metus tempor nibh ultricies.",
     name: "Russell Sprout",
@@ -884,7 +884,7 @@ const testimonialList = [
   },
   {
     id: 1,
-    imgSrc: "assets/images/tl-4/testimony-2.jpg",
+    imgSrc: "/src/assets/images/tl-4/testimony-2.jpg",
     review:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla efficitur, neque non vestibulum rhoncus, nunc tortor cursus augue, eget luctus ligula urna at purus. Suspendisse potenti. Sed eu elit vel justo rhoncus finibus.",
     name: "Alice Johnson",
@@ -892,7 +892,7 @@ const testimonialList = [
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-4/testimony-3.jpg",
+    imgSrc: "/src/assets/images/tl-4/testimony-3.jpg",
     review:
       "Vestibulum gravida risus a massa vulputate, nec hendrerit dui tincidunt. Sed sagittis libero et nibh hendrerit, ac gravida justo varius. Ut vel sagittis augue, at dignissim dolor. In hac habitasse platea dictumst.",
     name: "Emily Wilson",
@@ -900,7 +900,7 @@ const testimonialList = [
   },
   {
     id: 3,
-    imgSrc: "assets/images/tl-4/testimony-4.jpg",
+    imgSrc: "/src/assets/images/tl-4/testimony-4.jpg",
     review:
       "Vestibulum gravida risus a massa vulputate, nec hendrerit dui tincidunt. Sed sagittis libero et nibh hendrerit, ac gravida justo varius. Ut vel sagittis augue, at dignissim dolor. In hac habitasse platea dictumst.",
     name: "Cassidy Jensen",
@@ -911,322 +911,322 @@ const testimonialList = [
 const teacherList = [
   {
     id: 0,
-    imgSrc: "assets/images/tl-2/teacher-1.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-1.jpg",
     name: "Nathaneal Down",
     slug: "nathaneal-down",
     position: "Music Teacher",
   },
   {
     id: 1,
-    imgSrc: "assets/images/tl-2/teacher-2.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-2.jpg",
     name: "Ella Anderson",
     slug: "ella-anderson",
     position: "English Teacher",
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-2/teacher-3.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-3.jpg",
     name: "David Smith",
     slug: "david-smith",
     position: "Mathematics Teacher",
   },
   {
     id: 3,
-    imgSrc: "assets/images/tl-2/teacher-4.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-4.jpg",
     name: "Sarah Johnson",
     slug: "sarah-johnson",
     position: "Science Teacher",
   },
   {
     id: 4,
-    imgSrc: "assets/images/tl-2/teacher-5.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-5.jpg",
     name: "Sophia Brown",
     slug: "sophia-brown",
     position: "Art Teacher",
   },
   {
     id: 5,
-    imgSrc: "assets/images/tl-2/teacher-6.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-6.jpg",
     name: "Daniel White",
     slug: "daniel-white",
     position: "History Teacher",
   },
   {
     id: 6,
-    imgSrc: "assets/images/tl-2/teacher-7.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-7.jpg",
     name: "Liam Johnson",
     slug: "liam-johnson",
     position: "Physical Education Teacher",
   },
   {
     id: 7,
-    imgSrc: "assets/images/tl-2/teacher-8.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-8.jpg",
     name: "Olivia Martinez",
     slug: "olivia-martinez",
     position: "Spanish Teacher",
   },
   {
     id: 8,
-    imgSrc: "assets/images/tl-2/teacher-9.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-9.jpg",
     name: "Isabella Davis",
     slug: "isabella-davis",
     position: "Chemistry Teacher",
   },
   {
     id: 9,
-    imgSrc: "assets/images/tl-2/teacher-10.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-10.jpg",
     name: "James Taylor",
     slug: "james-taylor",
     position: "Physics Teacher",
   },
   {
     id: 10,
-    imgSrc: "assets/images/tl-2/teacher-11.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-11.jpg",
     name: "Emma Wilson",
     slug: "emma-wilson",
     position: "Biology Teacher",
   },
   {
     id: 11,
-    imgSrc: "assets/images/tl-2/teacher-12.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-12.jpg",
     name: "Lucas Robinson",
     slug: "lucas-robinson",
     position: "Geography Teacher",
   },
   {
     id: 12,
-    imgSrc: "assets/images/tl-2/teacher-13.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-13.jpg",
     name: "Ava Garcia",
     slug: "ava-garcia",
     position: "French Teacher",
   },
   {
     id: 13,
-    imgSrc: "assets/images/tl-2/teacher-14.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-14.jpg",
     name: "Henry Adams",
     slug: "henry-adams",
     position: "Physical Education Teacher",
   },
   {
     id: 14,
-    imgSrc: "assets/images/tl-2/teacher-15.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-15.jpg",
     name: "Mia Turner",
     slug: "mia-turner",
     position: "Music Teacher",
   },
   {
     id: 15,
-    imgSrc: "assets/images/tl-2/teacher-16.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-16.jpg",
     name: "Oliver Martin",
     slug: "oliver-martin",
     position: "Drama Teacher",
   },
   {
     id: 16,
-    imgSrc: "assets/images/tl-2/teacher-17.jpg",
+    imgSrc: "/src/assets/images/tl-2/teacher-17.jpg",
     name: "Sophie Evans",
     slug: "sophie-evans",
     position: "Computer Science Teacher",
   },
   {
     id: 17,
-    imgSrc: "assets/images/tl-7/fac-1.jpg",
+    imgSrc: "/src/assets/images/tl-7/fac-1.jpg",
     name: "Parsley Montana",
     slug: "parsley-montana",
     position: "Special Education Teacher",
   },
   {
     id: 18,
-    imgSrc: "assets/images/tl-7/fac-2.jpg",
+    imgSrc: "/src/assets/images/tl-7/fac-2.jpg",
     name: "Jackson Adams",
     slug: "jackson-adams",
     position: "Physical Education Teacher",
   },
   {
     id: 19,
-    imgSrc: "assets/images/tl-7/fac-3.jpg",
+    imgSrc: "/src/assets/images/tl-7/fac-3.jpg",
     name: "Grace Martinez",
     slug: "grace-martinez",
     position: "Spanish Teacher",
   },
   {
     id: 20,
-    imgSrc: "assets/images/tl-7/fac-4.png",
+    imgSrc: "/src/assets/images/tl-7/fac-4.png",
     name: "Sophie White",
     slug: "sophie-white",
     position: "Biology Teacher",
   },
   {
     id: 21,
-    imgSrc: "assets/images/tl-7/fac-5.png",
+    imgSrc: "/src/assets/images/tl-7/fac-5.png",
     name: "Ethan Turner",
     slug: "ethan-turner",
     position: "Chemistry Teacher",
   },
   {
     id: 22,
-    imgSrc: "assets/images/tl-7/fac-6.png",
+    imgSrc: "/src/assets/images/tl-7/fac-6.png",
     name: "Lucas Smith",
     slug: "lucas-smith",
     position: "Physics Teacher",
   },
   {
     id: 23,
-    imgSrc: "assets/images/tl-7/fac-7.png",
+    imgSrc: "/src/assets/images/tl-7/fac-7.png",
     name: "Liam Johnson",
     slug: "liam-johnson",
     position: "Mathematics Teacher",
   },
   {
     id: 24,
-    imgSrc: "assets/images/tl-7/fac-8.png",
+    imgSrc: "/src/assets/images/tl-7/fac-8.png",
     name: "Emma Wilson",
     slug: "emma-wilson",
     position: "English Teacher",
   },
   {
     id: 25,
-    imgSrc: "assets/images/tl-7/fac-9.png",
+    imgSrc: "/src/assets/images/tl-7/fac-9.png",
     name: "Olivia Davis",
     slug: "olivia-davis",
     position: "Art Teacher",
   },
   {
     id: 26,
-    imgSrc: "assets/images/tl-7/fac-10.png",
+    imgSrc: "/src/assets/images/tl-7/fac-10.png",
     name: "Daniel Taylor",
     slug: "daniel-taylor",
     position: "History Teacher",
   },
   {
     id: 27,
-    imgSrc: "assets/images/tl-7/fac-11.png",
+    imgSrc: "/src/assets/images/tl-7/fac-11.png",
     name: "Ava Garcia",
     slug: "ava-garcia",
     position: "Music Teacher",
   },
   {
     id: 28,
-    imgSrc: "assets/images/tl-7/fac-12.png",
+    imgSrc: "/src/assets/images/tl-7/fac-12.png",
     name: "Henry Adams",
     slug: "henry-adams",
     position: "Computer Science Teacher",
   },
   {
     id: 29,
-    imgSrc: "assets/images/tl-7/fac-13.png",
+    imgSrc: "/src/assets/images/tl-7/fac-13.png",
     name: "Sophia Adams",
     slug: "sophia-adams",
     position: "Physical Education Teacher",
   },
   {
     id: 30,
-    imgSrc: "assets/images/tl-7/fac-14.png",
+    imgSrc: "/src/assets/images/tl-7/fac-14.png",
     name: "David Johnson",
     slug: "david-johnson",
     position: "French Teacher",
   },
   {
     id: 31,
-    imgSrc: "assets/images/tl-7/fac-15.png",
+    imgSrc: "/src/assets/images/tl-7/fac-15.png",
     name: "Lily Robinson",
     slug: "lily-robinson",
     position: "Geography Teacher",
   },
   {
     id: 32,
-    imgSrc: "assets/images/tl-5/faculty-1.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-1.jpg",
     name: "Dominic L. Ement",
     slug: "dominic-l-ement",
     position: "Lecturer",
   },
   {
     id: 33,
-    imgSrc: "assets/images/tl-5/faculty-2.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-2.jpg",
     name: "Sophia Williams",
     slug: "sophia-williams",
     position: "Physical Education Teacher",
   },
   {
     id: 34,
-    imgSrc: "assets/images/tl-5/faculty-3.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-3.jpg",
     name: "Jacob Brown",
     slug: "jacob-brown",
     position: "Spanish Teacher",
   },
   {
     id: 35,
-    imgSrc: "assets/images/tl-5/faculty-4.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-4.jpg",
     name: "Ava Davis",
     slug: "ava-davis",
     position: "Biology Teacher",
   },
   {
     id: 36,
-    imgSrc: "assets/images/tl-5/faculty-5.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-5.jpg",
     name: "Liam Turner",
     slug: "liam-turner",
     position: "Chemistry Teacher",
   },
   {
     id: 37,
-    imgSrc: "assets/images/tl-5/faculty-6.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-6.jpg",
     name: "Olivia Smith",
     slug: "olivia-smith",
     position: "Physics Teacher",
   },
   {
     id: 38,
-    imgSrc: "assets/images/tl-5/faculty-7.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-7.jpg",
     name: "Ethan Adams",
     slug: "ethan-adams",
     position: "Mathematics Teacher",
   },
   {
     id: 39,
-    imgSrc: "assets/images/tl-5/faculty-8.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-8.jpg",
     name: "Isabella Johnson",
     slug: "isabella-johnson",
     position: "English Teacher",
   },
   {
     id: 40,
-    imgSrc: "assets/images/tl-5/faculty-9.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-9.jpg",
     name: "Daniel Wilson",
     slug: "daniel-wilson",
     position: "Art Teacher",
   },
   {
     id: 41,
-    imgSrc: "assets/images/tl-5/faculty-10.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-10.jpg",
     name: "Sophie Taylor",
     slug: "sophie-taylor",
     position: "History Teacher",
   },
   {
     id: 42,
-    imgSrc: "assets/images/tl-5/faculty-11.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-11.jpg",
     name: "Mia Garcia",
     slug: "mia-garcia",
     position: "Music Teacher",
   },
   {
     id: 43,
-    imgSrc: "assets/images/tl-5/faculty-12.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-12.jpg",
     name: "Henry Smith",
     slug: "henry-smith",
     position: "Computer Science Teacher",
   },
   {
     id: 44,
-    imgSrc: "assets/images/tl-5/faculty-13.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-13.jpg",
     name: "Lily Adams",
     slug: "lily-adams",
     position: "Geography Teacher",
   },
   {
     id: 45,
-    imgSrc: "assets/images/tl-5/faculty-14.jpg",
+    imgSrc: "/src/assets/images/tl-5/faculty-14.jpg",
     name: "Sophia Robinson",
     slug: "sophia-robinson",
     position: "French Teacher",
@@ -1237,28 +1237,28 @@ const aboutTestimonialList = [
   {
     id: 0,
     desc: "It was my immense luck and fortune to be a part of Educlab University where I can grow. The entire faculty & department leaves no stone unturned to shape one's future in my four years.",
-    imgSrc: "assets/images/tl-2/reviewer-1.jpg",
+    imgSrc: "/src/assets/images/tl-2/reviewer-1.jpg",
     name: "Brian Cumin",
     label: "B.Tech - Civil, 2015 - 2020",
   },
   {
     id: 1,
     desc: "Educlab University provided me with a nurturing environment to pursue my passion for technology. The support from professors and the cutting-edge facilities made my journey unforgettable.",
-    imgSrc: "assets/images/tl-2/reviewer-2.jpg",
+    imgSrc: "/src/assets/images/tl-2/reviewer-2.jpg",
     name: "Jennifer Smith",
     label: "B.Sc - Computer Science, 2016 - 2021",
   },
   {
     id: 2,
     desc: "I had an amazing time at Educlab University. The diverse community and engaging courses helped me develop both academically and personally. I had a great time. Highly recommended!",
-    imgSrc: "assets/images/tl-2/reviewer-3.jpg",
+    imgSrc: "/src/assets/images/tl-2/reviewer-3.jpg",
     name: "David Johnson",
     label: "B.A - Economics, 2017 - 2022",
   },
   {
     id: 3,
     desc: "My experience at Educlab University was transformative. The challenging curriculum and supportive professors prepared me for success in my chosen field. Hope everyone gets to experience it.",
-    imgSrc: "assets/images/tl-2/reviewer-4.jpg",
+    imgSrc: "/src/assets/images/tl-2/reviewer-4.jpg",
     name: "Sarah Davis",
     label: "B.Sc - Biology, 2018 - 2023",
   },
@@ -1267,15 +1267,15 @@ const aboutTestimonialList = [
 const alumniImgList = [
   {
     id: 0,
-    imgSrc: "assets/images/tl-5/alumni-1.jpg",
+    imgSrc: "/src/assets/images/tl-5/alumni-1.jpg",
   },
   {
     id: 1,
-    imgSrc: "assets/images/tl-5/alumni-2.jpg",
+    imgSrc: "/src/assets/images/tl-5/alumni-2.jpg",
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-5/alumni-3.jpg",
+    imgSrc: "/src/assets/images/tl-5/alumni-3.jpg",
   },
 ];
 
@@ -1303,43 +1303,43 @@ const alumniTextList = [
 const membershipList = [
   {
     id: 0,
-    imgSrc: "assets/images/kb-10/member-1.png",
+    imgSrc: "/src/assets/images/kb-10/member-1.png",
   },
   {
     id: 1,
-    imgSrc: "assets/images/kb-10/member-2.png",
+    imgSrc: "/src/assets/images/kb-10/member-2.png",
   },
   {
     id: 2,
-    imgSrc: "assets/images/kb-10/member-3.png",
+    imgSrc: "/src/assets/images/kb-10/member-3.png",
   },
   {
     id: 3,
-    imgSrc: "assets/images/kb-10/member-4.png",
+    imgSrc: "/src/assets/images/kb-10/member-4.png",
   },
   {
     id: 4,
-    imgSrc: "assets/images/kb-10/member-5.png",
+    imgSrc: "/src/assets/images/kb-10/member-5.png",
   },
   {
     id: 5,
-    imgSrc: "assets/images/kb-10/member-1.png",
+    imgSrc: "/src/assets/images/kb-10/member-1.png",
   },
   {
     id: 6,
-    imgSrc: "assets/images/kb-10/member-2.png",
+    imgSrc: "/src/assets/images/kb-10/member-2.png",
   },
   {
     id: 7,
-    imgSrc: "assets/images/kb-10/member-3.png",
+    imgSrc: "/src/assets/images/kb-10/member-3.png",
   },
   {
     id: 8,
-    imgSrc: "assets/images/kb-10/member-4.png",
+    imgSrc: "/src/assets/images/kb-10/member-4.png",
   },
   {
     id: 9,
-    imgSrc: "assets/images/kb-10/member-5.png",
+    imgSrc: "/src/assets/images/kb-10/member-5.png",
   },
 ];
 
@@ -1370,28 +1370,28 @@ const testimonialList2 = [
     desc: "Morbi consectetur elementum purus mattis cursus purus vel metus iaculis sagittis. Vestibulum molestie bibendum turpis, id luctus sem lacinia quis. Quisque sit amet velit sit amet dui hendrerit ultricies a id ipsum.",
     name: "Thomas R. Toe",
     role: "Student",
-    imgSrc: "assets/images/tl-7/reviewer-1.jpg",
+    imgSrc: "/src/assets/images/tl-7/reviewer-1.jpg",
   },
   {
     id: 1,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere ligula nec urna vehicula, eget ultrices velit efficitur. Vivamus eget nunc odio. Sed pharetra laoreet quam, at bibendum tellus placerat quis.",
     name: "Jennifer K. Smith",
     role: "Teacher",
-    imgSrc: "assets/images/tl-7/reviewer-2.png",
+    imgSrc: "/src/assets/images/tl-7/reviewer-2.png",
   },
   {
     id: 2,
     desc: "Pellentesque tristique tincidunt dolor, nec placerat odio. Sed nec massa non mi rhoncus rhoncus. Sed eget massa scelerisque, aliquam quam a, suscipit nisl. Curabitur interdum ultricies ex, a laoreet quam semper a.",
     name: "David M. Johnson",
     role: "Alumnus",
-    imgSrc: "assets/images/tl-7/reviewer-3.jpg",
+    imgSrc: "/src/assets/images/tl-7/reviewer-3.jpg",
   },
   {
     id: 3,
     desc: "Aenean dignissim tincidunt dolor, id aliquam nunc vehicula nec. In viverra libero vitae tincidunt tristique. Ut in ligula vitae lorem bibendum malesuada ac eget ante. Vestibulum pharetra arcu nec est pharetra, ut convallis tellus tristique.",
     name: "Emily L. White",
     role: "Parent",
-    imgSrc: "assets/images/tl-7/reviewer-4.jpg",
+    imgSrc: "/src/assets/images/tl-7/reviewer-4.jpg",
   },
 ];
 
@@ -1401,70 +1401,70 @@ const testimonialList3 = [
     desc: "Morbi consectetur elementum purus mattis cursus purus vel metus iaculis sagittis. Vestibulum molestie bibendum turpis, id luctus sem lacinia quis. Quisque sit amet velit sit amet dui hendrerit ultricies a id ipsum.",
     name: "Thomas R. Toe",
     role: "Student",
-    imgSrc: "assets/images/tl-9/reviewer-1.jpg",
+    imgSrc: "/src/assets/images/tl-9/reviewer-1.jpg",
   },
   {
     id: 1,
     desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere ligula nec urna vehicula, eget ultrices velit efficitur. Vivamus eget nunc odio. Sed pharetra laoreet quam, at bibendum tellus placerat quis.",
     name: "Jennifer K. Smith",
     role: "Teacher",
-    imgSrc: "assets/images/tl-9/reviewer-2.jpg",
+    imgSrc: "/src/assets/images/tl-9/reviewer-2.jpg",
   },
   {
     id: 2,
     desc: "Pellentesque tristique tincidunt dolor, nec placerat odio. Sed nec massa non mi rhoncus rhoncus. Sed eget massa scelerisque, aliquam quam a, suscipit nisl. Curabitur interdum ultricies ex, a laoreet quam semper a.",
     name: "David M. Johnson",
     role: "Alumnus",
-    imgSrc: "assets/images/tl-9/reviewer-3.jpg",
+    imgSrc: "/src/assets/images/tl-9/reviewer-3.jpg",
   },
   {
     id: 3,
     desc: "Aenean dignissim tincidunt dolor, id aliquam nunc vehicula nec. In viverra libero vitae tincidunt tristique. Ut in ligula vitae lorem bibendum malesuada ac eget ante. Vestibulum pharetra arcu nec est pharetra, ut convallis tellus tristique.",
     name: "Emily L. White",
     role: "Parent",
-    imgSrc: "assets/images/tl-9/reviewer-4.jpg",
+    imgSrc: "/src/assets/images/tl-9/reviewer-4.jpg",
   },
 ];
 
 const serviceSliderData = [
   {
     id: 0,
-    imgSrc: "assets/images/tl-2/service-1.png",
+    imgSrc: "/src/assets/images/tl-2/service-1.png",
     order: "01",
     title: "Friendly Space",
     desc: "Creating a warm, inviting space that feels just like home, our environment fosters comfort, connection, and a sense of belonging.",
   },
   {
     id: 1,
-    imgSrc: "assets/images/tl-2/service-2.png",
+    imgSrc: "/src/assets/images/tl-2/service-2.png",
     order: "02",
     title: "Exceptional Care",
     desc: "Our dedicated team provides exceptional care and support, ensuring the well-being and happiness of our residents.",
   },
   {
     id: 2,
-    imgSrc: "assets/images/tl-2/service-3.png",
+    imgSrc: "/src/assets/images/tl-2/service-3.png",
     order: "03",
     title: "Engaging Activities",
     desc: "We offer a wide range of engaging activities and events to keep residents active, social, and fulfilled.",
   },
   {
     id: 3,
-    imgSrc: "assets/images/tl-2/service-1.png",
+    imgSrc: "/src/assets/images/tl-2/service-1.png",
     order: "04",
     title: "Nutritious Dining",
     desc: "Our chefs craft delicious and nutritious meals that cater to individual preferences and dietary needs.",
   },
   {
     id: 4,
-    imgSrc: "assets/images/tl-2/service-2.png",
+    imgSrc: "/src/assets/images/tl-2/service-2.png",
     order: "05",
     title: "Safety & Security",
     desc: "Safety is our top priority; we provide a secure environment to ensure peace of mind for our residents and their families.",
   },
   {
     id: 5,
-    imgSrc: "assets/images/tl-2/service-3.png",
+    imgSrc: "/src/assets/images/tl-2/service-3.png",
     order: "06",
     title: "Wellness Programs",
     desc: "We offer comprehensive wellness programs to promote physical and mental health, enhancing the overall quality of life for our residents.",
@@ -1539,7 +1539,7 @@ const blogList = [
 const eventList = [
   {
     id: 0,
-    imgSrc: "/assets/landing-images/blog/blog-1.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-1.png",
     youtubeUrl: "https://www.youtube.com/embed/VqhDnaqhnd4?si=LL6xoZfjSJkMNNLJ",
     dayDate: '05',
     monthYear: 'March, 2023',
@@ -1553,7 +1553,7 @@ const eventList = [
   },
   {
     id: 1,
-    imgSrc: "/assets/landing-images/blog/blog-2.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-2.png",
     youtubeUrl: "https://www.youtube.com/embed/2U1mE-dJy_c?si=yZFpDpVICduMAukZ",
     dayDate: '15',
     monthYear: 'March, 2023',
@@ -1567,7 +1567,7 @@ const eventList = [
   },
   {
     id: 2,
-    imgSrc: "/assets/landing-images/blog/blog-3.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-3.png",
     youtubeUrl: "https://www.youtube.com/embed/5p248yoa3oE?si=0TyDKoEacnKTLTxH",
     dayDate: '20',
     monthYear: 'March, 2023',
@@ -1581,7 +1581,7 @@ const eventList = [
   },
   {
     id: 3,
-    imgSrc: "/assets/landing-images/blog/blog-4.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-4.png",
     youtubeUrl: "https://www.youtube.com/embed/C-EHoNfkoDM?si=ZGXNX6GSFRYTJ89W",
     dayDate: '10',
     monthYear: 'March, 2023',
@@ -1595,7 +1595,7 @@ const eventList = [
   },
   {
     id: 4,
-    imgSrc: "/assets/landing-images/blog/blog-5.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-5.png",
     youtubeUrl: "https://www.youtube.com/embed/ND_AjF_KTD8?si=zXbMMqzs6gvddhzN",
     dayDate: '12',
     monthYear: 'March, 2023',
@@ -1609,7 +1609,7 @@ const eventList = [
   },
   {
     id: 5,
-    imgSrc: "/assets/landing-images/blog/blog-6.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-6.png",
     youtubeUrl: "https://www.youtube.com/embed/UnIZlFrFWIY?si=uC1HnRZ27a4szFOY",
     dayDate: '22',
     monthYear: 'March, 2023',
@@ -1623,7 +1623,7 @@ const eventList = [
   },
   {
     id: 6,
-    imgSrc: "/assets/landing-images/blog/blog-7.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-7.png",
     youtubeUrl: "https://www.youtube.com/embed/bhkZEhPog2M?si=xCOR9grZ_zxu6yp-",
     dayDate: '18',
     monthYear: 'March, 2023',
@@ -1637,7 +1637,7 @@ const eventList = [
   },
   {
     id: 7,
-    imgSrc: "/assets/landing-images/blog/blog-8.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-8.png",
     youtubeUrl: "https://www.youtube.com/embed/8H3WaMzDiTo?si=Yj7pM2icDds9OnF3" ,
     dayDate: '07',
     monthYear: 'March, 2023',
@@ -1651,7 +1651,7 @@ const eventList = [
   },
   {
     id: 8,
-    imgSrc: "/assets/landing-images/blog/blog-9.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-9.png",
     youtubeUrl: "https://www.youtube.com/embed/_u-PQyM_mvE?si=zXQbNr5NYZqS5kO0",
     dayDate: '25',
     monthYear: 'March, 2023',
@@ -1665,7 +1665,7 @@ const eventList = [
   },
   {
     id: 9,
-    imgSrc: "/assets/landing-images/blog/blog-10.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-10.png",
     youtubeUrl: "https://www.youtube.com/embed/I1ZDQXNde98?si=zmC5ePxu7TXe24Mg",
     dayDate: '08',
     monthYear: 'March, 2023',
@@ -1679,7 +1679,7 @@ const eventList = [
   },
   {
     id: 10,
-    imgSrc: "/assets/landing-images/blog/blog-11.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-11.png",
     youtubeUrl: "https://www.youtube.com/embed/IYUoJ9pKlAA?si=1vQgxtU1viaDSFKR",
     dayDate: '17',
     monthYear: 'March, 2023',
@@ -1693,7 +1693,7 @@ const eventList = [
   },
   {
     id: 11,
-    imgSrc: "/assets/landing-images/blog/blog-12.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-12.png",
     youtubeUrl: "https://www.youtube.com/embed/csRe0WzvtD8?si=vBCwewGkgUlQErPb",
     dayDate: '13',
     monthYear: 'March, 2023',
@@ -1707,7 +1707,7 @@ const eventList = [
   },
   {
     id: 12,
-    imgSrc: "/assets/landing-images/blog/blog-13.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-13.png",
     youtubeUrl: "https://www.youtube.com/embed/rlOVickyVuQ?si=pZb5KdKDSXNmG8mm",
     dayDate: '28',
     monthYear: 'March, 2023',
@@ -1721,7 +1721,7 @@ const eventList = [
   },
   {
     id: 13,
-    imgSrc: "/assets/landing-images/blog/blog-14.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-14.png",
     youtubeUrl: "https://www.youtube.com/embed/xoVJKj8lcNQ?si=fOxnup0S1LGxGRAL",
     dayDate: '10',
     monthYear: 'April, 2023',
@@ -1735,7 +1735,7 @@ const eventList = [
   },
   {
     id: 14,
-    imgSrc: "/assets/landing-images/blog/blog-15.png",
+    imgSrc: "/src/assets/landing-images/blog/blog-15.png",
     youtubeUrl: "https://www.youtube.com/embed/awUglvaa1dQ?si=q2dQ9TQlQsw-SCtz",
     dayDate: '05',
     monthYear: 'April, 2023',
@@ -1749,7 +1749,7 @@ const eventList = [
   },
   {
     id: 15,
-    imgSrc: "/assets/landing-images/blog-4/blog-1.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-1.png",
     youtubeUrl: "https://www.youtube.com/embed/vwGp16NXgQU?si=BQzYwkuFlx0qHCwJ",
     dayDate: '08',
     monthYear: 'April, 2023',
@@ -1763,7 +1763,7 @@ const eventList = [
   },
   {
     id: 16,
-    imgSrc: "/assets/landing-images/blog-4/blog-2.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-2.png",
     youtubeUrl: "https://www.youtube.com/embed/sYIu9ibtLXk?si=418AYr8cNN3YnyF9",
     dayDate: '12',
     monthYear: 'April, 2023',
@@ -1777,7 +1777,7 @@ const eventList = [
   },
   {
     id: 17,
-    imgSrc: "/assets/landing-images/blog-4/blog-3.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-3.png",
     youtubeUrl: "https://www.youtube.com/embed/FJRl5yRB6v4?si=mC8q5Y0FCYIq8WLk",
     dayDate: '18',
     monthYear: 'April, 2023',
@@ -1791,7 +1791,7 @@ const eventList = [
   },
   {
     id: 18,
-    imgSrc: "/assets/landing-images/blog-4/blog-4.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-4.png",
     youtubeUrl: "https://www.youtube.com/embed/eAcjgh2ofQ8?si=vNs6B7w-wmj6dCRb",
     dayDate: '22',
     monthYear: 'April, 2023',
@@ -1805,7 +1805,7 @@ const eventList = [
   },
   {
     id: 19,
-    imgSrc: "/assets/landing-images/blog-4/blog-5.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-5.png",
     youtubeUrl: "https://www.youtube.com/embed/gDZdcPOl1b8?si=xlpPc1gwRG0OSHJi",
     dayDate: '25',
     monthYear: 'April, 2023',
@@ -1819,7 +1819,7 @@ const eventList = [
   },
   {
     id: 20,
-    imgSrc: "/assets/landing-images/blog-4/blog-6.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-6.png",
     youtubeUrl: "https://www.youtube.com/embed/3zIlvmiWjM0?si=1fLnbd6t6lcCxVHr",
     dayDate: '02',
     monthYear: 'May, 2023',
@@ -1833,7 +1833,7 @@ const eventList = [
   },
   {
     id: 21,
-    imgSrc: "/assets/landing-images/blog-4/blog-7.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-7.png",
     youtubeUrl: "https://www.youtube.com/embed/wucZxx-XaVA?si=qtl4m1Nst66Ay7F2",
     dayDate: '06',
     monthYear: 'May, 2023',
@@ -1847,7 +1847,7 @@ const eventList = [
   },
   {
     id: 22,
-    imgSrc: "/assets/landing-images/blog-4/blog-8.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-8.png",
     youtubeUrl: "https://www.youtube.com/embed/lXqbilHU05Q?si=rMUp40JcMdoOoTrb",
     dayDate: '12',
     monthYear: 'May, 2023',
@@ -1861,7 +1861,7 @@ const eventList = [
   },
   {
     id: 23,
-    imgSrc: "/assets/landing-images/blog-4/blog-9.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-9.png",
     youtubeUrl: "https://www.youtube.com/embed/dC2-X1Gk1Cw?si=9gyuZFNe3KiQ95os",
     dayDate: '16',
     monthYear: 'May, 2023',
@@ -1875,7 +1875,7 @@ const eventList = [
   },
   {
     id: 24,
-    imgSrc: "/assets/landing-images/blog-4/blog-10.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-10.png",
     youtubeUrl: "https://www.youtube.com/embed/HgGAzBDE454?si=X-vREeKYVeoLcVjz",
     dayDate: '21',
     monthYear: 'May, 2023',
@@ -1889,7 +1889,7 @@ const eventList = [
   },
   {
     id: 25,
-    imgSrc: "/assets/landing-images/blog-4/blog-11.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-11.png",
     youtubeUrl: "https://www.youtube.com/embed/26-1t15R_MU?si=AQfcwnTZufzwIjfZ",
     dayDate: '25',
     monthYear: 'May, 2023',
@@ -1903,7 +1903,7 @@ const eventList = [
   },
   {
     id: 26,
-    imgSrc: "/assets/landing-images/blog-4/blog-12.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-12.png",
     youtubeUrl: "https://www.youtube.com/embed/FBlfDsZ4OvI?si=T54MzteZqADHUoXb",
     dayDate: '02',
     monthYear: 'June, 2023',
@@ -1917,7 +1917,7 @@ const eventList = [
   },
   {
     id: 27,
-    imgSrc: "/assets/landing-images/blog-4/blog-13.png",
+    imgSrc: "/src/assets/landing-images/blog-4/blog-13.png",
     youtubeUrl: "https://www.youtube.com/embed/0GnavRiwgmk?si=DTFlTF3a98ToazAF",
     dayDate: '06',
     monthYear: 'June, 2023',
@@ -1982,20 +1982,20 @@ const socialMediaData = [
 ];
 
 const categoriesData = [
-  { title: 'Product Design', icon: 'assets/images/tl-12/sub-5.png' },
-  { title: 'App Development', icon: 'assets/images/tl-12/sub-3.png' },
-  { title: 'Data Engineering', icon: 'assets/images/tl-12/sub-7.png' },
-  { title: 'Language', icon: 'assets/images/tl-13/cate-4.png' },
-  { title: 'Rocket Science', icon: 'assets/images/tl-13/cate-2.png' },
-  { title: 'Literature', icon: 'assets/images/tl-13/cate-1.png' },
-  { title: 'Advanced Skills', icon: 'assets/images/tl-12/sub-2.png' },
-  { title: 'Higher Study', icon: 'assets/images/tl-12/sub-1.png' },
+  { title: 'Product Design', icon: '/src/assets/images/tl-12/sub-5.png' },
+  { title: 'App Development', icon: '/src/assets/images/tl-12/sub-3.png' },
+  { title: 'Data Engineering', icon: '/src/assets/images/tl-12/sub-7.png' },
+  { title: 'Language', icon: '/src/assets/images/tl-13/cate-4.png' },
+  { title: 'Rocket Science', icon: '/src/assets/images/tl-13/cate-2.png' },
+  { title: 'Literature', icon: '/src/assets/images/tl-13/cate-1.png' },
+  { title: 'Advanced Skills', icon: '/src/assets/images/tl-12/sub-2.png' },
+  { title: 'Higher Study', icon: '/src/assets/images/tl-12/sub-1.png' },
 ];
 
 const articlesData = [
   {
     category: 'revolution',
-    image: 'assets/images/tl-3/blog-1.jpg',
+    image: '/src/assets/images/tl-3/blog-1.jpg',
     articleCategory: 'Education',
     date: 'March 23, 2023',
     title: 'Educational Insights: Discovering the Art of Learning.',
@@ -2003,7 +2003,7 @@ const articlesData = [
   },
   {
     category: 'notebook',
-    image: 'assets/images/tl-3/blog-2.jpg',
+    image: '/src/assets/images/tl-3/blog-2.jpg',
     articleCategory: 'Education',
     date: 'March 23, 2023',
     title: 'Exploring Notebooks: A Comprehensive Guide.',
@@ -2011,7 +2011,7 @@ const articlesData = [
   },
   {
     category: 'revolution',
-    image: 'assets/images/tl-3/blog-3.jpg',
+    image: '/src/assets/images/tl-3/blog-3.jpg',
     articleCategory: 'Education',
     date: 'March 23, 2023',
     title: 'Revolutionizing Education: The Future of Learning.',
@@ -2019,7 +2019,7 @@ const articlesData = [
   },
   {
     category: 'learning',
-    image: 'assets/images/tl-5/blog-1.jpg',
+    image: '/src/assets/images/tl-5/blog-1.jpg',
     articleCategory: 'Education',
     date: 'March 23, 2023',
     title: 'The Art of Lifelong Learning: Strategies and Tips.',

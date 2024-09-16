@@ -10,7 +10,7 @@ const TestimonialSection3 = () => {
 
         <div className="row">
           <div className="col-lg-4">
-            <img src="/assets/landing-images/tl-12/testimonial.jpg" alt="testimonial" />
+            <img src="/src/assets/landing-images/tl-12/testimonial.jpg" alt="testimonial" />
           </div>
 
           <div className="col-lg-8">

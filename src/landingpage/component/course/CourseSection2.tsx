@@ -58,7 +58,7 @@ const CourseSection2 = () => {
           </div>
 
           <a href="#" className="tl-10-course-btn">
-            <img src="/assets/landing-images/tl-10/arrow.png" alt="arrow icon" />
+            <img src="/src/assets/landing-images/tl-10/arrow.png" alt="arrow icon" />
           </a>
         </div>
       </div>

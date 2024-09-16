@@ -15,12 +15,12 @@ const Layout3: React.FC<LayoutProps> = ({ children }) => {
     >
       <HeaderSection2
         style="position-relative"
-        logo="assets/images/logos/logo.png"
+        logo="/src/assets/images/logos/logo.png"
       />
       {children}
       <FooterSection2
-        darkLogo="assets/images/logos/logo-dark.png"
-        lightLogo="assets/images/logos/logo.png"
+        darkLogo="/src/assets/images/logos/logo-dark.png"
+        lightLogo="/src/assets/images/logos/logo.png"
       />
     </div>
   );

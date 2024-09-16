@@ -37,7 +37,7 @@ const TestimonialSlider8 = () => {
         className="tl-14-testimonial-slider"
       >
         <div className="tl-14-testimony">
-          <img src="/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
+          <img src="/src/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
           <p className="tl-14-testimony-txt">
             I love that solvency lets us manage everything in one place. It's
             super helpful to be able to listen to voice samples, upload our own
@@ -46,7 +46,7 @@ const TestimonialSlider8 = () => {
         </div>
 
         <div className="tl-14-testimony">
-          <img src="/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
+          <img src="/src/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
           <p className="tl-14-testimony-txt">
             I love that solvency lets us manage everything in one place. It's
             super helpful to be able to listen to voice samples, upload our own
@@ -55,7 +55,7 @@ const TestimonialSlider8 = () => {
         </div>
 
         <div className="tl-14-testimony">
-          <img src="/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
+          <img src="/src/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
           <p className="tl-14-testimony-txt">
             I love that solvency lets us manage everything in one place. It's
             super helpful to be able to listen to voice samples, upload our own
@@ -64,7 +64,7 @@ const TestimonialSlider8 = () => {
         </div>
 
         <div className="tl-14-testimony">
-          <img src="/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
+          <img src="/src/assets/landing-images/tl-14/quote-icon.png" alt="Quote Icon" />
           <p className="tl-14-testimony-txt">
             I love that solvency lets us manage everything in one place. It's
             super helpful to be able to listen to voice samples, upload our own
@@ -92,7 +92,7 @@ const TestimonialSlider8 = () => {
         className="tl-14-testimonial-users"
       >
         <div className="tl-14-testimony-user">
-          <img src="/assets/landing-images/tl-4/user-1.jpg" alt="reviewer image" />
+          <img src="/src/assets/landing-images/tl-4/user-1.jpg" alt="reviewer image" />
           <div className="tl-14-testimony-user-txt">
             <h6 className="tl-14-testimony-user-name">Desmond Eagle</h6>
             <span className="tl-14-testimony-user-label">Math Teacher</span>
@@ -100,7 +100,7 @@ const TestimonialSlider8 = () => {
         </div>
 
         <div className="tl-14-testimony-user">
-          <img src="/assets/landing-images/tl-4/user-2.jpg" alt="reviewer image" />
+          <img src="/src/assets/landing-images/tl-4/user-2.jpg" alt="reviewer image" />
           <div className="tl-14-testimony-user-txt">
             <h6 className="tl-14-testimony-user-name">lauri max</h6>
             <span className="tl-14-testimony-user-label">Math Teacher</span>
@@ -108,7 +108,7 @@ const TestimonialSlider8 = () => {
         </div>
 
         <div className="tl-14-testimony-user">
-          <img src="/assets/landing-images/tl-4/user-3.jpg" alt="reviewer image" />
+          <img src="/src/assets/landing-images/tl-4/user-3.jpg" alt="reviewer image" />
           <div className="tl-14-testimony-user-txt">
             <h6 className="tl-14-testimony-user-name">Yousouf abir</h6>
             <span className="tl-14-testimony-user-label">Math Teacher</span>
@@ -116,7 +116,7 @@ const TestimonialSlider8 = () => {
         </div>
 
         <div className="tl-14-testimony-user">
-          <img src="/assets/landing-images/tl-4/user-4.jpg" alt="reviewer image" />
+          <img src="/src/assets/landing-images/tl-4/user-4.jpg" alt="reviewer image" />
           <div className="tl-14-testimony-user-txt">
             <h6 className="tl-14-testimony-user-name">Ishani shah</h6>
             <span className="tl-14-testimony-user-label">Math Teacher</span>

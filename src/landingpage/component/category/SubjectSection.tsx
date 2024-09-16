@@ -4,7 +4,7 @@ const SubjectSection = () => {
       <div className="container">
         <div className="tl-1-subject-shape">
           <img
-            src="/assets/landing-images/shape/shape6.png"
+            src="/src/assets/landing-images/shape/shape6.png"
             alt="Banner Image"
           />
         </div>
@@ -17,7 +17,7 @@ const SubjectSection = () => {
           <div className="row justify-content-center">
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-1">
-                <img src="/assets/landing-images/tl-12/sub-1.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-1.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Billing & payments</a>
                 </h5>
@@ -29,7 +29,7 @@ const SubjectSection = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-2">
-                <img src="/assets/landing-images/tl-12/sub-2.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-2.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Classrom materials</a>
                 </h5>
@@ -41,7 +41,7 @@ const SubjectSection = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-3">
-                <img src="/assets/landing-images/tl-12/sub-3.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-3.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Attendance tracking</a>
                 </h5>
@@ -53,7 +53,7 @@ const SubjectSection = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-4">
-                <img src="/assets/landing-images/tl-12/sub-4.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-4.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Family communication</a>
                 </h5>
@@ -65,7 +65,7 @@ const SubjectSection = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-5">
-                <img src="/assets/landing-images/tl-12/sub-5.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-5.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Educator growth</a>
                 </h5>
@@ -77,7 +77,7 @@ const SubjectSection = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-6">
-                <img src="/assets/landing-images/tl-12/sub-6.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-6.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Lesson planning</a>
                 </h5>
@@ -89,7 +89,7 @@ const SubjectSection = () => {
             </div>
             <div className="col-xl-3 col-lg-4 col-sm-6 col-12">
               <div className="tl-12-subj tl-12-subj-7">
-                <img src="/assets/landing-images/tl-12/sub-7.png" alt="subject image" />
+                <img src="/src/assets/landing-images/tl-12/sub-7.png" alt="subject image" />
                 <h5 className="tl-12-subj-title">
                   <a href="#">Educator engagemnt</a>
                 </h5>

@@ -17,10 +17,10 @@ import { ThemeDirection } from 'config';
 import Slider, { Settings } from 'react-slick';
 
 // assets
-import featureChat from 'assets/images/landing/chat.png';
-import featureEcommerce from 'assets/images/landing/e-commerce.png';
-import featureMail from 'assets/images/landing/mail.png';
-import featureSocial from 'assets/images/landing/social.png';
+import featureChat from '/src/assets/images/landing/chat.png';
+import featureEcommerce from '/src/assets/images/landing/e-commerce.png';
+import featureMail from '/src/assets/images/landing/mail.png';
+import featureSocial from '/src/assets/images/landing/social.png';
 
 const Technologies = [
   {

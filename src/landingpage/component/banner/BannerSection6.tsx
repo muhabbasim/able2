@@ -43,7 +43,7 @@ const BannerSection6 = () => {
               '<button class="' +
               className +
               '">' +
-              '<img src="/assets/landing-images/tl-7/banner-dot-' +
+              '<img src="/src/assets/landing-images/tl-7/banner-dot-' +
               (index + 1) +
               '.png" alt="Slider Image ' +
               (index + 1) +

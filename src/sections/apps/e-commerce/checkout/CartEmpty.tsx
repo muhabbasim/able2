@@ -15,8 +15,8 @@ import { ThemeMode } from 'config';
 // assets
 import { ArrowRight2 } from 'iconsax-react';
 
-import imageEmpty from 'assets/images/e-commerce/empty.png';
-import imageDarkEmpty from 'assets/images/e-commerce/empty-dark.png';
+import imageEmpty from '/src/assets/images/e-commerce/empty.png';
+import imageDarkEmpty from '/src/assets/images/e-commerce/empty-dark.png';
 
 // ==============================|| CHECKOUT - EMPTY ||============================== //
 

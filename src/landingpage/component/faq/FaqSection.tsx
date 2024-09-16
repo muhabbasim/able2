@@ -8,7 +8,7 @@ const FaqSection = () => {
         <div className="row g-0 align-items-center justify-content-between">
           <div className="col-xl-7 col-lg-6">
             <div className="tl-8-faq-img">
-              <img src="/assets/landing-images/tl-8/faq.jpg" alt="FAQ image" />
+              <img src="/src/assets/landing-images/tl-8/faq.jpg" alt="FAQ image" />
             </div>
           </div>
 

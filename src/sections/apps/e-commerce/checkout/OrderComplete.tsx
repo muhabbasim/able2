@@ -18,7 +18,7 @@ import MainCard from 'components/MainCard';
 import { PopupTransition } from 'components/@extended/Transitions';
 
 // assets
-import completed from 'assets/images/e-commerce/completed.png';
+import completed from '/src/assets/images/e-commerce/completed.png';
 
 const chance = new Chance();
 

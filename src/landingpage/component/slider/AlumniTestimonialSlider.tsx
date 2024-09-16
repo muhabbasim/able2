@@ -99,7 +99,7 @@ const AlumniTestimonialSlider = () => {
               <div className="tl-5-single-testimony">
                 <img
                   className="tl-5-single-testimony-icon"
-                  src="/assets/landing-images/tl-5/testimonial-icon.png"
+                  src="/src/assets/landing-images/tl-5/testimonial-icon.png"
                   alt="Quotation Icon"
                 />
 

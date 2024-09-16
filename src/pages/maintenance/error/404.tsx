@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import { APP_DEFAULT_PATH } from 'config';
 
 // assets
-import error404 from 'assets/images/maintenance/img-error-404.svg';
+import error404 from '/src/assets/images/maintenance/img-error-404.svg';
 
 // ==============================|| ERROR 404 ||============================== //
 

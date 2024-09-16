@@ -22,7 +22,7 @@ import MoreIcon from 'components/@extended/MoreIcon';
 
 // assets
 import { Edit, Setting } from 'iconsax-react';
-import media from 'assets/images/component/card-media.png';
+import media from '/src/assets/images/component/card-media.png';
 
 // ==============================|| COMPONENTS - CARD ||============================== //
 

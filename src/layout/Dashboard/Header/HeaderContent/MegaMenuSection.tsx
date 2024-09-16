@@ -28,8 +28,8 @@ import { DRAWER_WIDTH, ThemeMode } from 'config';
 
 // assets
 import { Windows, ArrowRight3 } from 'iconsax-react';
-import cardBack from 'assets/images/widget/img-dropbox-bg.svg';
-import imageChart from 'assets/images/mega-menu/chart.svg';
+import cardBack from '/src/assets/images/widget/img-dropbox-bg.svg';
+import imageChart from '/src/assets/images/mega-menu/chart.svg';
 
 // ==============================|| HEADER CONTENT - MEGA MENU SECTION ||============================== //
 

@@ -62,15 +62,15 @@ const BannerSection11 = () => {
 
               <ul className="tl-12-banner-features">
                 <li className="tl-12-banner-feature">
-                  <img src="/assets/landing-images/tl-12/feat-1.png" alt="Icon" />
+                  <img src="/src/assets/landing-images/tl-12/feat-1.png" alt="Icon" />
                   <span className="tl-12-feature-name">4k Video Class</span>
                 </li>
                 <li className="tl-12-banner-feature">
-                  <img src="/assets/landing-images/tl-12/feat-2.png" alt="Icon" />
+                  <img src="/src/assets/landing-images/tl-12/feat-2.png" alt="Icon" />
                   <span className="tl-12-feature-name">18k Total Student</span>
                 </li>
                 <li className="tl-12-banner-feature">
-                  <img src="/assets/landing-images/tl-12/feat-3.png" alt="Icon" />
+                  <img src="/src/assets/landing-images/tl-12/feat-3.png" alt="Icon" />
                   <span className="tl-12-feature-name">
                     Complete Graduation
                   </span>
@@ -92,7 +92,7 @@ const BannerSection11 = () => {
                 }}
               >
                 <img
-                  src="/assets/landing-images/hero-img2.png"
+                  src="/src/assets/landing-images/hero-img2.png"
                   alt="Banner image"
                 />
               </motion.div>

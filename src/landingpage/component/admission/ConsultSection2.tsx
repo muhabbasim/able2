@@ -9,7 +9,7 @@ const ConsultSection2 = () => {
             <div className="tl-3-consult-img">
               <h2 className="tl-3-section-title">Do you have a contact ?</h2>
               <img
-                src="/assets/landing-images/tl-3/consult-img.jpg"
+                src="/src/assets/landing-images/tl-3/consult-img.jpg"
                 alt="consult image"
               />
             </div>

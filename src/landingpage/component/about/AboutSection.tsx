@@ -1,8 +1,8 @@
 import { useEffect, useState } from "react";
-import shape1 from '/assets/landing-images/shape/shape1.png'
-import shape2 from '/assets/landing-images/shape/shape2.png'
-import shape3 from '/assets/landing-images/shape/shape3.png'
-import shape4 from '/assets/landing-images/shape/shape4.png'
+import shape1 from '/src/assets/landing-images/shape/shape1.png'
+import shape2 from '/src/assets/landing-images/shape/shape2.png'
+import shape3 from '/src/assets/landing-images/shape/shape3.png'
+import shape4 from '/src/assets/landing-images/shape/shape4.png'
 
 const images = [
   shape1,
@@ -39,8 +39,8 @@ const AboutSection = () => {
           <div className="col-lg-6">
             <div className="tl-1-about-img">
               <img
-                // src="/assets/landing-images/about-bg2.png"
-                //  src="/assets/landing-images/shape/shape4.png"
+                // src="/src/assets/landing-images/about-bg2.png"
+                //  src="/src/assets/landing-images/shape/shape4.png"
                  src={images[currentIndex]}
                 alt="Banner Image"
                 className={`tl-1-about-main-img slider-image ${fade ? 'fade-in' : 'fade-out'}`}

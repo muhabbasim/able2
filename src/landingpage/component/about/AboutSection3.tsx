@@ -20,7 +20,7 @@ const AboutSection3 = () => {
                 <div className="tl-1-about-author-intro">
                   <div className="tl-1-about-author-img">
                     <img
-                      src="/assets/landing-images/tl-3/author-img.png"
+                      src="/src/assets/landing-images/tl-3/author-img.png"
                       alt="Author image"
                     />
                   </div>
@@ -32,7 +32,7 @@ const AboutSection3 = () => {
                   </div>
                 </div>
                 <div className="tl-1-about-author-signature">
-                  <img src="/assets/landing-images/tl-3/signature.png" alt="signature" />
+                  <img src="/src/assets/landing-images/tl-3/signature.png" alt="signature" />
                 </div>
               </div>
             </div>
@@ -41,11 +41,11 @@ const AboutSection3 = () => {
           <div className="col-lg-6">
             <div className="tl-3-about-img">
               <img
-                src="/assets/landing-images/tl-3/about-img-1.jpg"
+                src="/src/assets/landing-images/tl-3/about-img-1.jpg"
                 alt="School Picture"
               />
               <img
-                src="/assets/landing-images/tl-3/about-img-2.jpg"
+                src="/src/assets/landing-images/tl-3/about-img-2.jpg"
                 alt="School Picture"
               />
             </div>

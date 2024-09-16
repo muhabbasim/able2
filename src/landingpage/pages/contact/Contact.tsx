@@ -7,7 +7,7 @@ const Contact = () => {
       <div className="container">
         <div className="tl-1-contact-shape">
           <img
-            src="/assets/landing-images/shape/shape6.png"
+            src="/src/assets/landing-images/shape/shape6.png"
             alt="Banner Image"
           />
         </div>

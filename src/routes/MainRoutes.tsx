@@ -118,7 +118,7 @@ const Price = Loadable(lazy(() => import('landingpage/pages/price/Price')));
 const Blog = Loadable(lazy(() => import('landingpage/pages/blog/Blog')));
 const BlogDetails = Loadable(lazy(() => import('landingpage/pages/blog/BlogDetails')));
 const Features = Loadable(lazy(() => import('landingpage/pages/features/FeaturePage')));
-import Advantage  from 'landingpage/pages/Advantage'
+const Users = Loadable(lazy(() => import('landingpage/pages/users/Users')));
 
 
 // ==============================|| MAIN ROUTES ||============================== //
@@ -310,7 +310,7 @@ const MainRoutes = {
         { path: '/blog', exact: true, element: <Blog /> },
         { path: '/blog/:blogId', exact: true, element: <BlogDetails /> },
         { path: '/feature/:featureId', exact: true, element: <Features /> },
-        { path: '/advantage/:id', exact: true, element: <Advantage /> },
+        { path: '/users/:id', exact: true, element: <Users /> },
       ]
     },
     {

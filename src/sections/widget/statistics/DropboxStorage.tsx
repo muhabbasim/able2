@@ -13,7 +13,7 @@ import { ThemeMode } from 'config';
 
 // assets
 import { Cloud } from 'iconsax-react';
-import cardBack from 'assets/images/widget/img-dropbox-bg.svg';
+import cardBack from '/src/assets/images/widget/img-dropbox-bg.svg';
 
 // ===========================|| STATISTICS - DROPBOX ||=========================== //
 

@@ -21,7 +21,7 @@ const courseList = [
     title: "Gold Center Package",
     slug: "introduction-to-programming-with-javascript",
     lessons: 8,
-    desc: "Empower your teachers and meet professional development requirements! All the benefits of our Silver Center Package PLUS Lillio Academy (formerly HiMama Academy)",
+    desc: "Empower your teachers and meet professional development requirements! All the benefits of our Silver Center Package PLUS KGP Academy (formerly HiMama Academy)",
     packages: [
       { backage_title: "KGP Center Management" },
       { backage_title: "KGP Academy" },
@@ -36,7 +36,7 @@ const courseList = [
     title: "Platinum Center Package",
     slug: "web-development-fundamentals-intro",
     lessons: 10,
-    desc: "Take classroom learning experiences to the next level! The best value for your investment with all the benefits of our Gold Center Package PLUS a subscription to Lillio Learning powered by FunShine Express curriculum kits shipped monthly to your door!",
+    desc: "Take classroom learning experiences to the next level! The best value for your investment with all the benefits of our Gold Center Package PLUS a subscription to KGP Learning powered by FunShine Express curriculum kits shipped monthly to your door!",
     packages: [
       { backage_title: "KGP Center Management" },
       { backage_title: "KGP Academy" },
@@ -66,7 +66,7 @@ const courseList = [
     title: "Curriculum Package",
     slug: "advanced-art-and-creativity-workshop",
     lessons: 5,
-    desc: "Transform your educational programming! Get the best of Lillio Learning powered by FunShine Express - digital curriculum plus a subscription to curriculum kits shipped monthly to your door!",
+    desc: "Transform your educational programming! Get the best of KGP Learning powered by FunShine Express - digital curriculum plus a subscription to curriculum kits shipped monthly to your door!",
     packages: [
       { backage_title: "KGP Learning powered by FunShine Digital Curriculum" },
       { backage_title: "KGP Learning powered by FunShine Curriculum Kits" },
@@ -100,7 +100,7 @@ const CourseMainSection2 = () => {
           <>
             <div className="tl-1-course-shape">
               <img
-                src="/assets/landing-images/shape/shape1.png"
+                src="/src/assets/landing-images/shape/shape1.png"
                 alt="Banner Image"
               />
             </div>

@@ -1,23 +1,23 @@
 const classesData = [
   {
-    imgSrc: "assets/images/tl-7/class-bg-1.jpg",
-    iconSrc: "assets/images/tl-7/class-icon-1.png",
+    imgSrc: "/src/assets/images/tl-7/class-bg-1.jpg",
+    iconSrc: "/src/assets/images/tl-7/class-icon-1.png",
     name: "Hip Hop Dance Class",
     description:
       "There are many variations of passages of Lorem Ipsum available.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-7/class-bg-2.jpg",
-    iconSrc: "assets/images/tl-7/class-icon-2.png",
+    imgSrc: "/src/assets/images/tl-7/class-bg-2.jpg",
+    iconSrc: "/src/assets/images/tl-7/class-icon-2.png",
     name: "Jazz Dance Class",
     description:
       "There are many variations of passages of Lorem Ipsum available.",
     link: "#",
   },
   {
-    imgSrc: "assets/images/tl-7/class-bg-3.jpg",
-    iconSrc: "assets/images/tl-7/class-icon-3.png",
+    imgSrc: "/src/assets/images/tl-7/class-bg-3.jpg",
+    iconSrc: "/src/assets/images/tl-7/class-icon-3.png",
     name: "Modern Ballet Class",
     description:
       "There are many variations of passages of Lorem Ipsum available.",

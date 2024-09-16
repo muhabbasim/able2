@@ -11,10 +11,10 @@ import { ImagePath, getImageUrl } from 'utils/getImageUrl';
 import { CustomerList } from 'types/customer';
 
 // assets
-import LinkIcon from 'assets/images/icons/link.png';
-import Mail from 'assets/images/icons/mail.png';
-import Maps from 'assets/images/icons/map.png';
-import Phone from 'assets/images/icons/phone.png';
+import LinkIcon from '/src/assets/images/icons/link.png';
+import Mail from '/src/assets/images/icons/mail.png';
+import Maps from '/src/assets/images/icons/map.png';
+import Phone from '/src/assets/images/icons/phone.png';
 
 const textPrimary = '#262626';
 const textSecondary = '#8c8c8c';

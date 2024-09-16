@@ -11,8 +11,8 @@ import MainCard from 'components/MainCard';
 import { ThemeMode } from 'config';
 
 //asset
-import WelcomeImage from 'assets/images/analytics/welcome-banner.png';
-import cardBack from 'assets/images/widget/img-dropbox-bg.svg';
+import WelcomeImage from '/src/assets/images/analytics/welcome-banner.png';
+import cardBack from '/src/assets/images/widget/img-dropbox-bg.svg';
 
 // ==============================|| ANALYTICS - WELCOME ||============================== //
 

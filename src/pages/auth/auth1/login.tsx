@@ -14,9 +14,9 @@ import AuthWrapper from 'sections/auth/AuthWrapper';
 import AuthLogin from 'sections/auth/auth-forms/AuthLogin';
 
 // assets
-import imgFacebook from 'assets/images/auth/facebook.svg';
-import imgTwitter from 'assets/images/auth/twitter.svg';
-import imgGoogle from 'assets/images/auth/google.svg';
+import imgFacebook from '/src/assets/images/auth/facebook.svg';
+import imgTwitter from '/src/assets/images/auth/twitter.svg';
+import imgGoogle from '/src/assets/images/auth/google.svg';
 
 // ================================|| LOGIN ||================================ //
 

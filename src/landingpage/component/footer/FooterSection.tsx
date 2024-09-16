@@ -12,7 +12,7 @@ const FooterSection = ({ footerStyle }: Props) => {
             <div className="col-lg-3 col-sm-6 col-12">
               <div className="tl-footer-widget kb-10-footer-widget">
                 <Link to="/" className="logo tl-footer-widget-title">
-                  <img src="/assets/landing-images/logos/logo-1.png" alt="logo" />
+                  <img src="/src/assets/landing-images/logos/logo-1.png" alt="logo" />
                 </Link>
                 <p className="tl-1-footer-descr">
                   Nullam nulla eget dui efficitur tempor sit amet quis magna,

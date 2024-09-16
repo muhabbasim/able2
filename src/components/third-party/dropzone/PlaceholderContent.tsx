@@ -8,7 +8,7 @@ import { DropzopType } from 'config';
 
 // assets
 import { Camera } from 'iconsax-react';
-import UploadCover from 'assets/images/upload/upload.svg';
+import UploadCover from '/src/assets/images/upload/upload.svg';
 
 // ==============================|| UPLOAD - PLACEHOLDER ||============================== //
 

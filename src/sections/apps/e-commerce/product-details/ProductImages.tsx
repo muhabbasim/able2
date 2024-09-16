@@ -24,15 +24,15 @@ import { TransformWrapper, TransformComponent } from 'react-zoom-pan-pinch';
 // assets
 import { ArrowLeft2, ArrowRight2, ArrowRotateRight, Heart, SearchZoomIn, SearchZoomOut } from 'iconsax-react';
 
-import prod1 from 'assets/images/e-commerce/prod-1.png';
-import prod2 from 'assets/images/e-commerce/prod-2.png';
-import prod3 from 'assets/images/e-commerce/prod-3.png';
-import prod4 from 'assets/images/e-commerce/prod-4.png';
-import prod5 from 'assets/images/e-commerce/prod-5.png';
-import prod6 from 'assets/images/e-commerce/prod-6.png';
-import prod7 from 'assets/images/e-commerce/prod-7.png';
-import prod8 from 'assets/images/e-commerce/prod-8.png';
-import prod9 from 'assets/images/e-commerce/prod-9.png';
+import prod1 from '/src/assets/images/e-commerce/prod-1.png';
+import prod2 from '/src/assets/images/e-commerce/prod-2.png';
+import prod3 from '/src/assets/images/e-commerce/prod-3.png';
+import prod4 from '/src/assets/images/e-commerce/prod-4.png';
+import prod5 from '/src/assets/images/e-commerce/prod-5.png';
+import prod6 from '/src/assets/images/e-commerce/prod-6.png';
+import prod7 from '/src/assets/images/e-commerce/prod-7.png';
+import prod8 from '/src/assets/images/e-commerce/prod-8.png';
+import prod9 from '/src/assets/images/e-commerce/prod-9.png';
 
 // types
 import { SnackbarProps } from 'types/snackbar';

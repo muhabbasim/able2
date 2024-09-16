@@ -21,7 +21,7 @@ import { useGetMenuMaster } from 'api/menu';
 // assets
 import { ArrowRight2 } from 'iconsax-react';
 
-import avatar1 from 'assets/images/users/avatar-6.png';
+import avatar1 from '/src/assets/images/users/avatar-6.png';
 
 interface ExpandMoreProps extends IconButtonProps {
   theme: Theme;

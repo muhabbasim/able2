@@ -21,8 +21,8 @@ import IconButton from 'components/@extended/IconButton';
 // assets
 import { Add } from 'iconsax-react';
 
-import avatar1 from 'assets/images/users/avatar-1.png';
-import avatar2 from 'assets/images/users/avatar-2.png';
+import avatar1 from '/src/assets/images/users/avatar-1.png';
+import avatar2 from '/src/assets/images/users/avatar-2.png';
 
 const Transition = forwardRef((props: TransitionProps & { children: ReactElement }, ref: Ref<unknown>) => (
   <Slide direction="up" ref={ref} {...props} />

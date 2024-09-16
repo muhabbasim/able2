@@ -21,8 +21,8 @@ import MainCard from 'components/MainCard';
 
 // assets
 import { FolderOpen, Trash } from 'iconsax-react';
-import vector1 from 'assets/images/users/vector-1.png';
-import avatar4 from 'assets/images/users/avatar-4.png';
+import vector1 from '/src/assets/images/users/vector-1.png';
+import avatar4 from '/src/assets/images/users/avatar-4.png';
 
 function generate(element: ReactElement) {
   return [0, 1, 2].map((value) =>
@@ -85,7 +85,7 @@ export default function InteractiveList() {
       <ListItem divider>
         <ListItemAvatar>
           <AntAvatar>
-            <img alt="Natacha" src={'/assets/images/users/vector-1.png'} height={40} />
+            <img alt="Natacha" src={'/src/assets/images/users/vector-1.png'} height={40} />
           </AntAvatar>
         </ListItemAvatar>
         <ListItemText primary="Single-line item" secondary={secondary ? 'Secondary text' : null} />
@@ -107,7 +107,7 @@ export default function InteractiveList() {
         }
       >
         <ListItemAvatar>
-          <AntAvatar alt="Avatar" src={'/assets/images/users/avatar-4.png'} />
+          <AntAvatar alt="Avatar" src={'/src/assets/images/users/avatar-4.png'} />
         </ListItemAvatar>
         <ListItemText primary="Single-line item" secondary={secondary ? 'Secondary text' : null} />
       </ListItem>

@@ -89,7 +89,7 @@ const TestimonialSlider3: React.FC<Props> = ({
 
                       <div className="tl-7-testimony-bottom-right">
                         <img
-                          src="/assets/landing-images/tl-7/quotation.png"
+                          src="/src/assets/landing-images/tl-7/quotation.png"
                           alt="Quotation Mark"
                         />
                       </div>

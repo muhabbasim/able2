@@ -17,9 +17,9 @@ const ProgramSection2 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="tl-9-program">
               <div className="tl-9-program-img">
-                <img src="/assets/landing-images/tl-9/prog-1.jpg" alt="Program image" />
+                <img src="/src/assets/landing-images/tl-9/prog-1.jpg" alt="Program image" />
                 <img
-                  src="/assets/landing-images/tl-9/prog-icon-1.png"
+                  src="/src/assets/landing-images/tl-9/prog-icon-1.png"
                   alt="Program image"
                   className="tl-9-program-icon"
                 />
@@ -43,9 +43,9 @@ const ProgramSection2 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="tl-9-program">
               <div className="tl-9-program-img">
-                <img src="/assets/landing-images/tl-9/prog-2.jpg" alt="Program image" />
+                <img src="/src/assets/landing-images/tl-9/prog-2.jpg" alt="Program image" />
                 <img
-                  src="/assets/landing-images/tl-9/prog-icon-1.png"
+                  src="/src/assets/landing-images/tl-9/prog-icon-1.png"
                   alt="Program image"
                   className="tl-9-program-icon"
                 />
@@ -69,9 +69,9 @@ const ProgramSection2 = () => {
           <div className="col-lg-4 col-md-6">
             <div className="tl-9-program">
               <div className="tl-9-program-img">
-                <img src="/assets/landing-images/tl-9/prog-3.jpg" alt="Program image" />
+                <img src="/src/assets/landing-images/tl-9/prog-3.jpg" alt="Program image" />
                 <img
-                  src="/assets/landing-images/tl-9/prog-icon-1.png"
+                  src="/src/assets/landing-images/tl-9/prog-icon-1.png"
                   alt="Program image"
                   className="tl-9-program-icon"
                 />

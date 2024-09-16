@@ -2,7 +2,7 @@ const BannerSection12 = () => {
   return (
     <section
       className="tl-13-banner"
-      data-background="assets/images/tl-13/banner-bg.png"
+      data-background="/src/assets/images/tl-13/banner-bg.png"
       data-bg-color="#f2efe8"
     >
       <div className="container">
@@ -31,7 +31,7 @@ const BannerSection12 = () => {
           <div className="col-lg-5">
             <div className="tl-13-banner-img text-center text-lg-end">
               <img
-                src="/assets/landing-images/tl-13/banner-img.jpg"
+                src="/src/assets/landing-images/tl-13/banner-img.jpg"
                 alt="Banner Image"
               />
             </div>

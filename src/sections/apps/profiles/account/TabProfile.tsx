@@ -20,7 +20,7 @@ import MainCard from 'components/MainCard';
 import Avatar from 'components/@extended/Avatar';
 import LinearWithLabel from 'components/@extended/progress/LinearWithLabel';
 
-import defaultImages from 'assets/images/users/default.png';
+import defaultImages from '/src/assets/images/users/default.png';
 
 // assets
 import { CallCalling, Gps, Link1, Sms } from 'iconsax-react';

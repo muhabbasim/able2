@@ -12,8 +12,8 @@ import MainCard from 'components/MainCard';
 import useConfig from 'hooks/useConfig';
 
 // assets
-import Caption from 'assets/images/customization/caption.svg';
-import NoCaption from 'assets/images/customization/no-caption.svg';
+import Caption from '/src/assets/images/customization/caption.svg';
+import NoCaption from '/src/assets/images/customization/no-caption.svg';
 
 // ==============================|| CUSTOMIZATION - MODE ||============================== //
 

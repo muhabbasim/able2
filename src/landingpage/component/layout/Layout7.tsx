@@ -12,13 +12,13 @@ const Layout7: React.FC<LayoutProps> = ({ children }) => {
     <div className={`tl-inner-courses-body ${isDarkTheme ? "dark_mode" : ""}`}>
       <HeaderSection7
         style="tl-4-header-inner"
-        logo="assets/images/logos/logo.png"
+        logo="/src/assets/images/logos/logo.png"
       />
       {children}
       <FooterSection5
         style="tl-4-footer-inner"
-        darkLogo="assets/images/logos/logo-dark.png"
-        lightLogo="assets/images/logos/logo.png"
+        darkLogo="/src/assets/images/logos/logo-dark.png"
+        lightLogo="/src/assets/images/logos/logo.png"
         foorterDesc="tl-4-footer-descr"
         footerSocial="tl-4-footer-socials"
       />

@@ -11,8 +11,8 @@ import CardContent from '@mui/material/CardContent';
 import MainCard from 'components/MainCard';
 
 // assets
-import Dashboard1 from 'assets/images/widget/dashborad-1.jpg';
-import Dashboard2 from 'assets/images/widget/dashborad-3.jpg';
+import Dashboard1 from '/src/assets/images/widget/dashborad-1.jpg';
+import Dashboard2 from '/src/assets/images/widget/dashborad-3.jpg';
 
 const mediaSX = {
   width: 90,

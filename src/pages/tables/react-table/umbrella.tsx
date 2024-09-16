@@ -76,7 +76,6 @@ import { getImageUrl, ImagePath } from 'utils/getImageUrl';
 import { TableDataProps } from 'types/table';
 import { LabelKeyObject } from 'react-csv/lib/core';
 
-/assets
 import { ArrowDown2, ArrowRight2, CloseCircle, Command, Edit2, Send, TableDocument } from 'iconsax-react';
 
 export const fuzzyFilter: FilterFn<TableDataProps> = (row, columnId, value, addMeta) => {

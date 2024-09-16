@@ -68,11 +68,11 @@ const BannerSection5 = () => {
         ))}
         <div className="owl-nav">
           <button className="owl-prev">
-            <img src="/assets/landing-images/tl-5/banner-slider-arrow.png" alt="arrow" />
+            <img src="/src/assets/landing-images/tl-5/banner-slider-arrow.png" alt="arrow" />
           </button>
           <button className="owl-next">
             <img
-              src="/assets/landing-images/tl-5/banner-slider-arrow-2.png"
+              src="/src/assets/landing-images/tl-5/banner-slider-arrow-2.png"
               alt="arrow"
             />
           </button>

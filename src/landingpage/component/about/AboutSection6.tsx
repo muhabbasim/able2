@@ -67,7 +67,7 @@ const AboutSection6: React.FC<AboutProps> = ({ padding, margin }) => {
                   <div className="slider-item">
                     <div className="tl-7-about-info-card">
                       <img
-                        src="/assets/landing-images/tl-7/about-1.jpg"
+                        src="/src/assets/landing-images/tl-7/about-1.jpg"
                         alt="Dance Image"
                       />
                     </div>
@@ -97,7 +97,7 @@ const AboutSection6: React.FC<AboutProps> = ({ padding, margin }) => {
                   <div className="slider-item">
                     <div className="tl-7-about-info-card">
                       <img
-                        src="/assets/landing-images/tl-7/about-1.jpg"
+                        src="/src/assets/landing-images/tl-7/about-1.jpg"
                         alt="Dance Image"
                       />
                     </div>
@@ -132,7 +132,7 @@ const AboutSection6: React.FC<AboutProps> = ({ padding, margin }) => {
                   <div className="slider-item">
                     <div className="tl-7-about-info-card">
                       <img
-                        src="/assets/landing-images/tl-7/about-2.jpg"
+                        src="/src/assets/landing-images/tl-7/about-2.jpg"
                         alt="Dance Image"
                       />
                     </div>
@@ -141,7 +141,7 @@ const AboutSection6: React.FC<AboutProps> = ({ padding, margin }) => {
                   <div className="slider-item">
                     <div className="tl-7-about-info-card tl-7-about-stat-card">
                       <img
-                        src="/assets/landing-images/tl-7/kb-about-stat-icon.png"
+                        src="/src/assets/landing-images/tl-7/kb-about-stat-icon.png"
                         alt="Icon"
                       />
 
@@ -156,7 +156,7 @@ const AboutSection6: React.FC<AboutProps> = ({ padding, margin }) => {
                   <div className="slider-item">
                     <div className="tl-7-about-info-card">
                       <img
-                        src="/assets/landing-images/tl-7/about-2.jpg"
+                        src="/src/assets/landing-images/tl-7/about-2.jpg"
                         alt="Dance Image"
                       />
                     </div>
@@ -165,7 +165,7 @@ const AboutSection6: React.FC<AboutProps> = ({ padding, margin }) => {
                   <div className="slider-item">
                     <div className="tl-7-about-info-card tl-7-about-stat-card">
                       <img
-                        src="/assets/landing-images/tl-7/kb-about-stat-icon.png"
+                        src="/src/assets/landing-images/tl-7/kb-about-stat-icon.png"
                         alt="Icon"
                       />
 

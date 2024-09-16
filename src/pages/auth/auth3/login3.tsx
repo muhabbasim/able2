@@ -27,10 +27,10 @@ import { ThemeMode } from 'config';
 
 // assets
 import { User, Home3 } from 'iconsax-react';
-import imgSms from 'assets/images/auth/sms.svg';
-import imgFacebook from 'assets/images/auth/facebook.svg';
-import imgTwitter from 'assets/images/auth/twitter.svg';
-import imgGoogle from 'assets/images/auth/google.svg';
+import imgSms from '/src/assets/images/auth/sms.svg';
+import imgFacebook from '/src/assets/images/auth/facebook.svg';
+import imgTwitter from '/src/assets/images/auth/twitter.svg';
+import imgGoogle from '/src/assets/images/auth/google.svg';
 
 const steps = ['1', '2', '3', '4', '5'];
 

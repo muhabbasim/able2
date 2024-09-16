@@ -16,7 +16,7 @@ const ConsultSection:React.FC<Props> = ({padding}) => {
         </div>
 
         <div className="tl-5-consult-img">
-            <img src="/assets/landing-images/tl-5/consult-img.jpg" alt="Students"/>
+            <img src="/src/assets/landing-images/tl-5/consult-img.jpg" alt="Students"/>
         </div>
     </section>
   )

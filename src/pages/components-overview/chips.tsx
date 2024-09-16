@@ -16,8 +16,8 @@ import ComponentSkeleton from 'sections/components-overview/ComponentSkeleton';
 // assets
 import { EmojiHappy, Heart, MinusSquare, PlayCircle, Trash } from 'iconsax-react';
 
-import avatar from 'assets/images/users/avatar-1.png';
-import avatarDark from 'assets/images/users/avatar-6.png';
+import avatar from '/src/assets/images/users/avatar-1.png';
+import avatarDark from '/src/assets/images/users/avatar-6.png';
 
 // types
 interface ChipData {

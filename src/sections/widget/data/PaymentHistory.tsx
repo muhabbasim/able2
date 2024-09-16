@@ -22,9 +22,9 @@ import MoreIcon from 'components/@extended/MoreIcon';
 // assets
 import { Add } from 'iconsax-react';
 
-import paypal from 'assets/images/widget/img-paypal.png';
-import gpay from 'assets/images/widget/img-gpay.png';
-import phonePay from 'assets/images/widget/img-phonepay.png';
+import paypal from '/src/assets/images/widget/img-paypal.png';
+import gpay from '/src/assets/images/widget/img-gpay.png';
+import phonePay from '/src/assets/images/widget/img-phonepay.png';
 
 // ==============================|| DATA WIDGET - PAYMENT HISTORY ||============================== //
 

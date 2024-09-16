@@ -8,7 +8,7 @@ const AboutSection11 = () => {
         <div className="row gy-4 align-items-center">
           <div className="col-lg-6">
             <div className="tl-14-about-img">
-              <img src="/assets/landing-images/tl-14/about-img.jpg" alt="Image" />
+              <img src="/src/assets/landing-images/tl-14/about-img.jpg" alt="Image" />
             </div>
           </div>
 

@@ -8,9 +8,11 @@ type Props = {
   features: any,
   href?: string,
   index?: any,
+  color?: any,
 }
 
-const IllustratSection = ({ header, title, desc, img, features, index }: Props) => {
+const IllustratSection = ({ header, title, desc, img, features, index, color }: Props) => {
+  console.log(color)
 
   return (
     <section className="tl-1-about tl-11-illustrator-bg">
@@ -30,7 +32,7 @@ const IllustratSection = ({ header, title, desc, img, features, index }: Props) 
               <div className="tl-2-illustrator-feature">
                 {features.map((feature: any, i: any) => (
                   <div key={i} className="tl-2-illustrator-info">
-                    <div className="tl-2-illustrator-info-icon">
+                    <div style={{ backgroundColor: color }} className="tl-2-illustrator-info-icon">
                       <i className="fa-solid fa-check text-white"></i>
                     </div>
                     <h6 className="tl-2-course-info-value">{feature?.text}</h6>

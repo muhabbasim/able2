@@ -6,7 +6,7 @@ const ServiceSection3 = () => {
           <div className="tl-8-service">
             <div className="tl-1-service-heading tl-8-service-heading">
               <div className="tl-2-service-icon tl-8-service-icon">
-                <img src="/assets/landing-images/tl-8/service-1.png" alt="Icon" />
+                <img src="/src/assets/landing-images/tl-8/service-1.png" alt="Icon" />
               </div>
 
               <span className="tl-8-service-order-numb">01</span>
@@ -27,7 +27,7 @@ const ServiceSection3 = () => {
           <div className="tl-8-service">
             <div className="tl-1-service-heading tl-8-service-heading">
               <div className="tl-2-service-icon tl-8-service-icon">
-                <img src="/assets/landing-images/tl-8/service-2.png" alt="Icon" />
+                <img src="/src/assets/landing-images/tl-8/service-2.png" alt="Icon" />
               </div>
 
               <span className="tl-8-service-order-numb">02</span>
@@ -48,7 +48,7 @@ const ServiceSection3 = () => {
           <div className="tl-8-service">
             <div className="tl-1-service-heading tl-8-service-heading">
               <div className="tl-2-service-icon tl-8-service-icon">
-                <img src="/assets/landing-images/tl-8/service-3.png" alt="Icon" />
+                <img src="/src/assets/landing-images/tl-8/service-3.png" alt="Icon" />
               </div>
 
               <span className="tl-8-service-order-numb">03</span>

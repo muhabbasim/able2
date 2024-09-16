@@ -144,28 +144,28 @@ const FooterSection6: React.FC<FooterProps> = ({ lightLogo, darkLogo }) => {
                     <ul className="tl-5-footer-gallery">
                       <li>
                         <a
-                          href="assets/images/tl-5/campus-1.jpg"
+                          href="/src/assets/images/tl-5/campus-1.jpg"
                           data-fslightbox="footer-gallery"
                         >
-                          <img src="/assets/landing-images/tl-5/campus-1.jpg" alt="" />
+                          <img src="/src/assets/landing-images/tl-5/campus-1.jpg" alt="" />
                         </a>
                       </li>
 
                       <li>
                         <a
-                          href="assets/images/tl-5/blog-1.jpg"
+                          href="/src/assets/images/tl-5/blog-1.jpg"
                           data-fslightbox="footer-gallery"
                         >
-                          <img src="/assets/landing-images/tl-5/blog-1.jpg" alt="" />
+                          <img src="/src/assets/landing-images/tl-5/blog-1.jpg" alt="" />
                         </a>
                       </li>
 
                       <li>
                         <a
-                          href="assets/images/tl-5/blog-2.jpg"
+                          href="/src/assets/images/tl-5/blog-2.jpg"
                           data-fslightbox="footer-gallery"
                         >
-                          <img src="/assets/landing-images/tl-5/blog-2.jpg" alt="" />
+                          <img src="/src/assets/landing-images/tl-5/blog-2.jpg" alt="" />
                         </a>
                       </li>
                     </ul>

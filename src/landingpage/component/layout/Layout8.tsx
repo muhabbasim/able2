@@ -10,15 +10,15 @@ const Layout8: React.FC<LayoutProps> = ({ children }) => {
     <>
       <HeaderSection8
         style="tl-header-5-inner"
-        darkLogo="assets/images/logos/logo-dark.png"
-        lightLogo="assets/images/logos/logo.png"
+        darkLogo="/src/assets/images/logos/logo-dark.png"
+        lightLogo="/src/assets/images/logos/logo.png"
         headerStyle=""
         btnStyle=""
       />
       {children}
       <FooterSection6
-        darkLogo="assets/images/logos/logo-dark.png"
-        lightLogo="assets/images/logos/logo.png"
+        darkLogo="/src/assets/images/logos/logo-dark.png"
+        lightLogo="/src/assets/images/logos/logo.png"
       />
     </>
   );

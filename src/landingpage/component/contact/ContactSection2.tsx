@@ -8,7 +8,7 @@ const ContactSection2 = () => {
           <div className="col-lg-6">
             <div className="tl-3-consult-img">
               <h2 className="tl-8-section-title">Get In Touch With Us</h2>
-              <img src="/assets/landing-images/tl-8/contact.jpg" alt="consult image" />
+              <img src="/src/assets/landing-images/tl-8/contact.jpg" alt="consult image" />
             </div>
           </div>
 

@@ -2,14 +2,15 @@ import IllustratSection from "landingpage/component/IllustratSection";
 
 type Props = {
   data: any;
-  color: string | undefined;
+  color?: string | undefined;
+  cta?: boolean;
 }
 
-export default function CurrentFeatures({ data, color }: Props) {
+export default function CurrentFeatures({ data, color, cta }: Props) {
   return (
     <section className="container">
       
-      <section style={{ backgroundColor: color }} className="tl-2-illustrator-cta pt-40 pb-40 pl-20 pr-20">
+      {cta && <section style={{ backgroundColor: color }} className="tl-2-illustrator-cta pt-40 pb-40 pl-20 pr-20">
         <div className="">
           <h2 className="tl-2-illustrator-section-title">Here's how KGP can help your center</h2>
           <div className="text-center">
@@ -22,7 +23,7 @@ export default function CurrentFeatures({ data, color }: Props) {
             Apply Now
           </a>
         </div>
-      </section>
+      </section>}
 
    
 
@@ -36,13 +37,14 @@ export default function CurrentFeatures({ data, color }: Props) {
               img={feature?.img}
               features={feature.features}
               index={i}
+              color={feature?.color}
             />
           </div>
         ))}
 
         <div className="tl-1-feature-shape">
           <img
-            src="/assets/landing-images/shape/shape1.png"
+            src="/src/assets/landing-images/shape/shape1.png"
             alt="Banner Image"
           />
         </div>

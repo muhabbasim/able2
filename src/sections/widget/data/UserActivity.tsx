@@ -16,9 +16,9 @@ import MainCard from 'components/MainCard';
 // assets
 import { Clock } from 'iconsax-react';
 
-import Avatar1 from 'assets/images/users/avatar-5.png';
-import Avatar2 from 'assets/images/users/avatar-6.png';
-import Avatar3 from 'assets/images/users/avatar-7.png';
+import Avatar1 from '/src/assets/images/users/avatar-5.png';
+import Avatar2 from '/src/assets/images/users/avatar-6.png';
+import Avatar3 from '/src/assets/images/users/avatar-7.png';
 
 // ===========================|| DATA WIDGET - USER ACTIVITY ||=========================== //
 

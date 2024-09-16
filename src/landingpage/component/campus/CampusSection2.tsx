@@ -15,9 +15,9 @@ const CampusSection2 = () => {
         <div className="row align-items-center gy-3">
           <div className="col-lg-3 col-6">
             <div className="tl-10-campus-section-single-img">
-              <a data-fslightbox href="assets/images/tl-10/campus-1.png">
+              <a data-fslightbox href="/src/assets/images/tl-10/campus-1.png">
                 <img
-                  src="/assets/landing-images/tl-10/campus-1.png"
+                  src="/src/assets/landing-images/tl-10/campus-1.png"
                   alt="Campus Picture"
                 />
               </a>
@@ -26,9 +26,9 @@ const CampusSection2 = () => {
 
           <div className="col-lg-3 col-6">
             <div className="tl-10-campus-section-single-img">
-              <a data-fslightbox href="assets/images/tl-10/campus-2.png">
+              <a data-fslightbox href="/src/assets/images/tl-10/campus-2.png">
                 <img
-                  src="/assets/landing-images/tl-10/campus-2.png"
+                  src="/src/assets/landing-images/tl-10/campus-2.png"
                   alt="Campus Picture"
                 />
               </a>
@@ -37,9 +37,9 @@ const CampusSection2 = () => {
 
           <div className="col-lg-3 col-6">
             <div className="tl-10-campus-section-single-img">
-              <a data-fslightbox href="assets/images/tl-10/campus-3.png">
+              <a data-fslightbox href="/src/assets/images/tl-10/campus-3.png">
                 <img
-                  src="/assets/landing-images/tl-10/campus-3.png"
+                  src="/src/assets/landing-images/tl-10/campus-3.png"
                   alt="Campus Picture"
                 />
               </a>
@@ -48,9 +48,9 @@ const CampusSection2 = () => {
 
           <div className="col-lg-3 col-6">
             <div className="tl-10-campus-section-single-img">
-              <a data-fslightbox href="assets/images/tl-10/campus-4.png">
+              <a data-fslightbox href="/src/assets/images/tl-10/campus-4.png">
                 <img
-                  src="/assets/landing-images/tl-10/campus-4.png"
+                  src="/src/assets/landing-images/tl-10/campus-4.png"
                   alt="Campus Picture"
                 />
               </a>

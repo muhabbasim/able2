@@ -58,7 +58,7 @@ const TestimonialSlider6 = () => {
                 </span>
                 <img
                   className="tl-12-testimony-user-company"
-                  src="/assets/landing-images/tl-12/user-company.png"
+                  src="/src/assets/landing-images/tl-12/user-company.png"
                   alt=""
                 />
               </p>
@@ -83,7 +83,7 @@ const TestimonialSlider6 = () => {
                 </span>
                 <img
                   className="tl-12-testimony-user-company"
-                  src="/assets/landing-images/tl-12/user-company.png"
+                  src="/src/assets/landing-images/tl-12/user-company.png"
                   alt=""
                 />
               </p>

@@ -10,14 +10,14 @@ import { motion } from 'framer-motion';
 // project-imports
 import FadeInWhenVisible from './Animation';
 
-import client1 from 'assets/images/landing/client-eagames.svg';
-import client2 from 'assets/images/landing/client-vodafone.svg';
-import client3 from 'assets/images/landing/client-crystal-1.svg';
-import client4 from 'assets/images/landing/client-haswent-2.svg';
-import client5 from 'assets/images/landing/client-haxter-3.svg';
-import client6 from 'assets/images/landing/client-montecito-4.svg';
-import client7 from 'assets/images/landing/client-slingshot.svg';
-import client8 from 'assets/images/landing/client-totalstudio-5.svg';
+import client1 from '/src/assets/images/landing/client-eagames.svg';
+import client2 from '/src/assets/images/landing/client-vodafone.svg';
+import client3 from '/src/assets/images/landing/client-crystal-1.svg';
+import client4 from '/src/assets/images/landing/client-haswent-2.svg';
+import client5 from '/src/assets/images/landing/client-haxter-3.svg';
+import client6 from '/src/assets/images/landing/client-montecito-4.svg';
+import client7 from '/src/assets/images/landing/client-slingshot.svg';
+import client8 from '/src/assets/images/landing/client-totalstudio-5.svg';
 
 // ==============================|| LANDING - PartnerPage ||============================== //
 export default function PartnerPage() {

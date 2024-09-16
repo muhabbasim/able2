@@ -28,7 +28,7 @@ import { ThemeMode } from 'config';
 import useAuth from 'hooks/useAuth';
 
 // assets
-import avatar1 from 'assets/images/users/avatar-6.png';
+import avatar1 from '/src/assets/images/users/avatar-6.png';
 import { Setting2, Profile, Logout } from 'iconsax-react';
 
 // types

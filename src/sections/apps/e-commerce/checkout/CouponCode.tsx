@@ -22,7 +22,7 @@ import Transitions, { PopupTransition } from 'components/@extended/Transitions';
 
 // assets
 import { Award, CloseCircle, Gift } from 'iconsax-react';
-import discount from 'assets/images/e-commerce/discount.png';
+import discount from '/src/assets/images/e-commerce/discount.png';
 
 interface CouponCodeProps {
   open: boolean;

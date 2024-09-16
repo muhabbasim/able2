@@ -13,7 +13,7 @@ const ServiceSection = () => {
             <div className="tl-1-service">
               <div className="tl-1-service-heading">
                 <div className="tl-1-service-icon">
-                  <img src="/assets/landing-images/tl-1/service-1.png" alt="Icon" />
+                  <img src="/src/assets/landing-images/tl-1/service-1.png" alt="Icon" />
                 </div>
 
                 <span className="tl-1-service-order-numb">01</span>
@@ -36,7 +36,7 @@ const ServiceSection = () => {
             <div className="tl-1-service">
               <div className="tl-1-service-heading">
                 <div className="tl-1-service-icon">
-                  <img src="/assets/landing-images/tl-1/service-2.png" alt="Icon" />
+                  <img src="/src/assets/landing-images/tl-1/service-2.png" alt="Icon" />
                 </div>
 
                 <span className="tl-1-service-order-numb">02</span>
@@ -59,7 +59,7 @@ const ServiceSection = () => {
             <div className="tl-1-service">
               <div className="tl-1-service-heading">
                 <div className="tl-1-service-icon">
-                  <img src="/assets/landing-images/tl-1/service-3.png" alt="Icon" />
+                  <img src="/src/assets/landing-images/tl-1/service-3.png" alt="Icon" />
                 </div>
 
                 <span className="tl-1-service-order-numb">03</span>

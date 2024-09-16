@@ -5,7 +5,7 @@ const AboutSection8 = () => {
         <div className="row g-0 justify-content-between align-items-center tl-9-about-row">
           <div className="col-xxl-6 col-lg-6">
             <div className="tl-9-about-img">
-              <img src="/assets/landing-images/tl-9/about-img.jpg" alt="Class image" />
+              <img src="/src/assets/landing-images/tl-9/about-img.jpg" alt="Class image" />
             </div>
           </div>
           <div className="col-xxl-5 col-lg-6">
@@ -24,7 +24,7 @@ const AboutSection8 = () => {
 
               <div className="tl-9-about-stats">
                 <div className="tl-9-about-stat">
-                  <img src="/assets/landing-images/tl-9/stat-1.png" alt="icon" />
+                  <img src="/src/assets/landing-images/tl-9/stat-1.png" alt="icon" />
 
                   <div className="tl-9-about-stat-txt">
                     <span className="tl-9-about-stat-num">36+</span>
@@ -33,7 +33,7 @@ const AboutSection8 = () => {
                 </div>
 
                 <div className="tl-9-about-stat">
-                  <img src="/assets/landing-images/tl-9/stat-2.png" alt="icon" />
+                  <img src="/src/assets/landing-images/tl-9/stat-2.png" alt="icon" />
 
                   <div className="tl-9-about-stat-txt">
                     <span className="tl-9-about-stat-num">54+</span>
@@ -42,7 +42,7 @@ const AboutSection8 = () => {
                 </div>
 
                 <div className="tl-9-about-stat">
-                  <img src="/assets/landing-images/tl-9/stat-3.png" alt="icon" />
+                  <img src="/src/assets/landing-images/tl-9/stat-3.png" alt="icon" />
 
                   <div className="tl-9-about-stat-txt">
                     <span className="tl-9-about-stat-num">48+</span>

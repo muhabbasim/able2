@@ -8,8 +8,8 @@ import Typography from '@mui/material/Typography';
 import MainCard from 'components/MainCard';
 
 // assets
-import visa from 'assets/images/e-commerce/visa.png';
-import mastercard from 'assets/images/e-commerce/mastercard.png';
+import visa from '/src/assets/images/e-commerce/visa.png';
+import mastercard from '/src/assets/images/e-commerce/mastercard.png';
 
 interface PaymentCardProps {
   type: string;

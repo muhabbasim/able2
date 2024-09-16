@@ -51,7 +51,7 @@ const TestimonialSlider7 = () => {
   return (
     <section
       className="tl-13-testimonial pt-120 pb-120 bg-defaults"
-      data-background="assets/images/tl-13/testimonial-bg.png"
+      data-background="/src/assets/images/tl-13/testimonial-bg.png"
     >
       <div className="container">
         <h2 className="tl-13-section-title">
@@ -66,17 +66,17 @@ const TestimonialSlider7 = () => {
                 ref={imgNavRef}
               >
                 <img
-                  src="/assets/landing-images/tl-4/testimony-1.jpg"
+                  src="/src/assets/landing-images/tl-4/testimony-1.jpg"
                   alt="User Image"
                 />
                 <img
-                  src="/assets/landing-images/tl-4/testimony-2.jpg"
+                  src="/src/assets/landing-images/tl-4/testimony-2.jpg"
                   alt="User Image"
                 />
               </Slider>
 
               <img
-                src="/assets/landing-images/tl-13/quote-icon.png"
+                src="/src/assets/landing-images/tl-13/quote-icon.png"
                 alt="icon"
                 className="tl-13-testimonial-quote-icon"
               />
@@ -100,7 +100,7 @@ const TestimonialSlider7 = () => {
 
                 <div className="tl-4-reviewer">
                   <img
-                    src="/assets/landing-images/tl-4/user-1.jpg"
+                    src="/src/assets/landing-images/tl-4/user-1.jpg"
                     alt="User Image"
                     className="tl-4-reviewer-img"
                   />
@@ -122,7 +122,7 @@ const TestimonialSlider7 = () => {
 
                 <div className="tl-4-reviewer">
                   <img
-                    src="/assets/landing-images/tl-4/user-2.jpg"
+                    src="/src/assets/landing-images/tl-4/user-2.jpg"
                     alt="User Image"
                     className="tl-4-reviewer-img"
                   />

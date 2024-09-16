@@ -38,7 +38,7 @@ const TestimonialSlider4 = () => {
 
                 <div className="tl-8-testimony-reviewer">
                   <img
-                    src="/assets/landing-images/tl-8/reviewer-1.png"
+                    src="/src/assets/landing-images/tl-8/reviewer-1.png"
                     alt="Reviewer image"
                   />
 
@@ -63,7 +63,7 @@ const TestimonialSlider4 = () => {
 
                 <div className="tl-8-testimony-reviewer">
                   <img
-                    src="/assets/landing-images/tl-8/reviewer-2.png"
+                    src="/src/assets/landing-images/tl-8/reviewer-2.png"
                     alt="Reviewer image"
                   />
 

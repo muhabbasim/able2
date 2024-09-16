@@ -11,7 +11,7 @@ import Typography from '@mui/material/Typography';
 import { APP_DEFAULT_PATH } from 'config';
 
 // assets
-import construction from 'assets/images/maintenance/img-construction-2.svg';
+import construction from '/src/assets/images/maintenance/img-construction-2.svg';
 
 // ==============================|| UNDER CONSTRUCTION ||============================== //
 

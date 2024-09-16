@@ -8,11 +8,11 @@ const TestimonialSection2 = () => {
           <h2 className="tl-section-title">
             Trusted by over 40,000+ Students Have To Say
             <span className="tl-10-users-img">
-              <img src="/assets/landing-images/tl-10/04.png" alt="user" />
-              <img src="/assets/landing-images/tl-10/03.png" alt="user" />
-              <img src="/assets/landing-images/tl-10/02.png" alt="user" />
+              <img src="/src/assets/landing-images/tl-10/04.png" alt="user" />
+              <img src="/src/assets/landing-images/tl-10/03.png" alt="user" />
+              <img src="/src/assets/landing-images/tl-10/02.png" alt="user" />
               <span className="last-img">
-                <img src="/assets/landing-images/tl-10/01.png" alt="user" />
+                <img src="/src/assets/landing-images/tl-10/01.png" alt="user" />
                 <span className="last-img-txt">2k+</span>
               </span>
             </span>

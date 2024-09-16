@@ -9,12 +9,12 @@ const Layout9: React.FC<LayoutProps> = ({ children }) => {
   return (
     <>
       <HeaderSection9
-        darkLogo="assets/images/logos/logo-dark.png"
-        lightLogo="assets/images/logos/logo.png"
+        darkLogo="/src/assets/images/logos/logo-dark.png"
+        lightLogo="/src/assets/images/logos/logo.png"
       />
       {children}
       <FooterSection7
-        logo="assets/images/logos/logo.png"
+        logo="/src/assets/images/logos/logo.png"
         style=""
         descStyle=""
         socialStyle=""

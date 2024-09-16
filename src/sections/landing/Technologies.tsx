@@ -19,14 +19,14 @@ import IconButton from 'components/@extended/IconButton';
 
 // assets
 import { DocumentDownload, ExportSquare } from 'iconsax-react';
-import techBootstrap from 'assets/images/landing/tech-bootstrap.svg';
-import techMui from 'assets/images/landing/tech-mui.svg';
-import techCodeigniter from 'assets/images/landing/tech-codeigniter.svg';
-import techAngular from 'assets/images/landing/tech-angular.svg';
-import techNet from 'assets/images/landing/tech-net.svg';
-import techFigma from 'assets/images/landing/tech-figma.svg';
-import techVue from 'assets/images/landing/tech-vuetify.svg';
-import techNextJS from 'assets/images/landing/tech-nextjs.svg';
+import techBootstrap from '/src/assets/images/landing/tech-bootstrap.svg';
+import techMui from '/src/assets/images/landing/tech-mui.svg';
+import techCodeigniter from '/src/assets/images/landing/tech-codeigniter.svg';
+import techAngular from '/src/assets/images/landing/tech-angular.svg';
+import techNet from '/src/assets/images/landing/tech-net.svg';
+import techFigma from '/src/assets/images/landing/tech-figma.svg';
+import techVue from '/src/assets/images/landing/tech-vuetify.svg';
+import techNextJS from '/src/assets/images/landing/tech-nextjs.svg';
 
 let value: string = window.location.search;
 const params = new URLSearchParams(value);

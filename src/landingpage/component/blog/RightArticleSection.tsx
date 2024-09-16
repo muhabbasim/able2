@@ -75,7 +75,7 @@ const RightArticleSection = () => {
       </div>
 
       <div className="tl-11-sidebar-area tl-11-sidebar-magazine-cover">
-        <img src="/assets/landing-images/tl-11/magazine.jpg" alt="Magazine Cover" />
+        <img src="/src/assets/landing-images/tl-11/magazine.jpg" alt="Magazine Cover" />
       </div>
 
       <div className="tl-11-sidebar-area tl-11-sidebar-socials">

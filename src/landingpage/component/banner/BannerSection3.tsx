@@ -23,7 +23,7 @@ const BannerSection3 = () => {
           <div className="col-lg-5">
             <div className="tl-3-banner-img text-center">
               <img
-                src="/assets/landing-images/tl-3/banner-img.png"
+                src="/src/assets/landing-images/tl-3/banner-img.png"
                 alt="Banner image"
                 className="tl-3-banner-main-img"
               />

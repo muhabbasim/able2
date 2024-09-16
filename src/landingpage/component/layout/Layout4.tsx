@@ -8,9 +8,9 @@ interface LayoutProps {
 const Layout4:React.FC<LayoutProps> = ({children}) => {
   return (
     <div>
-      <HeaderSection4 style='' logo="assets/images/logos/logo.png"/>
+      <HeaderSection4 style='' logo="/src/assets/images/logos/logo.png"/>
       {children}
-      <FooterSection4 style='tl-9-footer' logo="assets/images/logos/logo.png" form=''/>
+      <FooterSection4 style='tl-9-footer' logo="/src/assets/images/logos/logo.png" form=''/>
     </div>
   )
 }

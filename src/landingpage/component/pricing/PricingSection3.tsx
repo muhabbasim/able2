@@ -6,7 +6,7 @@ const PricingSection3 = () => {
           <div className="col-lg-5">
             <div className="tl-10-fees-txt">
               <img
-                src="/assets/landing-images/tl-10/fees-icon.png"
+                src="/src/assets/landing-images/tl-10/fees-icon.png"
                 alt=""
                 className="tl-10-fees-img"
               />

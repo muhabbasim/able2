@@ -5,10 +5,10 @@ const AboutSection9 = () => {
         <div className="row gy-5 align-items-center">
           <div className="col-lg-6">
             <div className="tl-10-about-img">
-              <img src="/assets/landing-images/tl-10/about-img-2.png" alt="students" />
+              <img src="/src/assets/landing-images/tl-10/about-img-2.png" alt="students" />
 
               <span className="bottom-img">
-                <img src="/assets/landing-images/tl-10/about-img-1.png" alt="students" />
+                <img src="/src/assets/landing-images/tl-10/about-img-1.png" alt="students" />
               </span>
 
               <div className="tl-10-users">
@@ -17,7 +17,7 @@ const AboutSection9 = () => {
                   <img src="https://images.unsplash.com/photo-1721332149112-c54e68990d99?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="user" width="45px" height="45px" />
                   <img src="https://images.unsplash.com/photo-1721332149112-c54e68990d99?q=80&w=1935&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="user" width="45px" height="45px" />
                   <span className="last-img">
-                    <img src="/assets/landing-images/tl-10/01.png" alt="user" />
+                    <img src="/src/assets/landing-images/tl-10/01.png" alt="user" />
                     <span className="last-img-txt">2k+</span>
                   </span>
                 </div>

@@ -7,21 +7,21 @@ const teacherList = [
     id: 1,
     subtitle: "Learn Courses",
     title: "Best Instructors From Around The World",
-    img: "/assets/landing-images/shape/shape1.png",
+    img: "/src/assets/landing-images/shape/shape1.png",
     color: "#eedada"
   },
   {
     id: 2,
     subtitle: "impact of team culture",
     title: "Exploring the impact of team culture in childcare",
-    img: "/assets/landing-images/shape/shape2.png",
+    img: "/src/assets/landing-images/shape/shape2.png",
     color: "#e1eeda"
   },
   {
     id: 4,
     subtitle: "Learn Courses",
     title: "Best Instructors From Around The World",
-    img: "/assets/landing-images/shape/shape1.png",
+    img: "/src/assets/landing-images/shape/shape1.png",
     color: "#eedada"
   },
 ]

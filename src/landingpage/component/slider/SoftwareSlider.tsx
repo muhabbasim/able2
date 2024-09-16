@@ -54,7 +54,7 @@ const SoftwareSlider = () => {
             </div>
 
             <div className="tl-8-course-img">
-              <img src="/assets/landing-images/tl-14/about-img.jpg" alt="About Image" />
+              <img src="/src/assets/landing-images/tl-14/about-img.jpg" alt="About Image" />
             </div>
           </SwiperSlide>
 
@@ -77,7 +77,7 @@ const SoftwareSlider = () => {
 
             <div className="tl-8-course-img">
               <img
-                src="/assets/landing-images/tl-4/admission-bg.jpg"
+                src="/src/assets/landing-images/tl-4/admission-bg.jpg"
                 alt="About Image"
               />
             </div>
@@ -101,7 +101,7 @@ const SoftwareSlider = () => {
             </div>
 
             <div className="tl-8-course-img">
-              <img src="/assets/landing-images/tl-1/banner-img.jpg" alt="About Image" />
+              <img src="/src/assets/landing-images/tl-1/banner-img.jpg" alt="About Image" />
             </div>
           </SwiperSlide>
         </Swiper>

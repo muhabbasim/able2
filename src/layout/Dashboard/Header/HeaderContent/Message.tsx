@@ -18,10 +18,10 @@ import { ThemeMode } from 'config';
 // assets
 import { Add, NotificationStatus } from 'iconsax-react';
 
-import message1 from 'assets/images/widget/message/message1.svg';
-import message2 from 'assets/images/widget/message/message2.svg';
-import message3 from 'assets/images/widget/message/message3.svg';
-import message4 from 'assets/images/widget/message/message4.svg';
+import message1 from '/src/assets/images/widget/message/message1.svg';
+import message2 from '/src/assets/images/widget/message/message2.svg';
+import message3 from '/src/assets/images/widget/message/message3.svg';
+import message4 from '/src/assets/images/widget/message/message4.svg';
 
 // ==============================|| HEADER CONTENT - CUSTOMIZATION ||============================== //
 

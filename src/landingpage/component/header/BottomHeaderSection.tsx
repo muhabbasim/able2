@@ -18,7 +18,7 @@ const BottomHeaderSection = () => {
               <div className="col-lg-12 col-6">
                 <div className="logo">
                   <Link to="/">
-                    <img src="src/assets/images/kgb-logo2.png" alt="Logo" />
+                    <img src="src/src/assets/images/kgb-logo2.png" alt="Logo" />
                   </Link>
                 </div>
               </div>

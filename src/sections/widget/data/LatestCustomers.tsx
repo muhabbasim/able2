@@ -15,11 +15,11 @@ import MainCard from 'components/MainCard';
 import SimpleBar from 'components/third-party/SimpleBar';
 
 // assets
-import Flag1 from 'assets/images/widget/AUSTRALIA.jpg';
-import Flag2 from 'assets/images/widget/BRAZIL.jpg';
-import Flag3 from 'assets/images/widget/GERMANY.jpg';
-import Flag4 from 'assets/images/widget/UK.jpg';
-import Flag5 from 'assets/images/widget/USA.jpg';
+import Flag1 from '/src/assets/images/widget/AUSTRALIA.jpg';
+import Flag2 from '/src/assets/images/widget/BRAZIL.jpg';
+import Flag3 from '/src/assets/images/widget/GERMANY.jpg';
+import Flag4 from '/src/assets/images/widget/UK.jpg';
+import Flag5 from '/src/assets/images/widget/USA.jpg';
 
 // table data
 function createData(image: string, subject: string, dept: string, date: string) {

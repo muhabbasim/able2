@@ -12,9 +12,9 @@ import Typography from '@mui/material/Typography';
 import { APP_DEFAULT_PATH } from 'config';
 
 // assets
-import construction from 'assets/images/maintenance/img-cunstruct-1.svg';
-import constructionBg from 'assets/images/maintenance/img-cunstruct-1-bg.png';
-import constructionbottom from 'assets/images/maintenance/img-cunstruct-1-bottom.svg';
+import construction from '/src/assets/images/maintenance/img-cunstruct-1.svg';
+import constructionBg from '/src/assets/images/maintenance/img-cunstruct-1-bg.png';
+import constructionbottom from '/src/assets/images/maintenance/img-cunstruct-1-bottom.svg';
 
 // ==============================|| UNDER CONSTRUCTION ||============================== //
 
